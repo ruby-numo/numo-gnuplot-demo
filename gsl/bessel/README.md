@@ -13,7 +13,8 @@ def gplot(plot_args,setting,fn)
     set setting
     plot(*plot_args)
     pause mouse:"any"
-    output fn+".png"
+    output fn+".png",size:[540,400]
+    #output fn+".ps","color"
     reset
   end
 end
