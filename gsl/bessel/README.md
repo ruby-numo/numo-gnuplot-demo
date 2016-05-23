@@ -1,4 +1,6 @@
-## gsl/bessel/
+## Ruby script
+
+* gsl/bessel/plot.rb
 
 ```ruby
 require "numo/narray"
@@ -51,6 +53,8 @@ y = 6.times.map{|n| [x,Numo::GSL::Sf.bessel_kl_scaled(n,x),w:"l",t:"bessel_k#{n}
 s = {title:"Irregular Modified Spherical Bessel Functions",logscale:"xy"}
 gplot(y,s,"bessel_kl")
 ```
+
+## Result plot
 
 ![bessel_Jn.png](https://raw.github.com/ruby-numo/numo-gnuplot-demo/master/gsl/bessel/bessel_Jn.png)
 ![bessel_Yn.png](https://raw.github.com/ruby-numo/numo-gnuplot-demo/master/gsl/bessel/bessel_Yn.png)
