@@ -1,7 +1,7 @@
 # Ruby Numo::Gnuplot Demo in single page
 Translated from [Gnuplot Demo](http://gnuplot.sourceforge.net/demo_4.6/)
 
-* [GitHub](https://github.com/ruby-numo/gnuplot-demo/gnuplot)
+* [GitHub](https://github.com/ruby-numo/gnuplot-demo/tree/master/gnuplot)
 
 ## simple functions
 [Original Demo](http://gnuplot.sourceforge.net/demo_4.6/simple.html)
