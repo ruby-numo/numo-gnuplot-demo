@@ -28,7 +28,7 @@
 # print "(foo.foo)[2:2]= ",(foo.foo)[2:2]
 # print ""
 # unset print
-#
+# 
 # set label 1 system("cat stringvar.tmp") at graph 0.1, graph 0.9
 # unset xtics
 # unset ytics
@@ -99,7 +99,7 @@ end
 # if (strlen(foo) == 245) print "sprintf output of long strings works OK"
 # if (strlen(foo) != 245) print "sprintf output of long strings BROKEN"
 # print ""
-#
+# 
 # unset print
 # set label 1 system("cat stringvar.tmp") at graph 0.1, graph 0.9
 # unset xtics

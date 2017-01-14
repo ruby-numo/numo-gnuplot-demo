@@ -527,6 +527,16 @@ def parse_set(a,b)
   when /^(style)\s+(line)\s+(\d+)\s+(.*)$/
     c,d,e,f = $1,$2,$3,$4
     "#{a} :#{c}, :#{d}, #{e}, #{parse_param(f)}"
+  when /^(label)\s+(\d+)\s+(\S+)\s+(.*)$/
+    c,d,e,f = $1,$2,$3,$4
+    if KEY===e
+      "#{a} :#{c}, #{d}, #{parse_param(e+' '+f)}"
+    else
+      if /^(".*"|'.*')$/ !~ e
+        e =":'#{e}'"
+      end
+      "#{a} :#{c}, #{d}, #{e}, #{parse_param(f)}"
+    end
   when /^(arrow|obj(ect)?|label)\s+(\d+)\s+(.*)$/
     c,d,e = $1,$3,$4
     "#{a} :#{c}, #{d}, #{parse_param(e)}"
