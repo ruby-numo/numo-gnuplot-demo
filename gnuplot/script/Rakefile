@@ -1,0 +1,25 @@
+require "rake/clean"
+
+CLEAN.include "../md/[0-9]*/image"
+CLEAN.include "../md/[0-9]*/README.md"
+CLEAN.include "../README.md"
+CLEAN.include "*.tmp"
+CLEAN.include %w[soundfit.par fit.log]
+
+SRC = FileList["[0-9]*.rb"]
+IMG = SRC.pathmap("../md/%n/image")
+DOC = SRC.pathmap("../md/%n/README.md")
+
+file "../README.md" do |t|
+  sh "ruby mkmd.rb"
+end
+
+rule /\/README\.md$/ => "%-1d.rb" do |t|
+  sh "ruby mkmd.rb"
+end
+
+rule /\/image$/ => "%-1d.rb" do |t|
+  sh "ruby #{t.source}"
+end
+
+task :default => ["../README.md"]+IMG+DOC

@@ -1,0 +1,56 @@
+#
+# rotated text
+# http://gnuplot.sourceforge.net/demo_4.6/textrotate.html
+require_relative "gpl"
+
+# # Demonstrate rotation of label text
+# #
+# reset
+# #
+# set title "Rotation of label text"
+# #
+# set xrange [-5:5]
+# set yrange [-5:5]
+# set xlabel "xlabel"
+# set ylabel "ylabel"
+# #
+# set label 1 "Default" at -4,4
+# #
+# set label 2 "rotate left"   at 0,0 rotate left
+# set label 3 "rotate right"  at 0.5,0 rotate right
+# set label 4 "rotate center" at 1.0,0 rotate center
+# #
+# set label 12 "rotate by -90 left"   at 2.0,0 rotate by -90 left
+# set label 13 "rotate by -90 right"  at 2.5,0 rotate by -90 right
+# set label 14 "rotate by -90 center" at 3.0,0 rotate by -90 center
+# #
+# set label 21 "  rotate by 45" at -3.0,0.0 rotate by 45 point ps 2
+# set label 22 "  rotate by 90" at -3.0,0.0 rotate by 90 point ps 2
+# set label 23 "  rotate by -30" at -3.0,0.0 rotate by -30 point ps 2
+# set label 24 "  rotate by -60" at -3.0,0.0 rotate by -60 point ps 2
+# set label 25 "  rotate by -90" at -3.0,0.0 rotate by -90 point ps 2
+# #
+# plot 0
+
+gpl do
+  reset
+  set title:"Rotation of label text"
+  set xrange:-5..5
+  set yrange:-5..5
+  set xlabel:"xlabel"
+  set ylabel:"ylabel"
+  set :label, 1, "Default", at:[-4,4]
+  set :label, 2, "rotate left", at:[0,0], rotate:true, left:true
+  set :label, 3, "rotate right", at:[0.5,0], rotate:true, right:true
+  set :label, 4, "rotate center", at:[1.0,0], rotate:true, center:true
+  set :label, 12, "rotate by -90 left", at:[2.0,0], rotate_by:-90, left:true
+  set :label, 13, "rotate by -90 right", at:[2.5,0], rotate_by:-90, right:true
+  set :label, 14, "rotate by -90 center", at:[3.0,0], rotate_by:-90, center:true
+  set :label, 21, "  rotate by 45", at:[-3.0,0.0], rotate_by:45, point_ps:2
+  set :label, 22, "  rotate by 90", at:[-3.0,0.0], rotate_by:90, point_ps:2
+  set :label, 23, "  rotate by -30", at:[-3.0,0.0], rotate_by:-30, point_ps:2
+  set :label, 24, "  rotate by -60", at:[-3.0,0.0], rotate_by:-60, point_ps:2
+  set :label, 25, "  rotate by -90", at:[-3.0,0.0], rotate_by:-90, point_ps:2
+  plot "0"
+end
+

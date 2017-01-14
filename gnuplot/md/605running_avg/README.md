@@ -1,0 +1,68 @@
+## running averages
+[Original Demo](http://gnuplot.sourceforge.net/demo_4.6/running_avg.html)
+
+### 1
+
+```ruby
+# # This script demonstrates the use of assignment operators and
+# # sequential expression evaluation to track data points as they
+# # are read in.
+# #
+# # We use the '=' and ',' operators to track the running total
+# # and previous 5 values of a stream of input data points.
+# #
+# # Ethan A Merritt - August 2007
+# #
+# # Define a function to calculate average over previous 5 points
+# #
+# set title \
+#     "Demonstrate use of assignment and serial evaluation operators\n" \
+#     . "to accumulate statistics as successive data lines are read in\n"
+# set key invert box center right reverse Left
+# set xtics nomirror
+# set ytics nomirror
+# set border 3
+# 
+# samples(x) = $0 > 4 ? 5 : ($0+1)
+# avg5(x) = (shift5(x), (back1+back2+back3+back4+back5)/samples($0))
+# shift5(x) = (back5 = back4, back4 = back3, back3 = back2, back2 = back1, back1 = x)
+# 
+# #
+# # Initialize a running sum
+# #
+# init(x) = (back1 = back2 = back3 = back4 = back5 = sum = 0)
+# 
+# #
+# # Plot data, running average and cumulative average
+# #
+# 
+# datafile = 'silver.dat'
+# set xrange [0:57]
+# 
+# set style data linespoints
+# 
+# plot sum = init(0), \
+#      datafile using 0:2 title 'data' lw 2 lc rgb 'forest-green', \
+#      '' using 0:(avg5($2)) title "running mean over previous 5 points" pt 7 ps 0.5 lw 1 lc rgb "blue", \
+#      '' using 0:(sum = sum + $2, sum/($0+1)) title "cumulative mean" pt 1 lw 1 lc rgb "dark-red"
+
+Numo.gnuplot do
+  set title:"Demonstrate use of assignment and serial evaluation operators\n"+"to accumulate statistics as successive data lines are read in\n"
+  set :key, :invert, :box, :center, :right, :reverse, :Left
+  set :xtics, :nomirror
+  set :ytics, :nomirror
+  set border:3
+  run "samples(x) = $0 > 4 ? 5 : ($0+1)"
+  run "avg5(x) = (shift5(x), (back1+back2+back3+back4+back5)/samples($0))"
+  run "shift5(x) = (back5 = back4, back4 = back3, back3 = back2, back2 = back1, back1 = x)"
+  run "init(x) = (back1 = back2 = back3 = back4 = back5 = sum = 0)"
+  run "datafile = 'silver.dat'"
+  set xrange:0..57
+  set :style, :data, :linespoints
+  plot "sum=init(0)",
+    [:"datafile", using:[0,2], title:'data', lw:2, lc_rgb:'forest-green'],
+    ["''", using:'0:(avg5($2))', title:"running mean over previous 5 points", pt:7, ps:0.5, lw:1, lc_rgb:"blue"],
+    ["''", using:'0:(sum = sum + $2, sum/($0+1))', title:"cumulative mean", pt:1, lw:1, lc_rgb:"dark-red"]
+end
+```
+![605running_avg/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/605running_avg/image/001.png)
