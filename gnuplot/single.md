@@ -6232,8 +6232,8 @@ end
 # tstring(n) = sprintf("%d random samples from a 2D Gaussian PDF with\nunit variance, zero mean and no dependence", n)
 # set title tstring(nsamp)
 # unset key
-# #set hidden3d
-# set dgrid3d
+# set hidden3d
+# #set dgrid3d
 # set contour
 # set view 68, 28, 1, 1
 # set cntrparam levels discrete 0.1
@@ -6265,7 +6265,7 @@ EOL
   run "tstring(n) = sprintf(\"%d random samples from a 2D Gaussian PDF with\\nunit variance, zero mean and no dependence\", n)"
   set title_nq:'tstring(nsamp)'
   unset :key
-  set :dgrid3d
+  set :hidden3d
   set :contour
   set view:[68,28,1,1]
   set :cntrparam, :levels, discrete:0.1
