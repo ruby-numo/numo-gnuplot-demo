@@ -554,6 +554,9 @@ def parse_set(a,b)
   when /^dummy\s+(.+)$/
     "#{a} dummy:#{$1.inspect}"
 
+  when /^(for\b.+)$/
+    "#{a} #{$1.inspect}"
+
   when /^(\w+)\s+(\w+)\s+(.+)$/
     c,d,e = $1,$2,$3
     if KEY===d

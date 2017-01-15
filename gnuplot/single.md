@@ -17879,7 +17879,7 @@ end
 #      cos(x+.2)  with line lt -1 lw 2 title 'lw 2'
 
 Numo.gnuplot do
-  unset for:"[i=1:8]", label:"i"
+  unset "for [i=1:8] label i"
   set title:"The pointinterval property is another way to create interrupted lines"
   set xlabel:"This technique works best for equally spaced data points"
   set bmargin:6
@@ -18238,7 +18238,7 @@ Numo.gnuplot do
   set :key, :box, :opaque
   set xrange:"[*:*]"
   set yrange:"[*:10]"
-  set for:"[i=1:8]", style:true, arrow:"i", lc:"i"
+  set "for [i=1:8] style arrow i lc i"
   plot ["'1.dat'", using:'1:2:(+1):(+1)', with:"vectors", lt:4, filled:true, title:'filled'],
     ["'2.dat'", using:'1:2:(+1):(+1)', with:"vectors", lt:1, heads:true, title:'double-headed'],
     ["'2.dat'", using:'($1):(2-$2/3):(+1):(+2.5):(int($0)%8 + 1)', with:"vectors", as:"var", ti:'arrowstyle variable']
