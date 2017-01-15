@@ -107,7 +107,7 @@ gpl do
   set :rmargin, :at, screen:0.20
   set :ytics
   set :parametric
-  set dummy:'u,v'
+  set dummy:"u,v"
   set view:'map'
   run "f(h) = sin(sqrt(h**2))/sqrt(h**2)"
   set urange:-15.00..15.00

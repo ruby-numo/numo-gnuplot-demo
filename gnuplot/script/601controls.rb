@@ -32,7 +32,7 @@ gpl do
   run "wn = 1.0"
   set xrange:0..13
   set samples:50
-  set :dummy, t_nq:''
+  set dummy:"t"
   set :key, :box
   plot "s=.1",
     "c(t)",

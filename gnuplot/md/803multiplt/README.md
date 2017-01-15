@@ -149,7 +149,7 @@ Numo.gnuplot do
   set samples:250
   set title:"Second Order System Transfer Function - Magnitude"
   run "mag(w) = -10*log10( (1-w**2)**2 + 4*(zeta*w)**2)"
-  set :dummy, :w
+  set dummy:"w"
   set logscale:"x"
   set xlabel:"Frequency (w/wn)"
   set ylabel:"Magnitude (dB)", offset:[1,0]

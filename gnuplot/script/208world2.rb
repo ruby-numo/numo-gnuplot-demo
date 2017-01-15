@@ -30,7 +30,7 @@ require_relative "gpl"
 #       'srl.dat' using 3:2:(1):1:4 with labels notitle point pt 6 lw .1 left offset 1,0 font "Helvetica,7" tc pal
 
 gpl do
-  set dummy:'u,v'
+  set dummy:"u,v"
   set angles:"degrees"
   set :parametric
   set view:[60,136,1.22,1.26]

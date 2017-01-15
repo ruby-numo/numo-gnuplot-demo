@@ -16,7 +16,7 @@ require_relative "gpl"
 
 gpl do
   set :parametric
-  set :dummy, t_nq:''
+  set dummy:"t"
   set :autoscale
   set samples:160
   set title:""

@@ -1400,7 +1400,7 @@ end
 
 Numo.gnuplot do
   set :parametric
-  set :dummy, t_nq:''
+  set dummy:"t"
   set :autoscale
   set samples:160
   set title:""
@@ -7025,7 +7025,7 @@ Numo.gnuplot do
   set yrange:-1..1
   set samples:51
   set isosample:21
-  set dummy:'u,v'
+  set dummy:"u,v"
   set title:"3D gnuplot demo"
   splot "u*v / (u**2 + v**2 + 0.1)"
 end
@@ -9896,7 +9896,7 @@ end
 #       'srl.dat' using 3:2:(1):1:4 with labels notitle point pt 6 lw .1 left offset 1,0 font "Helvetica,7" tc pal
 
 Numo.gnuplot do
-  set dummy:'u,v'
+  set dummy:"u,v"
   set angles:"degrees"
   set :parametric
   set view:[60,136,1.22,1.26]
@@ -14202,7 +14202,7 @@ Numo.gnuplot do
   run "wn = 1.0"
   set xrange:0..13
   set samples:50
-  set :dummy, t_nq:''
+  set dummy:"t"
   set :key, :box
   plot "s=.1",
     "c(t)",
@@ -17232,7 +17232,7 @@ Numo.gnuplot do
   set samples:250
   set title:"Second Order System Transfer Function - Magnitude"
   run "mag(w) = -10*log10( (1-w**2)**2 + 4*(zeta*w)**2)"
-  set :dummy, :w
+  set dummy:"w"
   set logscale:"x"
   set xlabel:"Frequency (w/wn)"
   set ylabel:"Magnitude (dB)", offset:[1,0]
@@ -17459,7 +17459,7 @@ Numo.gnuplot do
   set :rmargin, :at, screen:0.20
   set :ytics
   set :parametric
-  set dummy:'u,v'
+  set dummy:"u,v"
   set view:'map'
   run "f(h) = sin(sqrt(h**2))/sqrt(h**2)"
   set urange:-15.00..15.00
@@ -18393,7 +18393,7 @@ Numo.gnuplot do
   unset :ytics
   unset :ztics
   set :parametric
-  set dummy:'u,v'
+  set dummy:"u,v"
   set urange:"[-pi:pi]"
   set vrange:"[-pi:pi]"
   set :pm3d, "depthorder", hidden3d:2
@@ -18462,7 +18462,7 @@ Numo.gnuplot do
   set :rmargin, :at, screen:0.9
   set :tmargin, :at, screen:0.9
   set :parametric
-  set dummy:'u,v'
+  set dummy:"u,v"
   set urange:-4.5..4.5
   set vrange:"[0.05:pi-0.05]"
   set isosamples:[51,51]

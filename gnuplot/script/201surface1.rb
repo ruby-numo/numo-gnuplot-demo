@@ -157,7 +157,7 @@ gpl do
   set yrange:-1..1
   set samples:51
   set isosample:21
-  set dummy:'u,v'
+  set dummy:"u,v"
   set title:"3D gnuplot demo"
   splot "u*v / (u**2 + v**2 + 0.1)"
 end

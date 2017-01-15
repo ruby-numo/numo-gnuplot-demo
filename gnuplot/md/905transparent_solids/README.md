@@ -40,7 +40,7 @@ Numo.gnuplot do
   unset :ytics
   unset :ztics
   set :parametric
-  set dummy:'u,v'
+  set dummy:"u,v"
   set urange:"[-pi:pi]"
   set vrange:"[-pi:pi]"
   set :pm3d, "depthorder", hidden3d:2
@@ -109,7 +109,7 @@ Numo.gnuplot do
   set :rmargin, :at, screen:0.9
   set :tmargin, :at, screen:0.9
   set :parametric
-  set dummy:'u,v'
+  set dummy:"u,v"
   set urange:-4.5..4.5
   set vrange:"[0.05:pi-0.05]"
   set isosamples:[51,51]
