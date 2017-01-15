@@ -4,8 +4,9 @@ require "numo/gnuplot"
 
 def gplot(plot_args,setting,fn)
   Numo.gnuplot do
-    set xlabel:"x", ylabel:"y"
-    set setting
+    set xlabel:"x"
+    set ylabel:"y"
+    setting.each{|k,v| set k,v}
     plot(*plot_args)
     pause mouse:"any"
     output fn+".png",size:[540,400]

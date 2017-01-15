@@ -9,8 +9,9 @@ require "numo/gnuplot"
 
 def gplot(plot_args,setting,fn)
   Numo.gnuplot do
-    set xlabel:"x", ylabel:"y"
-    set setting
+    set xlabel:"x"
+    set ylabel:"y"
+    setting.each{|k,v| set k,v}
     plot(*plot_args)
     pause mouse:"any"
     output fn+".png",size:[540,400]
@@ -57,11 +58,11 @@ gplot(y,s,"bessel_kl")
 
 ## Result plot
 
-![bessel_Jn.png](https://raw.github.com/ruby-numo/numo-gnuplot-demo/master/gsl/bessel/bessel_Jn.png)
-![bessel_Yn.png](https://raw.github.com/ruby-numo/numo-gnuplot-demo/master/gsl/bessel/bessel_Yn.png)
-![bessel_In.png](https://raw.github.com/ruby-numo/numo-gnuplot-demo/master/gsl/bessel/bessel_In.png)
-![bessel_Kn.png](https://raw.github.com/ruby-numo/numo-gnuplot-demo/master/gsl/bessel/bessel_Kn.png)
-![bessel_jl.png](https://raw.github.com/ruby-numo/numo-gnuplot-demo/master/gsl/bessel/bessel_jl.png)
-![bessel_yl.png](https://raw.github.com/ruby-numo/numo-gnuplot-demo/master/gsl/bessel/bessel_yl.png)
-![bessel_il.png](https://raw.github.com/ruby-numo/numo-gnuplot-demo/master/gsl/bessel/bessel_il.png)
-![bessel_kl.png](https://raw.github.com/ruby-numo/numo-gnuplot-demo/master/gsl/bessel/bessel_kl.png)
+![bessel_Jn.png](https://raw.github.com/ruby-numo/numo-gnuplot-demo/master/gsl/bessel/image/bessel_Jn.png)
+![bessel_Yn.png](https://raw.github.com/ruby-numo/numo-gnuplot-demo/master/gsl/bessel/image/bessel_Yn.png)
+![bessel_In.png](https://raw.github.com/ruby-numo/numo-gnuplot-demo/master/gsl/bessel/image/bessel_In.png)
+![bessel_Kn.png](https://raw.github.com/ruby-numo/numo-gnuplot-demo/master/gsl/bessel/image/bessel_Kn.png)
+![bessel_jl.png](https://raw.github.com/ruby-numo/numo-gnuplot-demo/master/gsl/bessel/image/bessel_jl.png)
+![bessel_yl.png](https://raw.github.com/ruby-numo/numo-gnuplot-demo/master/gsl/bessel/image/bessel_yl.png)
+![bessel_il.png](https://raw.github.com/ruby-numo/numo-gnuplot-demo/master/gsl/bessel/image/bessel_il.png)
+![bessel_kl.png](https://raw.github.com/ruby-numo/numo-gnuplot-demo/master/gsl/bessel/image/bessel_kl.png)
