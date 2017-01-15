@@ -1,6 +1,7 @@
 user = "ruby-numo"
 repo = "numo-gnuplot-demo"
 dir  = `git rev-parse --show-prefix`.chomp
+fncs = %w[Jn Yn In Kn jl yl il kl]
 
 open("README.md","w") do |f|
   f.puts "## Ruby script\n\n"
@@ -11,8 +12,9 @@ open("README.md","w") do |f|
   end
 
   f.puts "## Result plot\n\n"
-  Dir.glob("*.png") do |img|
-    link = "https://raw.github.com/#{user}/#{repo}/master/#{dir}#{img}"
+  fncs.each do |x|
+    img = "bessel_#{x}.png"
+    link = "https://raw.github.com/#{user}/#{repo}/master/#{dir}image/#{img}"
     f.puts "![#{img}](#{link})"
   end
 end
