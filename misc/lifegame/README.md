@@ -6,43 +6,46 @@ require 'numo/gnuplot'
 
 class LifeGame
 
-  def initialize(nx,ny,margin)
-    @d = Numo::UInt8.zeros(ny,nx)
-    m = margin
-    @d[m..ny-1-m,m..nx-1-m] = Numo::UInt8.new(ny-2*m,nx-2*m).rand(2)
+  def initialize(nx,ny,m)
+    @data = Numo::UInt8.zeros(ny,nx)
+    @data[m..ny-1-m,m..nx-1-m] = Numo::UInt8.new(ny-2*m,nx-2*m).rand(2)
     @step = 0
-    @gp = Numo::Gnuplot.new
-    @gp.instance_eval do
-      set output: "lifegame.gif"
-      set term: "gif", animate:true, delay:10, size:[500,500]
-      set :nokey
-      set size: {ratio:1.0*ny/nx}
-      set xrange: -1..nx
-      set yrange: -1..ny
-      unset :colorbox
-      set palette_defined:'(0 "white", 1 "green")'
-    end
-    @gp.set title:"lifegame step=#{@step}"
-    @gp.plot @d, with:"image"
   end
 
-  def life_step
-    b = Numo::UInt8.zeros(*@d.shape)
+  def update
+    b = Numo::UInt8.zeros(*@data.shape)
     b[1..-2,1..-2] =
-      @d[0..-3,0..-3] + @d[0..-3,1..-2] + @d[0..-3,2..-1] +
-      @d[1..-2,0..-3] + @d[1..-2,2..-1] +
-      @d[2..-1,0..-3] + @d[2..-1,1..-2] + @d[2..-1,2..-1]
-    @d.store((b.eq 3) | ((b.eq 2) & @d))
+      @data[0..-3,0..-3] + @data[0..-3,1..-2] + @data[0..-3,2..-1] +
+      @data[1..-2,0..-3] + @data[1..-2,2..-1] +
+      @data[2..-1,0..-3] + @data[2..-1,1..-2] + @data[2..-1,2..-1]
+    @data.store((b.eq 3) | ((b.eq 2) & @data))
     @step += 1
-
-    @gp.set title:"lifegame step=#{@step}"
-    @gp.plot @d, with:"image"
   end
 
+  attr_reader :data,:step
 end
 
-lifegame = LifeGame.new(200,200,1)
-100.times{ lifegame.life_step }
+nx,ny = 200,200
+life = LifeGame.new(nx,ny,1)
+
+Numo.gnuplot do
+  set output: "lifegame.gif"
+  set term: "gif", animate:true, delay:10, size:[500,500]
+  set :nokey
+  set size: {ratio:1.0*ny/nx}
+  set xrange: -1..nx
+  set yrange: -1..ny
+  unset :colorbox
+  set palette_defined:'(0 "white", 1 "green")'
+
+  set title:"lifegame step=#{life.step}"
+  plot life.data, with:"image"
+  100.times do
+    life.update
+    set title:"lifegame step=#{life.step}"
+    plot life.data, with:"image"
+  end
+end
 
 ```
 ![008multiaxis/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/misc/lifegame/lifegame.gif)
