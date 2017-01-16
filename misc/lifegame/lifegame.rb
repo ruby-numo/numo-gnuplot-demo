@@ -15,7 +15,7 @@ class LifeGame
       @data[0..-3,0..-3] + @data[0..-3,1..-2] + @data[0..-3,2..-1] +
       @data[1..-2,0..-3] + @data[1..-2,2..-1] +
       @data[2..-1,0..-3] + @data[2..-1,1..-2] + @data[2..-1,2..-1]
-    @data.store((b.eq 3) | ((b.eq 2) & @data))
+    @data.store((b.eq 3) | ((b.eq 2) & Numo::Bit.cast(@data)))
     @step += 1
   end
 
