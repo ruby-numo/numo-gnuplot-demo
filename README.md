@@ -6,3 +6,5 @@ This repository contains demo script of
 ## [Demo translated from Gnuplot demo](gnuplot)
 
 ## [Bessel functions in Numo::GSL](gsl/bessel)
+
+## [Conway's Game of Life](misc/lifegame)
