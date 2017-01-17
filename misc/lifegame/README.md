@@ -38,11 +38,9 @@ Numo.gnuplot do
   unset :colorbox
   set palette_defined:'(0 "white", 1 "green")'
 
-  set title:"lifegame step=#{life.step}"
-  plot life.data, with:"image"
-  100.times do
-    life.update
-    set title:"lifegame step=#{life.step}"
+  101.times do |i|
+    life.update if i > 0
+    set title:"lifegame step=#{i}"
     plot life.data, with:"image"
   end
 end
