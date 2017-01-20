@@ -4,8 +4,10 @@
 ### 1
 
 ```ruby
+# load binary data
 blutux = Numo::UInt8.from_string(open("blutux.rgb").read,[128,128,3]).reverse(0)
 blutux_ave = Numo::Int16.cast(blutux).sum(2)/3
+
 # # demo for plotting images using pixels and binary 2d data
 #
 # set title "Larry Ewing's GIMP penguin on vacation basking in\nthe balmy waters off the coast of Murmansk"
@@ -64,6 +66,7 @@ end
 # set title "Palette mode 'image' used to produce psychedelic bird"
 # unset colorbox
 # plot 'blutux.rgb' binary array=(128,128) flipy format='%uchar%uchar%uchar' using ($1+$2+$3) with image
+
 Numo.gnuplot do
   reset
   unset :key
@@ -228,6 +231,7 @@ Numo.gnuplot do
   set :label, 1, "Selection of the input channels via 'using'", at:[140,160], center:true
   set title:'"I do impersonations..."', offset:[0,-0.5]
   plot blutux, with:"rgbimage"
+
   unset label:1
   set size:[0.5,0.48]
   set origin:[0.5,0.47]
@@ -235,12 +239,14 @@ Numo.gnuplot do
   a = blutux.copy
   a[true,true,1..2] = 0
   plot a, with:"rgbimage"
+
   set size:[0.5,0.48]
   set origin:[0.0,0.0]
   set title:'"A parrot."'
   a = blutux.copy
   a[true,true,[0,2]] = 0
   plot a, with:"rgbimage"
+
   set size:[0.5,0.48]
   set origin:[0.5,0.0]
   set title:'"A bluebird."'
@@ -312,12 +318,14 @@ Numo.gnuplot do
   set title:'Lake Mendota, "or Wonk-sheck-ho-mik-la!"', offset:[0,-0.5]
   set cbrange:"[*:*]"
   plot blutux, with:"rgbimage"
+
   unset label:1
   set size:[0.5,0.48]
   set origin:[0.5,0.47]
   set title:'"Lucky I brought sunscreen."'
   set cbrange:0..200
   plot blutux, with:"rgbimage"
+
   set size:[0.5,0.48]
   set origin:[0.0,0.0]
   set title:'Sunset on the Terrace'
@@ -325,6 +333,7 @@ Numo.gnuplot do
   a = Numo::Int16.cast(blutux)
   a[true,true,0] *= 1.5
   plot a, with:"rgbimage"
+
   set size:[0.5,0.48]
   set origin:[0.5,0.0]
   set title:'Sultry evening'

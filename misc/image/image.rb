@@ -3,6 +3,7 @@
 # http://gnuplot.sourceforge.net/demo_4.6/image.html
 require_relative "gpl"
 
+# load binary data
 blutux = Numo::UInt8.from_string(open("blutux.rgb").read,[128,128,3]).reverse(0)
 blutux_ave = Numo::Int16.cast(blutux).sum(2)/3
 

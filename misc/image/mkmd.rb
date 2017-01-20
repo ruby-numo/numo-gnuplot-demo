@@ -46,7 +46,7 @@ Dir.glob("image.rb").map.sort.each do |rb|
     r.each do |line|
       case line
       when /^gpl do$/
-        code << "\nNumo.gnuplot do\n"
+        code << "Numo.gnuplot do\n"
       when /^end$/
         code << "end"
         put_code(w,base,img,code)
@@ -54,7 +54,7 @@ Dir.glob("image.rb").map.sort.each do |rb|
         code = []
         img = img.succ
       else
-        if !line.strip.empty?
+        if !(line.strip.empty? && code.empty?)
           code << line
         end
       end
