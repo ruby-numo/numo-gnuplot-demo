@@ -8,3 +8,5 @@ This repository contains demo script of
 ## [Bessel functions in Numo::GSL](gsl/bessel)
 
 ## [Conway's Game of Life](misc/lifegame)
+
+## [Show images using Numo::NArray](misc/image)
