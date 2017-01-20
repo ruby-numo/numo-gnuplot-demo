@@ -1,9 +1,6 @@
 require 'fileutils'
 
-d="misc/image"
-RAW_BASE = "https://raw.github.com/ruby-numo/gnuplot-demo/master/#{d}/md"
-DOC_BASE = "https://github.com/ruby-numo/gnuplot-demo/blob/master/#{d}"
-GITHUB_URL = "https://github.com/ruby-numo/gnuplot-demo/tree/master/#{d}"
+RAW_BASE = "https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/misc"
 
 def put_code(f,base,img,code)
   f.puts <<EOL
