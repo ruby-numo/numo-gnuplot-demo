@@ -17,7 +17,6 @@ end
 Dir.glob("image.rb").map.sort.each do |rb|
   base = File.basename(rb,".rb")
   list = []
-  p base
 
   img = "001"
   gpl = false
@@ -37,7 +36,6 @@ Dir.glob("image.rb").map.sort.each do |rb|
     url = nil
   end
   list << [base,title,url]
-  p list
 
   while /^require_relative "gpl"/ !~ r.gets
   end
