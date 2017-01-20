@@ -80,7 +80,7 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![801key/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/801key/image/001.png)
+![801key/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/801key/image/001.png)
 
 ### 2
 
@@ -149,7 +149,7 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![801key/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/801key/image/002.png)
+![801key/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/801key/image/002.png)
 
 ### 3
 
@@ -218,7 +218,7 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![801key/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/801key/image/003.png)
+![801key/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/801key/image/003.png)
 
 ### 4
 
@@ -287,7 +287,7 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![801key/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/801key/image/004.png)
+![801key/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/801key/image/004.png)
 
 ### 5
 
@@ -360,7 +360,7 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![801key/005](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/801key/image/005.png)
+![801key/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/801key/image/005.png)
 
 ### 6
 
@@ -451,4 +451,4 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![801key/006](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/801key/image/006.png)
+![801key/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/801key/image/006.png)

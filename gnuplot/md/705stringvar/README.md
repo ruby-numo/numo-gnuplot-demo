@@ -67,7 +67,7 @@ EOL
   plot "0"
 end
 ```
-![705stringvar/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/705stringvar/image/001.png)
+![705stringvar/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/705stringvar/image/001.png)
 
 ### 2
 
@@ -142,7 +142,7 @@ EOL
   plot "0"
 end
 ```
-![705stringvar/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/705stringvar/image/002.png)
+![705stringvar/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/705stringvar/image/002.png)
 
 ### 3
 
@@ -162,7 +162,7 @@ Numo.gnuplot do
     ["''", using:'1:2:(sprintf("[%.0f,%.0f]",$1,$2))', with:"labels"]
 end
 ```
-![705stringvar/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/705stringvar/image/003.png)
+![705stringvar/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/705stringvar/image/003.png)
 
 ### 4
 
@@ -194,7 +194,7 @@ Numo.gnuplot do
     ["''", using:'1:2:( ($2>($3+$1/50.)) ? "Up" : "Dn" )', with:"labels", title:'plot <foo> using 1:2:( ($3>$2) ? "Up" : "Dn" ) with labels']
 end
 ```
-![705stringvar/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/705stringvar/image/004.png)
+![705stringvar/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/705stringvar/image/004.png)
 
 ### 5
 
@@ -211,7 +211,7 @@ Numo.gnuplot do
     ["''", using:'1:2:( ($2>($3+$1/50.)) ? "J" : "D" )', with:"labels", font:"WingDings,28", title:'Same thing using character glyphs from WingDings font']
 end
 ```
-![705stringvar/005](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/705stringvar/image/005.png)
+![705stringvar/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/705stringvar/image/005.png)
 
 ### 6
 
@@ -238,7 +238,7 @@ Numo.gnuplot do
     "file(M)"
 end
 ```
-![705stringvar/006](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/705stringvar/image/006.png)
+![705stringvar/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/705stringvar/image/006.png)
 
 ### 7
 
@@ -280,4 +280,4 @@ Numo.gnuplot do
     ["'timedat.dat'", using:'(read_time(fmt,1)):($3-0.01):2', with:"labels", title:'']
 end
 ```
-![705stringvar/007](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/705stringvar/image/007.png)
+![705stringvar/007](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/705stringvar/image/007.png)

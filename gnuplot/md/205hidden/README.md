@@ -23,7 +23,7 @@ Numo.gnuplot do
   splot "1 / (x*x + y*y + 1)"
 end
 ```
-![205hidden/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/205hidden/image/001.png)
+![205hidden/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/205hidden/image/001.png)
 
 ### 2
 
@@ -38,7 +38,7 @@ Numo.gnuplot do
   splot "x*y / (x**2 + y**2 + 0.1)"
 end
 ```
-![205hidden/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/205hidden/image/002.png)
+![205hidden/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/205hidden/image/002.png)
 
 ### 3
 
@@ -57,7 +57,7 @@ Numo.gnuplot do
   splot "sin(x*x + y*y) / (x*x + y*y)"
 end
 ```
-![205hidden/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/205hidden/image/003.png)
+![205hidden/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/205hidden/image/003.png)
 
 ### 4
 
@@ -82,7 +82,7 @@ Numo.gnuplot do
   splot "sin(x) * cos(y)"
 end
 ```
-![205hidden/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/205hidden/image/004.png)
+![205hidden/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/205hidden/image/004.png)
 
 ### 5
 
@@ -103,7 +103,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![205hidden/005](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/205hidden/image/005.png)
+![205hidden/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/205hidden/image/005.png)
 
 ### 6
 
@@ -123,7 +123,7 @@ Numo.gnuplot do
   splot "\"glass.dat\"", using:1
 end
 ```
-![205hidden/006](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/205hidden/image/006.png)
+![205hidden/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/205hidden/image/006.png)
 
 ### 7
 
@@ -138,4 +138,4 @@ Numo.gnuplot do
   replot
 end
 ```
-![205hidden/007](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/205hidden/image/007.png)
+![205hidden/007](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/205hidden/image/007.png)

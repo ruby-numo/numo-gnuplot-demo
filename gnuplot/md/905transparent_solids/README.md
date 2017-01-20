@@ -55,7 +55,7 @@ Numo.gnuplot do
     ["sin(u)+.5*sin(u)*cos(v)", with:"pm3d"]
 end
 ```
-![905transparent_solids/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/905transparent_solids/image/001.png)
+![905transparent_solids/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/905transparent_solids/image/001.png)
 
 ### 2
 
@@ -123,4 +123,4 @@ Numo.gnuplot do
     ["z(u,v)", with:"pm3d"]
 end
 ```
-![905transparent_solids/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/905transparent_solids/image/002.png)
+![905transparent_solids/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/905transparent_solids/image/002.png)

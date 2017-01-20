@@ -65,4 +65,4 @@ Numo.gnuplot do
     ["''", using:'0:(sum = sum + $2, sum/($0+1))', title:"cumulative mean", pt:1, lw:1, lc_rgb:"dark-red"]
 end
 ```
-![605running_avg/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/605running_avg/image/001.png)
+![605running_avg/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/605running_avg/image/001.png)

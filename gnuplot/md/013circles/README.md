@@ -74,7 +74,7 @@ Numo.gnuplot do
     ["'world.cor'", using:'1:2:(7.*rand(0))', with:"circles", lt:3, fs:"transparent", solid:0.5, noborder:true]
 end
 ```
-![013circles/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/013circles/image/001.png)
+![013circles/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/013circles/image/001.png)
 
 ### 2
 
@@ -143,7 +143,7 @@ Numo.gnuplot do
     "for [i=0:types-1] '' using              (keyx+keyr*cos(-(i+0.5)*360./types)):(keyy+keyr*sin(-(i+0.5)*360./types)):4              every ::i::i with labels"
 end
 ```
-![013circles/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/013circles/image/002.png)
+![013circles/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/013circles/image/002.png)
 
 ### 3
 
@@ -170,7 +170,7 @@ Numo.gnuplot do
     ["'optimize.dat'", u:[1,2], with:"linespoints", lw:2, lc_rgb:"black"]
 end
 ```
-![013circles/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/013circles/image/003.png)
+![013circles/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/013circles/image/003.png)
 
 ### 4
 
@@ -200,7 +200,7 @@ Numo.gnuplot do
     ["'lena-keypoints.bin'", binary:'format="%double"', with:"circles", lc_rgb:"yellow"]
 end
 ```
-![013circles/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/013circles/image/004.png)
+![013circles/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/013circles/image/004.png)
 
 ### 5
 
@@ -224,4 +224,4 @@ Numo.gnuplot do
     ["'hemisphr.dat'", u:'(100*$1):(100*$2)', with:"points", pt:7, lc_rgb:"black"]
 end
 ```
-![013circles/005](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/013circles/image/005.png)
+![013circles/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/013circles/image/005.png)

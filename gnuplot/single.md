@@ -27,7 +27,7 @@ Numo.gnuplot do
     "cos(atan(x))"
 end
 ```
-![001simple/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/001simple/image/001.png)
+![001simple/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/001simple/image/001.png)
 
 ### 2
 
@@ -44,7 +44,7 @@ Numo.gnuplot do
     "-(sin(x) > sin(x+1) ? sin(x) : sin(x+1))"
 end
 ```
-![001simple/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/001simple/image/002.png)
+![001simple/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/001simple/image/002.png)
 
 ### 3
 
@@ -61,7 +61,7 @@ Numo.gnuplot do
     "acos(x)"
 end
 ```
-![001simple/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/001simple/image/003.png)
+![001simple/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/001simple/image/003.png)
 
 ### 4
 
@@ -74,7 +74,7 @@ Numo.gnuplot do
     ["(x**besj0(x))-2.5", with:"points"]
 end
 ```
-![001simple/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/001simple/image/004.png)
+![001simple/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/001simple/image/004.png)
 
 ### 5
 
@@ -88,7 +88,7 @@ Numo.gnuplot do
     "real(sin(x)**besj0(x))"
 end
 ```
-![001simple/005](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/001simple/image/005.png)
+![001simple/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/001simple/image/005.png)
 
 ### 6
 
@@ -103,7 +103,7 @@ Numo.gnuplot do
     "1/x"
 end
 ```
-![001simple/006](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/001simple/image/006.png)
+![001simple/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/001simple/image/006.png)
 
 ### 7
 
@@ -121,7 +121,7 @@ Numo.gnuplot do
     "sin(x*20)*atan(x)"
 end
 ```
-![001simple/007](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/001simple/image/007.png)
+![001simple/007](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/001simple/image/007.png)
 
 ### 8
 
@@ -135,7 +135,7 @@ Numo.gnuplot do
     ["'3.dat'", with:"lines"]
 end
 ```
-![001simple/008](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/001simple/image/008.png)
+![001simple/008](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/001simple/image/008.png)
 
 
 ## filled curves
@@ -175,7 +175,7 @@ Numo.gnuplot do
     ["(x>3.5 ? x/3-3 : 1/0)", with:'filledcurve y2']
 end
 ```
-![002fillcrvs/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/002fillcrvs/image/001.png)
+![002fillcrvs/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/002fillcrvs/image/001.png)
 
 ### 2
 
@@ -192,7 +192,7 @@ Numo.gnuplot do
     ["x*x", with:"line", lt:1]
 end
 ```
-![002fillcrvs/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/002fillcrvs/image/002.png)
+![002fillcrvs/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/002fillcrvs/image/002.png)
 
 ### 3
 
@@ -208,7 +208,7 @@ Numo.gnuplot do
     ["cos(x)**2", with:'filledcurve x1']
 end
 ```
-![002fillcrvs/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/002fillcrvs/image/003.png)
+![002fillcrvs/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/002fillcrvs/image/003.png)
 
 ### 4
 
@@ -221,7 +221,7 @@ Numo.gnuplot do
   plot "abs(x)", with:'filledcurve xy=2,5'
 end
 ```
-![002fillcrvs/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/002fillcrvs/image/004.png)
+![002fillcrvs/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/002fillcrvs/image/004.png)
 
 ### 5
 
@@ -240,7 +240,7 @@ Numo.gnuplot do
     ["sqrt(10-x)-4.5", with:'filledcurves y1=-5.5']
 end
 ```
-![002fillcrvs/005](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/002fillcrvs/image/005.png)
+![002fillcrvs/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/002fillcrvs/image/005.png)
 
 ### 6
 
@@ -294,7 +294,7 @@ Numo.gnuplot do
     ["1.52-abs(t/pi)", with:'filledcurve xy=0,1.8', lt:-1]
 end
 ```
-![002fillcrvs/006](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/002fillcrvs/image/006.png)
+![002fillcrvs/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/002fillcrvs/image/006.png)
 
 ### 7
 
@@ -324,7 +324,7 @@ Numo.gnuplot do
   plot "'world.dat'", with:"filledcurve", notitle:true, fs_solid:1.0, lc_rgb:'dark-goldenrod'
 end
 ```
-![002fillcrvs/007](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/002fillcrvs/image/007.png)
+![002fillcrvs/007](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/002fillcrvs/image/007.png)
 
 
 ## fill between curves
@@ -355,7 +355,7 @@ Numo.gnuplot do
     ["''", u:[1,3], lt:-1, notitle:true]
 end
 ```
-![003fillbetween/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/003fillbetween/image/001.png)
+![003fillbetween/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/003fillbetween/image/001.png)
 
 ### 2
 
@@ -370,7 +370,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![003fillbetween/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/003fillbetween/image/002.png)
+![003fillbetween/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/003fillbetween/image/002.png)
 
 ### 3
 
@@ -395,7 +395,7 @@ Numo.gnuplot do
     ["''", u:'1:($3+$1/50.)', lt:3, lw:2, title:'curve 2']
 end
 ```
-![003fillbetween/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/003fillbetween/image/003.png)
+![003fillbetween/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/003fillbetween/image/003.png)
 
 
 ## candlesticks
@@ -420,7 +420,7 @@ Numo.gnuplot do
   plot "'candlesticks.dat'", using:[1,3,2,6,5], with:"candlesticks"
 end
 ```
-![004candlesticks/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/004candlesticks/image/001.png)
+![004candlesticks/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/004candlesticks/image/001.png)
 
 ### 2
 
@@ -435,7 +435,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![004candlesticks/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/004candlesticks/image/002.png)
+![004candlesticks/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/004candlesticks/image/002.png)
 
 ### 3
 
@@ -452,7 +452,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![004candlesticks/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/004candlesticks/image/003.png)
+![004candlesticks/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/004candlesticks/image/003.png)
 
 ### 4
 
@@ -471,7 +471,7 @@ Numo.gnuplot do
     ["NaN", with:"boxes", lt:1, fs_solid:1, title:"close < open"]
 end
 ```
-![004candlesticks/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/004candlesticks/image/004.png)
+![004candlesticks/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/004candlesticks/image/004.png)
 
 ### 5
 
@@ -488,7 +488,7 @@ Numo.gnuplot do
     ["''", using:[1,4,4,4,4], with:"candlesticks", lt:-1, lw:2, notitle:true]
 end
 ```
-![004candlesticks/005](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/004candlesticks/image/005.png)
+![004candlesticks/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/004candlesticks/image/005.png)
 
 ### 6
 
@@ -503,7 +503,7 @@ Numo.gnuplot do
     ["''", using:[1,4,4,4,4], with:"candlesticks", lt:-1, lw:2, notitle:true]
 end
 ```
-![004candlesticks/006](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/004candlesticks/image/006.png)
+![004candlesticks/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/004candlesticks/image/006.png)
 
 
 ## error bars
@@ -531,7 +531,7 @@ Numo.gnuplot do
     ["\"\"", smooth:"csplines", t:"Rate"]
 end
 ```
-![005mgr/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/005mgr/image/001.png)
+![005mgr/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/005mgr/image/001.png)
 
 ### 2
 
@@ -544,7 +544,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![005mgr/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/005mgr/image/002.png)
+![005mgr/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/005mgr/image/002.png)
 
 ### 3
 
@@ -568,7 +568,7 @@ Numo.gnuplot do
     ["\"\"", smooth:"csplines", t:"cubic smooth"]
 end
 ```
-![005mgr/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/005mgr/image/003.png)
+![005mgr/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/005mgr/image/003.png)
 
 ### 4
 
@@ -585,7 +585,7 @@ Numo.gnuplot do
     ["\"\"", u:'1:2:(S*$2/$3)', smooth:"acsplines", t:"acspline Y/Z"]
 end
 ```
-![005mgr/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/005mgr/image/004.png)
+![005mgr/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/005mgr/image/004.png)
 
 ### 5
 
@@ -602,7 +602,7 @@ Numo.gnuplot do
     ["\"\"", u:'1:2:($2/($3*1.e5))', sm:"acs", t:"         Y/(Z*1.e5)"]
 end
 ```
-![005mgr/005](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/005mgr/image/005.png)
+![005mgr/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/005mgr/image/005.png)
 
 ### 6
 
@@ -617,7 +617,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![005mgr/006](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/005mgr/image/006.png)
+![005mgr/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/005mgr/image/006.png)
 
 ### 7
 
@@ -632,7 +632,7 @@ Numo.gnuplot do
     ["\"\"", smooth:"sbezier", t:"bezier"]
 end
 ```
-![005mgr/007](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/005mgr/image/007.png)
+![005mgr/007](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/005mgr/image/007.png)
 
 ### 8
 
@@ -647,7 +647,7 @@ Numo.gnuplot do
     ["\"\"", smooth:"sbezier", t:"bezier"]
 end
 ```
-![005mgr/008](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/005mgr/image/008.png)
+![005mgr/008](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/005mgr/image/008.png)
 
 ### 9
 
@@ -674,7 +674,7 @@ Numo.gnuplot do
     ["n(x)", t:"Theory", w:"lines"]
 end
 ```
-![005mgr/009](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/005mgr/image/009.png)
+![005mgr/009](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/005mgr/image/009.png)
 
 ### 10
 
@@ -687,7 +687,7 @@ Numo.gnuplot do
     ["n(x)", t:"Theory", w:"lines"]
 end
 ```
-![005mgr/010](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/005mgr/image/010.png)
+![005mgr/010](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/005mgr/image/010.png)
 
 ### 11
 
@@ -700,7 +700,7 @@ Numo.gnuplot do
     ["n(x)", t:"Theory", w:"lines"]
 end
 ```
-![005mgr/011](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/005mgr/image/011.png)
+![005mgr/011](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/005mgr/image/011.png)
 
 ### 12
 
@@ -713,7 +713,7 @@ Numo.gnuplot do
     ["n(x)", t:"Theory", w:"lines"]
 end
 ```
-![005mgr/012](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/005mgr/image/012.png)
+![005mgr/012](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/005mgr/image/012.png)
 
 ### 13
 
@@ -728,7 +728,7 @@ Numo.gnuplot do
     ["n(x)", t:"Theory", w:"lines"]
 end
 ```
-![005mgr/013](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/005mgr/image/013.png)
+![005mgr/013](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/005mgr/image/013.png)
 
 ### 14
 
@@ -743,7 +743,7 @@ Numo.gnuplot do
     ["n(x)", t:"Theory", w:"lines"]
 end
 ```
-![005mgr/014](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/005mgr/image/014.png)
+![005mgr/014](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/005mgr/image/014.png)
 
 ### 15
 
@@ -760,7 +760,7 @@ Numo.gnuplot do
     ["n(x)", t:"Theory", w:"lines"]
 end
 ```
-![005mgr/015](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/005mgr/image/015.png)
+![005mgr/015](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/005mgr/image/015.png)
 
 ### 16
 
@@ -773,7 +773,7 @@ Numo.gnuplot do
     ["n(x)", t:"Theory", w:"lines"]
 end
 ```
-![005mgr/016](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/005mgr/image/016.png)
+![005mgr/016](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/005mgr/image/016.png)
 
 ### 17
 
@@ -786,7 +786,7 @@ Numo.gnuplot do
     ["n(x)", t:"Theory", w:"lines"]
 end
 ```
-![005mgr/017](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/005mgr/image/017.png)
+![005mgr/017](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/005mgr/image/017.png)
 
 
 ## histograms
@@ -819,7 +819,7 @@ Numo.gnuplot do
     "for [i=3:22] '' using i title columnheader(i)"
 end
 ```
-![006histograms/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/006histograms/image/001.png)
+![006histograms/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/006histograms/image/001.png)
 
 ### 2
 
@@ -850,7 +850,7 @@ Numo.gnuplot do
     ["''", u:14, ti_nq:'col']
 end
 ```
-![006histograms/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/006histograms/image/002.png)
+![006histograms/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/006histograms/image/002.png)
 
 ### 3
 
@@ -865,7 +865,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![006histograms/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/006histograms/image/003.png)
+![006histograms/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/006histograms/image/003.png)
 
 ### 4
 
@@ -902,7 +902,7 @@ Numo.gnuplot do
     "for [i=3:22] '' using i"
 end
 ```
-![006histograms/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/006histograms/image/004.png)
+![006histograms/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/006histograms/image/004.png)
 
 ### 5
 
@@ -940,7 +940,7 @@ Numo.gnuplot do
     "for [i=3:23] '' using (100.*column(i)/column(24)) title column(i)"
 end
 ```
-![006histograms/005](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/006histograms/image/005.png)
+![006histograms/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/006histograms/image/005.png)
 
 ### 6
 
@@ -979,7 +979,7 @@ Numo.gnuplot do
     ["''", using:'14:key(1)', ti_nq:'col']
 end
 ```
-![006histograms/006](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/006histograms/image/006.png)
+![006histograms/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/006histograms/image/006.png)
 
 ### 7
 
@@ -1030,7 +1030,7 @@ Numo.gnuplot do
     ["''", u:21, t_nq:'col']
 end
 ```
-![006histograms/007](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/006histograms/image/007.png)
+![006histograms/007](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/006histograms/image/007.png)
 
 ### 8
 
@@ -1049,7 +1049,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![006histograms/008](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/006histograms/image/008.png)
+![006histograms/008](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/006histograms/image/008.png)
 
 
 ## step functions
@@ -1079,7 +1079,7 @@ Numo.gnuplot do
     ["'steps.dat'", title:'histeps', with:"histeps"]
 end
 ```
-![007steps/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/007steps/image/001.png)
+![007steps/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/007steps/image/001.png)
 
 ### 2
 
@@ -1096,7 +1096,7 @@ Numo.gnuplot do
   plot "'hemisphr.dat'", u:'(floor($1*20)):(1)', smooth:"frequency", with:"histeps"
 end
 ```
-![007steps/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/007steps/image/002.png)
+![007steps/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/007steps/image/002.png)
 
 ### 3
 
@@ -1115,7 +1115,7 @@ Numo.gnuplot do
     "norm(x)"
 end
 ```
-![007steps/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/007steps/image/003.png)
+![007steps/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/007steps/image/003.png)
 
 ### 4
 
@@ -1129,7 +1129,7 @@ Numo.gnuplot do
     "inverf(x)"
 end
 ```
-![007steps/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/007steps/image/004.png)
+![007steps/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/007steps/image/004.png)
 
 ### 5
 
@@ -1143,7 +1143,7 @@ Numo.gnuplot do
     "invnorm(x)"
 end
 ```
-![007steps/005](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/007steps/image/005.png)
+![007steps/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/007steps/image/005.png)
 
 
 ## multiple axis scales
@@ -1202,7 +1202,7 @@ Numo.gnuplot do
     ["180./pi*arg(A(jw))", axes:"x2y2"]
 end
 ```
-![008multiaxis/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/008multiaxis/image/001.png)
+![008multiaxis/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/008multiaxis/image/001.png)
 
 
 ## mixing styles
@@ -1229,7 +1229,7 @@ Numo.gnuplot do
     ["'using.dat'", using:[2,4], title:"Logged in", with:"points"]
 end
 ```
-![009using/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/009using/image/001.png)
+![009using/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/009using/image/001.png)
 
 ### 2
 
@@ -1253,7 +1253,7 @@ Numo.gnuplot do
     ["'using.dat'", using:[3,6], t:"%CPU used", with:"lines"]
 end
 ```
-![009using/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/009using/image/002.png)
+![009using/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/009using/image/002.png)
 
 
 ## variable size points
@@ -1291,7 +1291,7 @@ Numo.gnuplot do
     ["'world.cor'", using:'1:2:(5.*rand(0))', with:"points", lt:1, pt:6, ps:"variable"]
 end
 ```
-![010pointsize/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/010pointsize/image/001.png)
+![010pointsize/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/010pointsize/image/001.png)
 
 ### 2
 
@@ -1310,7 +1310,7 @@ Numo.gnuplot do
     ["'world.cor'", using:'1:2:(0.5-rand(0)):(5.*rand(0))', with:"points", pt:5, ps:"var", lt:true, palette:true]
 end
 ```
-![010pointsize/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/010pointsize/image/002.png)
+![010pointsize/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/010pointsize/image/002.png)
 
 ### 3
 
@@ -1348,7 +1348,7 @@ Numo.gnuplot do
     ["'world.cor'", using:'1:2:(1):(5.*rand(0))', with:"points", lt:1, pt:6, ps:"variable"]
 end
 ```
-![010pointsize/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/010pointsize/image/003.png)
+![010pointsize/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/010pointsize/image/003.png)
 
 ### 4
 
@@ -1378,7 +1378,7 @@ Numo.gnuplot do
     ["'world.cor'", using:'1:2:(1):(5.*rand(0))', with:"points", lt:1, pt:6, ps:"var"]
 end
 ```
-![010pointsize/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/010pointsize/image/004.png)
+![010pointsize/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/010pointsize/image/004.png)
 
 
 ## parametric functions
@@ -1410,7 +1410,7 @@ Numo.gnuplot do
     ["sin(t)/t", title:"t,sin(t)/t or sin(x)/x"]
 end
 ```
-![011param/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/011param/image/001.png)
+![011param/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/011param/image/001.png)
 
 ### 2
 
@@ -1422,7 +1422,7 @@ Numo.gnuplot do
     "t"
 end
 ```
-![011param/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/011param/image/002.png)
+![011param/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/011param/image/002.png)
 
 ### 3
 
@@ -1434,7 +1434,7 @@ Numo.gnuplot do
     "cos(t)"
 end
 ```
-![011param/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/011param/image/003.png)
+![011param/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/011param/image/003.png)
 
 ### 4
 
@@ -1458,7 +1458,7 @@ Numo.gnuplot do
     "sinh(t)"
 end
 ```
-![011param/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/011param/image/004.png)
+![011param/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/011param/image/004.png)
 
 ### 5
 
@@ -1479,7 +1479,7 @@ Numo.gnuplot do
     "tan(t)"
 end
 ```
-![011param/005](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/011param/image/005.png)
+![011param/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/011param/image/005.png)
 
 ### 6
 
@@ -1499,7 +1499,7 @@ Numo.gnuplot do
     "t**2"
 end
 ```
-![011param/006](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/011param/image/006.png)
+![011param/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/011param/image/006.png)
 
 ### 7
 
@@ -1517,7 +1517,7 @@ Numo.gnuplot do
     "cos(t)/t"
 end
 ```
-![011param/007](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/011param/image/007.png)
+![011param/007](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/011param/image/007.png)
 
 
 ## vector fields
@@ -1626,7 +1626,7 @@ Numo.gnuplot do
   splot "vtot(x,y)", w:"l"
 end
 ```
-![012vector/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/012vector/image/001.png)
+![012vector/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/012vector/image/001.png)
 
 ### 2
 
@@ -1648,7 +1648,7 @@ Numo.gnuplot do
   plot "\"equipo2.tmp\"", w:"l"
 end
 ```
-![012vector/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/012vector/image/002.png)
+![012vector/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/012vector/image/002.png)
 
 ### 3
 
@@ -1683,7 +1683,7 @@ Numo.gnuplot do
     ["\"equipo2.tmp\"", w:"l"]
 end
 ```
-![012vector/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/012vector/image/003.png)
+![012vector/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/012vector/image/003.png)
 
 
 ## circles
@@ -1762,7 +1762,7 @@ Numo.gnuplot do
     ["'world.cor'", using:'1:2:(7.*rand(0))', with:"circles", lt:3, fs:"transparent", solid:0.5, noborder:true]
 end
 ```
-![013circles/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/013circles/image/001.png)
+![013circles/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/013circles/image/001.png)
 
 ### 2
 
@@ -1831,7 +1831,7 @@ Numo.gnuplot do
     "for [i=0:types-1] '' using              (keyx+keyr*cos(-(i+0.5)*360./types)):(keyy+keyr*sin(-(i+0.5)*360./types)):4              every ::i::i with labels"
 end
 ```
-![013circles/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/013circles/image/002.png)
+![013circles/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/013circles/image/002.png)
 
 ### 3
 
@@ -1858,7 +1858,7 @@ Numo.gnuplot do
     ["'optimize.dat'", u:[1,2], with:"linespoints", lw:2, lc_rgb:"black"]
 end
 ```
-![013circles/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/013circles/image/003.png)
+![013circles/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/013circles/image/003.png)
 
 ### 4
 
@@ -1888,7 +1888,7 @@ Numo.gnuplot do
     ["'lena-keypoints.bin'", binary:'format="%double"', with:"circles", lc_rgb:"yellow"]
 end
 ```
-![013circles/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/013circles/image/004.png)
+![013circles/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/013circles/image/004.png)
 
 ### 5
 
@@ -1912,7 +1912,7 @@ Numo.gnuplot do
     ["'hemisphr.dat'", u:'(100*$1):(100*$2)', with:"points", pt:7, lc_rgb:"black"]
 end
 ```
-![013circles/005](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/013circles/image/005.png)
+![013circles/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/013circles/image/005.png)
 
 
 ## approximation
@@ -1975,7 +1975,7 @@ Numo.gnuplot do
     ["sin(x)", with:"lines", lw:1, lc_rgb:"black"]
 end
 ```
-![101approximate/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/101approximate/image/001.png)
+![101approximate/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/101approximate/image/001.png)
 
 
 ## B-splines
@@ -2016,7 +2016,7 @@ Numo.gnuplot do
     "m3(x)"
 end
 ```
-![102spline/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/102spline/image/001.png)
+![102spline/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/102spline/image/001.png)
 
 ### 2
 
@@ -2041,7 +2041,7 @@ Numo.gnuplot do
     "h11(x)"
 end
 ```
-![102spline/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/102spline/image/002.png)
+![102spline/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/102spline/image/002.png)
 
 ### 3
 
@@ -2065,7 +2065,7 @@ Numo.gnuplot do
     "bez3(x)"
 end
 ```
-![102spline/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/102spline/image/003.png)
+![102spline/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/102spline/image/003.png)
 
 ### 4
 
@@ -2089,7 +2089,7 @@ Numo.gnuplot do
     "bsp3(x)"
 end
 ```
-![102spline/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/102spline/image/004.png)
+![102spline/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/102spline/image/004.png)
 
 ### 5
 
@@ -2153,7 +2153,7 @@ Numo.gnuplot do
     ["cub_bsplin_y(t)", with:"lines", lt:3]
 end
 ```
-![102spline/005](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/102spline/image/005.png)
+![102spline/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/102spline/image/005.png)
 
 ### 6
 
@@ -2192,7 +2192,7 @@ Numo.gnuplot do
     ["cub_hermit_y2(t)", with:"lines", lt:3]
 end
 ```
-![102spline/006](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/102spline/image/006.png)
+![102spline/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/102spline/image/006.png)
 
 
 ## Bezier splines
@@ -2400,7 +2400,7 @@ Numo.gnuplot do
     ["airfoil_y2(t, thick)", title:"lower surface", w:"l", lt:1]
 end
 ```
-![103airfoil/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/103airfoil/image/001.png)
+![103airfoil/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/103airfoil/image/001.png)
 
 ### 2
 
@@ -2428,7 +2428,7 @@ Numo.gnuplot do
     ["airfoil_y2(t, thick)", title:"lower surface", w:"l", lt:1]
 end
 ```
-![103airfoil/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/103airfoil/image/002.png)
+![103airfoil/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/103airfoil/image/002.png)
 
 ### 3
 
@@ -2477,7 +2477,7 @@ Numo.gnuplot do
     "imag(eta(t))"
 end
 ```
-![103airfoil/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/103airfoil/image/003.png)
+![103airfoil/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/103airfoil/image/003.png)
 
 ### 4
 
@@ -2493,7 +2493,7 @@ Numo.gnuplot do
     "imag(eta(t))"
 end
 ```
-![103airfoil/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/103airfoil/image/004.png)
+![103airfoil/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/103airfoil/image/004.png)
 
 
 ## parameter fitting
@@ -2522,7 +2522,7 @@ Numo.gnuplot do
   plot "'lcdemo.dat'"
 end
 ```
-![104fit/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/001.png)
+![104fit/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/001.png)
 
 ### 2
 
@@ -2552,7 +2552,7 @@ Numo.gnuplot do
     "l(x)"
 end
 ```
-![104fit/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/002.png)
+![104fit/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/002.png)
 
 ### 3
 
@@ -2569,7 +2569,7 @@ Numo.gnuplot do
     "l(x)"
 end
 ```
-![104fit/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/003.png)
+![104fit/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/003.png)
 
 ### 4
 
@@ -2588,7 +2588,7 @@ Numo.gnuplot do
     "l(x)"
 end
 ```
-![104fit/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/004.png)
+![104fit/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/004.png)
 
 ### 5
 
@@ -2607,7 +2607,7 @@ Numo.gnuplot do
     "l(x)"
 end
 ```
-![104fit/005](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/005.png)
+![104fit/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/005.png)
 
 ### 6
 
@@ -2620,7 +2620,7 @@ Numo.gnuplot do
   plot "'lcdemo.dat'", using:[1,2,5], with:"errorbars"
 end
 ```
-![104fit/006](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/006.png)
+![104fit/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/006.png)
 
 ### 7
 
@@ -2641,7 +2641,7 @@ Numo.gnuplot do
     "l(x)"
 end
 ```
-![104fit/007](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/007.png)
+![104fit/007](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/007.png)
 
 ### 8
 
@@ -2657,7 +2657,7 @@ Numo.gnuplot do
     "density(x)"
 end
 ```
-![104fit/008](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/008.png)
+![104fit/008](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/008.png)
 
 ### 9
 
@@ -2687,7 +2687,7 @@ Numo.gnuplot do
     "density(x)"
 end
 ```
-![104fit/009](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/009.png)
+![104fit/009](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/009.png)
 
 ### 10
 
@@ -2716,7 +2716,7 @@ Numo.gnuplot do
     "density(x)"
 end
 ```
-![104fit/010](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/010.png)
+![104fit/010](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/010.png)
 
 ### 11
 
@@ -2751,7 +2751,7 @@ Numo.gnuplot do
     "h(x,y)"
 end
 ```
-![104fit/011](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/011.png)
+![104fit/011](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/011.png)
 
 ### 12
 
@@ -2772,7 +2772,7 @@ Numo.gnuplot do
     "h(x,y)"
 end
 ```
-![104fit/012](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/012.png)
+![104fit/012](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/012.png)
 
 ### 13
 
@@ -2806,7 +2806,7 @@ Numo.gnuplot do
     "vtrans(x)"
 end
 ```
-![104fit/013](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/013.png)
+![104fit/013](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/013.png)
 
 ### 14
 
@@ -2834,7 +2834,7 @@ Numo.gnuplot do
     "vtrans(x)"
 end
 ```
-![104fit/014](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/014.png)
+![104fit/014](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/014.png)
 
 ### 15
 
@@ -2860,7 +2860,7 @@ Numo.gnuplot do
     "vtrans(x)"
 end
 ```
-![104fit/015](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/015.png)
+![104fit/015](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/015.png)
 
 ### 16
 
@@ -2884,7 +2884,7 @@ Numo.gnuplot do
     "vtrans(x)"
 end
 ```
-![104fit/016](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/016.png)
+![104fit/016](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/016.png)
 
 ### 17
 
@@ -2901,7 +2901,7 @@ Numo.gnuplot do
     "vtrans(x)"
 end
 ```
-![104fit/017](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/017.png)
+![104fit/017](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/017.png)
 
 ### 18
 
@@ -2923,7 +2923,7 @@ Numo.gnuplot do
     "vtrans(x)"
 end
 ```
-![104fit/018](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/018.png)
+![104fit/018](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/018.png)
 
 ### 19
 
@@ -2940,7 +2940,7 @@ Numo.gnuplot do
     "vtrans(x)"
 end
 ```
-![104fit/019](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/019.png)
+![104fit/019](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/019.png)
 
 ### 20
 
@@ -2961,7 +2961,7 @@ Numo.gnuplot do
   plot "'moli3.dat'", w:"e"
 end
 ```
-![104fit/020](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/020.png)
+![104fit/020](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/020.png)
 
 ### 21
 
@@ -2991,7 +2991,7 @@ Numo.gnuplot do
     "R(x)"
 end
 ```
-![104fit/021](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/021.png)
+![104fit/021](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/021.png)
 
 ### 22
 
@@ -3010,7 +3010,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![104fit/022](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/022.png)
+![104fit/022](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/022.png)
 
 ### 23
 
@@ -3041,7 +3041,7 @@ Numo.gnuplot do
   splot "'fit3.dat'", index:0, using:[1,2,4]
 end
 ```
-![104fit/023](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/023.png)
+![104fit/023](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/023.png)
 
 ### 24
 
@@ -3073,7 +3073,7 @@ Numo.gnuplot do
     ["'fit3.dat'", in:0, u:[1,2,4]]
 end
 ```
-![104fit/024](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/024.png)
+![104fit/024](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/024.png)
 
 ### 25
 
@@ -3085,7 +3085,7 @@ Numo.gnuplot do
     ["'fit3.dat'", in:3, u:[1,2,4]]
 end
 ```
-![104fit/025](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/025.png)
+![104fit/025](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/025.png)
 
 ### 26
 
@@ -3104,7 +3104,7 @@ Numo.gnuplot do
     ["'fit3.dat'", in:3, u:[1,2,4]]
 end
 ```
-![104fit/026](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/026.png)
+![104fit/026](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/026.png)
 
 ### 27
 
@@ -3116,7 +3116,7 @@ Numo.gnuplot do
     ["'fit3.dat'", u:[1,2,4]]
 end
 ```
-![104fit/027](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/027.png)
+![104fit/027](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/027.png)
 
 ### 28
 
@@ -3143,7 +3143,7 @@ Numo.gnuplot do
     ["'fit3.dat'", in:0, u:[1,2,4]]
 end
 ```
-![104fit/028](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/028.png)
+![104fit/028](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/028.png)
 
 ### 29
 
@@ -3155,7 +3155,7 @@ Numo.gnuplot do
     ["'fit3.dat'", in:1, u:[1,2,4]]
 end
 ```
-![104fit/029](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/029.png)
+![104fit/029](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/029.png)
 
 ### 30
 
@@ -3167,7 +3167,7 @@ Numo.gnuplot do
     ["'fit3.dat'", in:2, u:[1,2,4]]
 end
 ```
-![104fit/030](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/030.png)
+![104fit/030](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/030.png)
 
 ### 31
 
@@ -3179,7 +3179,7 @@ Numo.gnuplot do
     ["'fit3.dat'", in:3, u:[1,2,4]]
 end
 ```
-![104fit/031](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/031.png)
+![104fit/031](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/031.png)
 
 ### 32
 
@@ -3200,7 +3200,7 @@ Numo.gnuplot do
     ["'fit3.dat'", in:0, u:[1,2,4]]
 end
 ```
-![104fit/032](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/032.png)
+![104fit/032](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/032.png)
 
 
 ## probability
@@ -3288,7 +3288,7 @@ Numo.gnuplot do
     "normal(x, mu, sigma)"
 end
 ```
-![105prob2/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/105prob2/image/001.png)
+![105prob2/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/105prob2/image/001.png)
 
 ### 2
 
@@ -3351,7 +3351,7 @@ Numo.gnuplot do
     ["poisson(x, mu)", with:"histeps"]
 end
 ```
-![105prob2/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/105prob2/image/002.png)
+![105prob2/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/105prob2/image/002.png)
 
 ### 3
 
@@ -3418,7 +3418,7 @@ Numo.gnuplot do
     "gmm(x, rho, lambda)"
 end
 ```
-![105prob2/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/105prob2/image/003.png)
+![105prob2/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/105prob2/image/003.png)
 
 ### 4
 
@@ -3481,7 +3481,7 @@ Numo.gnuplot do
     "normal(x, mu, sigma)"
 end
 ```
-![105prob2/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/105prob2/image/004.png)
+![105prob2/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/105prob2/image/004.png)
 
 ### 5
 
@@ -3546,7 +3546,7 @@ Numo.gnuplot do
     ["binom(x, n, p)", with:"histeps"]
 end
 ```
-![105prob2/005](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/105prob2/image/005.png)
+![105prob2/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/105prob2/image/005.png)
 
 ### 6
 
@@ -3611,7 +3611,7 @@ Numo.gnuplot do
     "normal(x, mu, sigma)"
 end
 ```
-![105prob2/006](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/105prob2/image/006.png)
+![105prob2/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/105prob2/image/006.png)
 
 ### 7
 
@@ -3678,7 +3678,7 @@ Numo.gnuplot do
     "gmm(x, rho, lambda)"
 end
 ```
-![105prob2/007](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/105prob2/image/007.png)
+![105prob2/007](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/105prob2/image/007.png)
 
 ### 8
 
@@ -3741,7 +3741,7 @@ Numo.gnuplot do
     "normal(x, mu, sigma)"
 end
 ```
-![105prob2/008](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/105prob2/image/008.png)
+![105prob2/008](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/105prob2/image/008.png)
 
 ### 9
 
@@ -3802,7 +3802,7 @@ Numo.gnuplot do
     "normal(x, mu, sigma)"
 end
 ```
-![105prob2/009](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/105prob2/image/009.png)
+![105prob2/009](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/105prob2/image/009.png)
 
 ### 10
 
@@ -3863,7 +3863,7 @@ Numo.gnuplot do
     "normal(x, mu, sigma)"
 end
 ```
-![105prob2/010](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/105prob2/image/010.png)
+![105prob2/010](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/105prob2/image/010.png)
 
 
 ## probability (more)
@@ -3961,7 +3961,7 @@ Numo.gnuplot do
     ["gamma(5*gsampfunc(5*t,2))", lt:1]
 end
 ```
-![106prob/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/001.png)
+![106prob/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/001.png)
 
 ### 2
 
@@ -4013,7 +4013,7 @@ Numo.gnuplot do
     ["lgamma(5*gsampfunc(5*t,3))", lt:1]
 end
 ```
-![106prob/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/002.png)
+![106prob/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/002.png)
 
 ### 3
 
@@ -4062,7 +4062,7 @@ Numo.gnuplot do
   plot "arcsin(x, r)"
 end
 ```
-![106prob/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/003.png)
+![106prob/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/003.png)
 
 ### 4
 
@@ -4077,7 +4077,7 @@ Numo.gnuplot do
   plot "carcsin(x, r)"
 end
 ```
-![106prob/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/004.png)
+![106prob/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/004.png)
 
 ### 5
 
@@ -4130,7 +4130,7 @@ Numo.gnuplot do
     ["beta(x, 0.5, 2.5)", title:"p = 0.5, q = 2.5"]
 end
 ```
-![106prob/005](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/005.png)
+![106prob/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/005.png)
 
 ### 6
 
@@ -4151,7 +4151,7 @@ Numo.gnuplot do
     ["cbeta(x, 0.5, 2.5)", title:"p = 0.5, q = 2.5"]
 end
 ```
-![106prob/006](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/006.png)
+![106prob/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/006.png)
 
 ### 7
 
@@ -4201,7 +4201,7 @@ Numo.gnuplot do
   plot "binom(x, n, p)", with:"impulses"
 end
 ```
-![106prob/007](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/007.png)
+![106prob/007](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/007.png)
 
 ### 8
 
@@ -4222,7 +4222,7 @@ Numo.gnuplot do
   plot "cbinom(x, n, p)", with:"steps"
 end
 ```
-![106prob/008](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/008.png)
+![106prob/008](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/008.png)
 
 ### 9
 
@@ -4270,7 +4270,7 @@ Numo.gnuplot do
     ["cauchy(x, 0, 4)", title:"a = 0, b = 4"]
 end
 ```
-![106prob/009](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/009.png)
+![106prob/009](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/009.png)
 
 ### 10
 
@@ -4286,7 +4286,7 @@ Numo.gnuplot do
     ["ccauchy(x, 0, 4)", title:"a = 0, b = 4"]
 end
 ```
-![106prob/010](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/010.png)
+![106prob/010](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/010.png)
 
 ### 11
 
@@ -4366,7 +4366,7 @@ Numo.gnuplot do
     ["chisq(x, k)", title_nq:'keystr(k)']
 end
 ```
-![106prob/011](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/011.png)
+![106prob/011](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/011.png)
 
 ### 12
 
@@ -4405,7 +4405,7 @@ Numo.gnuplot do
     ["cchisq(x, k)", title_nq:'keystr(k)']
 end
 ```
-![106prob/012](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/012.png)
+![106prob/012](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/012.png)
 
 ### 13
 
@@ -4474,7 +4474,7 @@ Numo.gnuplot do
     ["erlang(x, n, lambda)", title_nq:'keystr(n,lambda)']
 end
 ```
-![106prob/013](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/013.png)
+![106prob/013](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/013.png)
 
 ### 14
 
@@ -4508,7 +4508,7 @@ Numo.gnuplot do
     ["cerlang(x, n, lambda)", title_nq:'keystr(n,lambda)']
 end
 ```
-![106prob/014](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/014.png)
+![106prob/014](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/014.png)
 
 ### 15
 
@@ -4558,7 +4558,7 @@ Numo.gnuplot do
     ["extreme(x, 0.0, 1.0)", title:"alpha = 1.0, u = 0.0"]
 end
 ```
-![106prob/015](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/015.png)
+![106prob/015](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/015.png)
 
 ### 16
 
@@ -4574,7 +4574,7 @@ Numo.gnuplot do
     ["cextreme(x, 0.0, 1.0)", title:"alpha = 1.0, u = 0.0"]
 end
 ```
-![106prob/016](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/016.png)
+![106prob/016](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/016.png)
 
 ### 17
 
@@ -4624,7 +4624,7 @@ Numo.gnuplot do
     ["f(x, 7.0, 6.0)", title:"df1 = 7, df2 = 6"]
 end
 ```
-![106prob/017](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/017.png)
+![106prob/017](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/017.png)
 
 ### 18
 
@@ -4642,7 +4642,7 @@ Numo.gnuplot do
     ["cf(x, 7.0, 6.0)", title:"df1 = 7, df2 = 6"]
 end
 ```
-![106prob/018](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/018.png)
+![106prob/018](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/018.png)
 
 ### 19
 
@@ -4733,7 +4733,7 @@ Numo.gnuplot do
     ["gmm(x, rho, lambda)", title_nq:'keystr(rho,lambda)']
 end
 ```
-![106prob/019](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/019.png)
+![106prob/019](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/019.png)
 
 ### 20
 
@@ -4779,7 +4779,7 @@ Numo.gnuplot do
     ["cgmm(x, rho, lambda)", title_nq:'keystr(rho,lambda)']
 end
 ```
-![106prob/020](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/020.png)
+![106prob/020](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/020.png)
 
 ### 21
 
@@ -4829,7 +4829,7 @@ Numo.gnuplot do
   plot "geometric(x, p)", with:"impulses"
 end
 ```
-![106prob/021](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/021.png)
+![106prob/021](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/021.png)
 
 ### 22
 
@@ -4846,7 +4846,7 @@ Numo.gnuplot do
   plot "cgeometric(x, p)", with:"steps"
 end
 ```
-![106prob/022](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/022.png)
+![106prob/022](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/022.png)
 
 ### 23
 
@@ -4905,7 +4905,7 @@ Numo.gnuplot do
     ["halfnormal(t<0?0.0:t, sigma)", ls:1]
 end
 ```
-![106prob/023](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/023.png)
+![106prob/023](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/023.png)
 
 ### 24
 
@@ -4927,7 +4927,7 @@ Numo.gnuplot do
     ["chalfnormal(t<0?0.0:t, sigma)", ls:1]
 end
 ```
-![106prob/024](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/024.png)
+![106prob/024](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/024.png)
 
 ### 25
 
@@ -4986,7 +4986,7 @@ Numo.gnuplot do
   plot "hypgeo(x,N,C,d)", with:"impulses"
 end
 ```
-![106prob/025](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/025.png)
+![106prob/025](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/025.png)
 
 ### 26
 
@@ -5003,7 +5003,7 @@ Numo.gnuplot do
   plot "chypgeo(x,N,C,d)", with:"steps"
 end
 ```
-![106prob/026](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/026.png)
+![106prob/026](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/026.png)
 
 ### 27
 
@@ -5053,7 +5053,7 @@ Numo.gnuplot do
   plot "laplace(x, mu, b)"
 end
 ```
-![106prob/027](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/027.png)
+![106prob/027](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/027.png)
 
 ### 28
 
@@ -5072,7 +5072,7 @@ Numo.gnuplot do
   plot "claplace(x, mu, b)"
 end
 ```
-![106prob/028](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/028.png)
+![106prob/028](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/028.png)
 
 ### 29
 
@@ -5124,7 +5124,7 @@ Numo.gnuplot do
   plot "logistic(x, a, lambda)"
 end
 ```
-![106prob/029](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/029.png)
+![106prob/029](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/029.png)
 
 ### 30
 
@@ -5139,7 +5139,7 @@ Numo.gnuplot do
   plot "clogistic(x, a, lambda)"
 end
 ```
-![106prob/030](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/030.png)
+![106prob/030](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/030.png)
 
 ### 31
 
@@ -5189,7 +5189,7 @@ Numo.gnuplot do
   plot "lognormal(x, mu, sigma)"
 end
 ```
-![106prob/031](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/031.png)
+![106prob/031](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/031.png)
 
 ### 32
 
@@ -5204,7 +5204,7 @@ Numo.gnuplot do
   plot "clognormal(x, mu, sigma)"
 end
 ```
-![106prob/032](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/032.png)
+![106prob/032](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/032.png)
 
 ### 33
 
@@ -5259,7 +5259,7 @@ Numo.gnuplot do
     ["maxwell(x, 0.5)", title:"a = 0.5"]
 end
 ```
-![106prob/033](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/033.png)
+![106prob/033](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/033.png)
 
 ### 34
 
@@ -5279,7 +5279,7 @@ Numo.gnuplot do
     ["cmaxwell(x, 0.5)", title:"a = 0.5"]
 end
 ```
-![106prob/034](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/034.png)
+![106prob/034](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/034.png)
 
 ### 35
 
@@ -5327,7 +5327,7 @@ Numo.gnuplot do
   plot "negbin(x, r, p)", with:"impulses"
 end
 ```
-![106prob/035](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/035.png)
+![106prob/035](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/035.png)
 
 ### 36
 
@@ -5344,7 +5344,7 @@ Numo.gnuplot do
   plot "cnegbin(x, r, p)", with:"steps"
 end
 ```
-![106prob/036](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/036.png)
+![106prob/036](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/036.png)
 
 ### 37
 
@@ -5390,7 +5390,7 @@ Numo.gnuplot do
   plot "nexp(x, lambda)"
 end
 ```
-![106prob/037](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/037.png)
+![106prob/037](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/037.png)
 
 ### 38
 
@@ -5405,7 +5405,7 @@ Numo.gnuplot do
   plot "cnexp(x, lambda)"
 end
 ```
-![106prob/038](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/038.png)
+![106prob/038](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/038.png)
 
 ### 39
 
@@ -5452,7 +5452,7 @@ Numo.gnuplot do
     ["normal(x, 1, 2.0)", title:"mu = 1, sigma = 2.0"]
 end
 ```
-![106prob/039](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/039.png)
+![106prob/039](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/039.png)
 
 ### 40
 
@@ -5478,7 +5478,7 @@ Numo.gnuplot do
     ["cnormal(x, mu, sigma)", title:"mu = 1, sigma = 2.0"]
 end
 ```
-![106prob/040](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/040.png)
+![106prob/040](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/040.png)
 
 ### 41
 
@@ -5548,7 +5548,7 @@ Numo.gnuplot do
     ["pareto(x2(t), a, b)", ls:1]
 end
 ```
-![106prob/041](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/041.png)
+![106prob/041](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/041.png)
 
 ### 42
 
@@ -5571,7 +5571,7 @@ Numo.gnuplot do
   plot "cpareto(x, a, b)"
 end
 ```
-![106prob/042](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/042.png)
+![106prob/042](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/042.png)
 
 ### 43
 
@@ -5622,7 +5622,7 @@ Numo.gnuplot do
   plot "poisson(x, mu)", with:"impulses"
 end
 ```
-![106prob/043](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/043.png)
+![106prob/043](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/043.png)
 
 ### 44
 
@@ -5639,7 +5639,7 @@ Numo.gnuplot do
   plot "cpoisson(x, mu)", with:"steps"
 end
 ```
-![106prob/044](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/044.png)
+![106prob/044](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/044.png)
 
 ### 45
 
@@ -5685,7 +5685,7 @@ Numo.gnuplot do
   plot "rayleigh(x, lambda)"
 end
 ```
-![106prob/045](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/045.png)
+![106prob/045](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/045.png)
 
 ### 46
 
@@ -5700,7 +5700,7 @@ Numo.gnuplot do
   plot "crayleigh(x, lambda)"
 end
 ```
-![106prob/046](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/046.png)
+![106prob/046](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/046.png)
 
 ### 47
 
@@ -5767,7 +5767,7 @@ Numo.gnuplot do
     ["sine(x, f, a)", title_nq:'keystr(a, f)', with:"steps"]
 end
 ```
-![106prob/047](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/047.png)
+![106prob/047](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/047.png)
 
 ### 48
 
@@ -5797,7 +5797,7 @@ Numo.gnuplot do
     ["csine(x, f, a)", title_nq:'keystr(a, f)', with:"steps"]
 end
 ```
-![106prob/048](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/048.png)
+![106prob/048](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/048.png)
 
 ### 49
 
@@ -5853,7 +5853,7 @@ Numo.gnuplot do
     ["normal(x, 0, 1)", ti:"normal"]
 end
 ```
-![106prob/049](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/049.png)
+![106prob/049](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/049.png)
 
 ### 50
 
@@ -5874,7 +5874,7 @@ Numo.gnuplot do
     ["cnormal(x, 0, 1)", ti:"normal"]
 end
 ```
-![106prob/050](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/050.png)
+![106prob/050](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/050.png)
 
 ### 51
 
@@ -5927,7 +5927,7 @@ Numo.gnuplot do
   plot "triangular(x, m, g)"
 end
 ```
-![106prob/051](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/051.png)
+![106prob/051](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/051.png)
 
 ### 52
 
@@ -5942,7 +5942,7 @@ Numo.gnuplot do
   plot "ctriangular(x, m, g)"
 end
 ```
-![106prob/052](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/052.png)
+![106prob/052](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/052.png)
 
 ### 53
 
@@ -5992,7 +5992,7 @@ Numo.gnuplot do
   plot "uniform(x, a, b)", with:"steps"
 end
 ```
-![106prob/053](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/053.png)
+![106prob/053](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/053.png)
 
 ### 54
 
@@ -6007,7 +6007,7 @@ Numo.gnuplot do
   plot "cuniform(x, a, b)"
 end
 ```
-![106prob/054](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/054.png)
+![106prob/054](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/054.png)
 
 ### 55
 
@@ -6095,7 +6095,7 @@ Numo.gnuplot do
     ["weibull(x, a, lambda)", ti_nq:'ks(a, lambda)']
 end
 ```
-![106prob/055](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/055.png)
+![106prob/055](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/055.png)
 
 ### 56
 
@@ -6129,7 +6129,7 @@ Numo.gnuplot do
     ["cweibull(x, a, lambda)", ti_nq:'ks(a, lambda)']
 end
 ```
-![106prob/056](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/056.png)
+![106prob/056](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/056.png)
 
 
 ## random numbers
@@ -6188,7 +6188,7 @@ Numo.gnuplot do
     "rand(0)"
 end
 ```
-![107random/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/107random/image/001.png)
+![107random/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/107random/image/001.png)
 
 ### 2
 
@@ -6204,7 +6204,7 @@ Numo.gnuplot do
     "rand(0)"
 end
 ```
-![107random/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/107random/image/002.png)
+![107random/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/107random/image/002.png)
 
 ### 3
 
@@ -6284,7 +6284,7 @@ EOL
     ["\"random.tmp\"", using:'1:2:(-0.2)', with:"points", pointtype:7, lc_rgb:"black"]
 end
 ```
-![107random/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/107random/image/003.png)
+![107random/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/107random/image/003.png)
 
 ### 4
 
@@ -6356,7 +6356,7 @@ EOL
     ["normal(x,0,1)", with:"lines", title:"Gaussian p.d.f."]
 end
 ```
-![107random/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/107random/image/004.png)
+![107random/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/107random/image/004.png)
 
 ### 5
 
@@ -6426,7 +6426,7 @@ EOL
   splot "\"random.tmp\"", every:":::::0", with:"dots"
 end
 ```
-![107random/005](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/107random/image/005.png)
+![107random/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/107random/image/005.png)
 
 ### 6
 
@@ -6476,7 +6476,7 @@ Numo.gnuplot do
     ["maxwell(x, 1/sqrt(2))", with:"lines", title:"Maxwell p.d.f."]
 end
 ```
-![107random/006](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/107random/image/006.png)
+![107random/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/107random/image/006.png)
 
 
 ## recursion, etc...
@@ -6543,7 +6543,7 @@ Numo.gnuplot do
     ["erf(x)", with:"points"]
 end
 ```
-![108bivariat/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/108bivariat/image/001.png)
+![108bivariat/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/108bivariat/image/001.png)
 
 ### 2
 
@@ -6559,7 +6559,7 @@ Numo.gnuplot do
     "integral_f(x)"
 end
 ```
-![108bivariat/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/108bivariat/image/002.png)
+![108bivariat/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/108bivariat/image/002.png)
 
 ### 3
 
@@ -6578,7 +6578,7 @@ Numo.gnuplot do
     "integral2_f(-5,x)"
 end
 ```
-![108bivariat/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/108bivariat/image/003.png)
+![108bivariat/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/108bivariat/image/003.png)
 
 ### 4
 
@@ -6594,7 +6594,7 @@ Numo.gnuplot do
     "integral2_f(x,1)"
 end
 ```
-![108bivariat/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/108bivariat/image/004.png)
+![108bivariat/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/108bivariat/image/004.png)
 
 ### 5
 
@@ -6625,7 +6625,7 @@ Numo.gnuplot do
   splot "ack(x, y)"
 end
 ```
-![108bivariat/005](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/108bivariat/image/005.png)
+![108bivariat/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/108bivariat/image/005.png)
 
 ### 6
 
@@ -6658,7 +6658,7 @@ Numo.gnuplot do
     "max(sin(x), min(x**2, x**3))+0.5"
 end
 ```
-![108bivariat/006](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/108bivariat/image/006.png)
+![108bivariat/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/108bivariat/image/006.png)
 
 ### 7
 
@@ -6691,7 +6691,7 @@ Numo.gnuplot do
   plot "gcd(x, 60)", with:"impulses"
 end
 ```
-![108bivariat/007](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/108bivariat/image/007.png)
+![108bivariat/007](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/108bivariat/image/007.png)
 
 ### 8
 
@@ -6731,7 +6731,7 @@ Numo.gnuplot do
     ["sum1000(x)", title:"1./2 + sum [k=1:1000] sin(3./2*k)/k * 2./3*cos(k*x)"]
 end
 ```
-![108bivariat/008](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/108bivariat/image/008.png)
+![108bivariat/008](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/108bivariat/image/008.png)
 
 
 ## data statistics
@@ -6779,7 +6779,7 @@ Numo.gnuplot do
     ["A_mean", title:"  Mean"]
 end
 ```
-![109stats/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/109stats/image/001.png)
+![109stats/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/109stats/image/001.png)
 
 ### 2
 
@@ -6812,7 +6812,7 @@ Numo.gnuplot do
     ["B_slope *", 'x+B_intercept', title:"Linear fit"]
 end
 ```
-![109stats/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/109stats/image/002.png)
+![109stats/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/109stats/image/002.png)
 
 
 ## surfaces 1
@@ -6853,7 +6853,7 @@ Numo.gnuplot do
   splot "x*y"
 end
 ```
-![201surface1/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/001.png)
+![201surface1/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/001.png)
 
 ### 2
 
@@ -6871,7 +6871,7 @@ Numo.gnuplot do
     "x**2-y**2"
 end
 ```
-![201surface1/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/002.png)
+![201surface1/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/002.png)
 
 ### 3
 
@@ -6882,7 +6882,7 @@ Numo.gnuplot do
   replot "x*y"
 end
 ```
-![201surface1/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/003.png)
+![201surface1/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/003.png)
 
 ### 4
 
@@ -6893,7 +6893,7 @@ Numo.gnuplot do
   replot "(x**3+y**3)/10"
 end
 ```
-![201surface1/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/004.png)
+![201surface1/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/004.png)
 
 ### 5
 
@@ -6908,7 +6908,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![201surface1/005](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/005.png)
+![201surface1/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/005.png)
 
 ### 6
 
@@ -6923,7 +6923,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![201surface1/006](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/006.png)
+![201surface1/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/006.png)
 
 ### 7
 
@@ -6938,7 +6938,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![201surface1/007](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/007.png)
+![201surface1/007](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/007.png)
 
 ### 8
 
@@ -6953,7 +6953,7 @@ Numo.gnuplot do
   splot "x*y", with:"points"
 end
 ```
-![201surface1/008](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/008.png)
+![201surface1/008](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/008.png)
 
 ### 9
 
@@ -6976,7 +6976,7 @@ Numo.gnuplot do
     ["x**3*y*2", with:"points"]
 end
 ```
-![201surface1/009](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/009.png)
+![201surface1/009](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/009.png)
 
 ### 10
 
@@ -7001,7 +7001,7 @@ Numo.gnuplot do
     "x**4*y**2 + 2"
 end
 ```
-![201surface1/010](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/010.png)
+![201surface1/010](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/010.png)
 
 ### 11
 
@@ -7030,7 +7030,7 @@ Numo.gnuplot do
   splot "u*v / (u**2 + v**2 + 0.1)"
 end
 ```
-![201surface1/011](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/011.png)
+![201surface1/011](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/011.png)
 
 ### 12
 
@@ -7042,7 +7042,7 @@ Numo.gnuplot do
     "sin(x) * cos(y)"
 end
 ```
-![201surface1/012](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/012.png)
+![201surface1/012](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/012.png)
 
 ### 13
 
@@ -7055,7 +7055,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![201surface1/013](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/013.png)
+![201surface1/013](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/013.png)
 
 ### 14
 
@@ -7077,7 +7077,7 @@ Numo.gnuplot do
     "sinc(u,v)"
 end
 ```
-![201surface1/014](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/014.png)
+![201surface1/014](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/014.png)
 
 ### 15
 
@@ -7099,7 +7099,7 @@ Numo.gnuplot do
     "sinc(u,v)"
 end
 ```
-![201surface1/015](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/015.png)
+![201surface1/015](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/015.png)
 
 ### 16
 
@@ -7203,7 +7203,7 @@ Numo.gnuplot do
     ["(u<0.5) ? -1 : sinc(x9,v)", :notitle]
 end
 ```
-![201surface1/016](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/016.png)
+![201surface1/016](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/016.png)
 
 ### 17
 
@@ -7256,7 +7256,7 @@ Numo.gnuplot do
     ["((floor(u)%3)==0) ? zbase : (((floor(u)%3)==1) ? sinc(xmin+u/3.*dx,v) : 1/0)", :notitle]
 end
 ```
-![201surface1/017](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/017.png)
+![201surface1/017](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/017.png)
 
 ### 18
 
@@ -7284,7 +7284,7 @@ Numo.gnuplot do
     "x**2+y**2"
 end
 ```
-![201surface1/018](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/018.png)
+![201surface1/018](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/018.png)
 
 ### 19
 
@@ -7312,7 +7312,7 @@ Numo.gnuplot do
   splot "\"glass.dat\""
 end
 ```
-![201surface1/019](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/019.png)
+![201surface1/019](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/019.png)
 
 ### 20
 
@@ -7323,7 +7323,7 @@ Numo.gnuplot do
   splot "\"glass.dat\"", using:[3,2,1]
 end
 ```
-![201surface1/020](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/020.png)
+![201surface1/020](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/020.png)
 
 ### 21
 
@@ -7346,7 +7346,7 @@ Numo.gnuplot do
     ["\"glass.dat\"", using:3]
 end
 ```
-![201surface1/021](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/021.png)
+![201surface1/021](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/021.png)
 
 ### 22
 
@@ -7365,7 +7365,7 @@ Numo.gnuplot do
   splot "'glass.dat'", every:"2::0::12", with:"lines"
 end
 ```
-![201surface1/022](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/022.png)
+![201surface1/022](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/022.png)
 
 ### 23
 
@@ -7382,7 +7382,7 @@ Numo.gnuplot do
   splot "'glass.dat'", every:"2::0::12", with:"lines"
 end
 ```
-![201surface1/023](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/023.png)
+![201surface1/023](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/023.png)
 
 ### 24
 
@@ -7403,7 +7403,7 @@ Numo.gnuplot do
   splot "\"glass.dat\""
 end
 ```
-![201surface1/024](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/024.png)
+![201surface1/024](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/024.png)
 
 ### 25
 
@@ -7434,7 +7434,7 @@ Numo.gnuplot do
     "mand({0,0},compl(x,y),30)"
 end
 ```
-![201surface1/025](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/025.png)
+![201surface1/025](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/025.png)
 
 
 ## surfaces 2
@@ -7470,7 +7470,7 @@ Numo.gnuplot do
     "sin(u)"
 end
 ```
-![202surface2/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/202surface2/image/001.png)
+![202surface2/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/202surface2/image/001.png)
 
 ### 2
 
@@ -7485,7 +7485,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![202surface2/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/202surface2/image/002.png)
+![202surface2/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/202surface2/image/002.png)
 
 ### 3
 
@@ -7500,7 +7500,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![202surface2/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/202surface2/image/003.png)
+![202surface2/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/202surface2/image/003.png)
 
 ### 4
 
@@ -7524,7 +7524,7 @@ Numo.gnuplot do
     "0.2*sin(v)"
 end
 ```
-![202surface2/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/202surface2/image/004.png)
+![202surface2/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/202surface2/image/004.png)
 
 ### 5
 
@@ -7551,7 +7551,7 @@ Numo.gnuplot do
     "sin(u)**3"
 end
 ```
-![202surface2/005](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/202surface2/image/005.png)
+![202surface2/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/202surface2/image/005.png)
 
 ### 6
 
@@ -7577,7 +7577,7 @@ Numo.gnuplot do
     "0.1*(sin(v)+u/1.7-10)"
 end
 ```
-![202surface2/006](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/202surface2/image/006.png)
+![202surface2/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/202surface2/image/006.png)
 
 ### 7
 
@@ -7602,7 +7602,7 @@ Numo.gnuplot do
     "sin(u)*u*(1+cos(v)/2)"
 end
 ```
-![202surface2/007](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/202surface2/image/007.png)
+![202surface2/007](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/202surface2/image/007.png)
 
 ### 8
 
@@ -7617,7 +7617,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![202surface2/008](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/202surface2/image/008.png)
+![202surface2/008](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/202surface2/image/008.png)
 
 ### 9
 
@@ -7643,7 +7643,7 @@ Numo.gnuplot do
     ["sin(u)+.5*sin(u)*cos(v)", with:"lines"]
 end
 ```
-![202surface2/009](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/202surface2/image/009.png)
+![202surface2/009](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/202surface2/image/009.png)
 
 
 ## contours
@@ -7674,7 +7674,7 @@ Numo.gnuplot do
   splot "x*y"
 end
 ```
-![203contours/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/001.png)
+![203contours/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/001.png)
 
 ### 2
 
@@ -7689,7 +7689,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![203contours/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/002.png)
+![203contours/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/002.png)
 
 ### 3
 
@@ -7704,7 +7704,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![203contours/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/003.png)
+![203contours/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/003.png)
 
 ### 4
 
@@ -7719,7 +7719,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![203contours/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/004.png)
+![203contours/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/004.png)
 
 ### 5
 
@@ -7736,7 +7736,7 @@ Numo.gnuplot do
   splot "x**2-y**2"
 end
 ```
-![203contours/005](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/005.png)
+![203contours/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/005.png)
 
 ### 6
 
@@ -7751,7 +7751,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![203contours/006](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/006.png)
+![203contours/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/006.png)
 
 ### 7
 
@@ -7766,7 +7766,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![203contours/007](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/007.png)
+![203contours/007](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/007.png)
 
 ### 8
 
@@ -7782,7 +7782,7 @@ Numo.gnuplot do
     "x**3*y**2"
 end
 ```
-![203contours/008](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/008.png)
+![203contours/008](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/008.png)
 
 ### 9
 
@@ -7795,7 +7795,7 @@ Numo.gnuplot do
   splot "x*y / (x**2 + y**2 + 0.1)"
 end
 ```
-![203contours/009](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/009.png)
+![203contours/009](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/009.png)
 
 ### 10
 
@@ -7807,7 +7807,7 @@ Numo.gnuplot do
     "sin(x) * cos(y)"
 end
 ```
-![203contours/010](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/010.png)
+![203contours/010](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/010.png)
 
 ### 11
 
@@ -7820,7 +7820,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![203contours/011](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/011.png)
+![203contours/011](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/011.png)
 
 ### 12
 
@@ -7839,7 +7839,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![203contours/012](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/012.png)
+![203contours/012](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/012.png)
 
 ### 13
 
@@ -7854,7 +7854,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![203contours/013](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/013.png)
+![203contours/013](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/013.png)
 
 ### 14
 
@@ -7869,7 +7869,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![203contours/014](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/014.png)
+![203contours/014](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/014.png)
 
 ### 15
 
@@ -7886,7 +7886,7 @@ Numo.gnuplot do
   splot "x*y"
 end
 ```
-![203contours/015](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/015.png)
+![203contours/015](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/015.png)
 
 ### 16
 
@@ -7903,7 +7903,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![203contours/016](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/016.png)
+![203contours/016](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/016.png)
 
 ### 17
 
@@ -7921,7 +7921,7 @@ Numo.gnuplot do
     "sin(sqrt(x**2+y**2)) / sqrt(x**2+y**2)"
 end
 ```
-![203contours/017](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/017.png)
+![203contours/017](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/017.png)
 
 ### 18
 
@@ -7933,7 +7933,7 @@ Numo.gnuplot do
     "sin(sqrt(x**2+y**2)) / sqrt(x**2+y**2)"
 end
 ```
-![203contours/018](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/018.png)
+![203contours/018](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/018.png)
 
 ### 19
 
@@ -7956,7 +7956,7 @@ Numo.gnuplot do
   splot "\"glass.dat\""
 end
 ```
-![203contours/019](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/019.png)
+![203contours/019](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/019.png)
 
 ### 20
 
@@ -7975,7 +7975,7 @@ Numo.gnuplot do
   splot "\"glass.dat\"", using:1
 end
 ```
-![203contours/020](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/020.png)
+![203contours/020](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/020.png)
 
 ### 21
 
@@ -7992,7 +7992,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![203contours/021](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/021.png)
+![203contours/021](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/021.png)
 
 ### 22
 
@@ -8050,7 +8050,7 @@ Numo.gnuplot do
     "(1-x)**2 + 100*(y - x**2)**2"
 end
 ```
-![203contours/022](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/022.png)
+![203contours/022](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/022.png)
 
 ### 23
 
@@ -8076,7 +8076,7 @@ Numo.gnuplot do
     "(1-x)**2 + 100*(y - x**2)**2"
 end
 ```
-![203contours/023](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/023.png)
+![203contours/023](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/023.png)
 
 ### 24
 
@@ -8097,7 +8097,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![203contours/024](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/024.png)
+![203contours/024](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/024.png)
 
 ### 25
 
@@ -8113,7 +8113,7 @@ Numo.gnuplot do
     "(1-x)**2 + 100*(y - x**2)**2", with:"lines", lc_rgb:"#007700"
 end
 ```
-![203contours/025](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/025.png)
+![203contours/025](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/025.png)
 
 
 ## singularities
@@ -8160,7 +8160,7 @@ Numo.gnuplot do
     "u"
 end
 ```
-![204singulr/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/001.png)
+![204singulr/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/001.png)
 
 ### 2
 
@@ -8175,7 +8175,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![204singulr/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/002.png)
+![204singulr/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/002.png)
 
 ### 3
 
@@ -8196,7 +8196,7 @@ Numo.gnuplot do
     "v"
 end
 ```
-![204singulr/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/003.png)
+![204singulr/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/003.png)
 
 ### 4
 
@@ -8211,7 +8211,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![204singulr/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/004.png)
+![204singulr/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/004.png)
 
 ### 5
 
@@ -8232,7 +8232,7 @@ Numo.gnuplot do
     "u"
 end
 ```
-![204singulr/005](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/005.png)
+![204singulr/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/005.png)
 
 ### 6
 
@@ -8247,7 +8247,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![204singulr/006](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/006.png)
+![204singulr/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/006.png)
 
 ### 7
 
@@ -8268,7 +8268,7 @@ Numo.gnuplot do
     "v"
 end
 ```
-![204singulr/007](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/007.png)
+![204singulr/007](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/007.png)
 
 ### 8
 
@@ -8283,7 +8283,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![204singulr/008](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/008.png)
+![204singulr/008](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/008.png)
 
 ### 9
 
@@ -8306,7 +8306,7 @@ Numo.gnuplot do
     "u"
 end
 ```
-![204singulr/009](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/009.png)
+![204singulr/009](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/009.png)
 
 ### 10
 
@@ -8321,7 +8321,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![204singulr/010](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/010.png)
+![204singulr/010](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/010.png)
 
 ### 11
 
@@ -8342,7 +8342,7 @@ Numo.gnuplot do
     "v"
 end
 ```
-![204singulr/011](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/011.png)
+![204singulr/011](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/011.png)
 
 ### 12
 
@@ -8357,7 +8357,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![204singulr/012](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/012.png)
+![204singulr/012](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/012.png)
 
 ### 13
 
@@ -8380,7 +8380,7 @@ Numo.gnuplot do
     "u**2-v**2"
 end
 ```
-![204singulr/013](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/013.png)
+![204singulr/013](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/013.png)
 
 ### 14
 
@@ -8395,7 +8395,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![204singulr/014](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/014.png)
+![204singulr/014](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/014.png)
 
 ### 15
 
@@ -8418,7 +8418,7 @@ Numo.gnuplot do
     "v*cos(u/2)"
 end
 ```
-![204singulr/015](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/015.png)
+![204singulr/015](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/015.png)
 
 ### 16
 
@@ -8433,7 +8433,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![204singulr/016](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/016.png)
+![204singulr/016](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/016.png)
 
 ### 17
 
@@ -8466,7 +8466,7 @@ Numo.gnuplot do
     "2*sin(u)*sin(v/2)+sin(2*u)*cos(v/2)"
 end
 ```
-![204singulr/017](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/017.png)
+![204singulr/017](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/017.png)
 
 ### 18
 
@@ -8487,7 +8487,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![204singulr/018](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/018.png)
+![204singulr/018](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/018.png)
 
 ### 19
 
@@ -8514,7 +8514,7 @@ Numo.gnuplot do
   splot "\"klein.dat\""
 end
 ```
-![204singulr/019](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/019.png)
+![204singulr/019](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/019.png)
 
 ### 20
 
@@ -8531,7 +8531,7 @@ Numo.gnuplot do
   splot "\"klein.dat\""
 end
 ```
-![204singulr/020](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/020.png)
+![204singulr/020](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/020.png)
 
 
 ## hidden surfaces
@@ -8559,7 +8559,7 @@ Numo.gnuplot do
   splot "1 / (x*x + y*y + 1)"
 end
 ```
-![205hidden/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/205hidden/image/001.png)
+![205hidden/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/205hidden/image/001.png)
 
 ### 2
 
@@ -8574,7 +8574,7 @@ Numo.gnuplot do
   splot "x*y / (x**2 + y**2 + 0.1)"
 end
 ```
-![205hidden/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/205hidden/image/002.png)
+![205hidden/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/205hidden/image/002.png)
 
 ### 3
 
@@ -8593,7 +8593,7 @@ Numo.gnuplot do
   splot "sin(x*x + y*y) / (x*x + y*y)"
 end
 ```
-![205hidden/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/205hidden/image/003.png)
+![205hidden/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/205hidden/image/003.png)
 
 ### 4
 
@@ -8618,7 +8618,7 @@ Numo.gnuplot do
   splot "sin(x) * cos(y)"
 end
 ```
-![205hidden/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/205hidden/image/004.png)
+![205hidden/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/205hidden/image/004.png)
 
 ### 5
 
@@ -8639,7 +8639,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![205hidden/005](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/205hidden/image/005.png)
+![205hidden/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/205hidden/image/005.png)
 
 ### 6
 
@@ -8659,7 +8659,7 @@ Numo.gnuplot do
   splot "\"glass.dat\"", using:1
 end
 ```
-![205hidden/006](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/205hidden/image/006.png)
+![205hidden/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/205hidden/image/006.png)
 
 ### 7
 
@@ -8674,7 +8674,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![205hidden/007](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/205hidden/image/007.png)
+![205hidden/007](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/205hidden/image/007.png)
 
 
 ## pm3d coloring
@@ -8740,7 +8740,7 @@ Numo.gnuplot do
   splot "sin(sqrt(x**2+y**2))/sqrt(x**2+y**2)"
 end
 ```
-![206pm3d/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/001.png)
+![206pm3d/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/001.png)
 
 ### 2
 
@@ -8759,7 +8759,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![206pm3d/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/002.png)
+![206pm3d/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/002.png)
 
 ### 3
 
@@ -8774,7 +8774,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![206pm3d/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/003.png)
+![206pm3d/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/003.png)
 
 ### 4
 
@@ -8791,7 +8791,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![206pm3d/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/004.png)
+![206pm3d/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/004.png)
 
 ### 5
 
@@ -8811,7 +8811,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![206pm3d/005](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/005.png)
+![206pm3d/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/005.png)
 
 ### 6
 
@@ -8830,7 +8830,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![206pm3d/006](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/006.png)
+![206pm3d/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/006.png)
 
 ### 7
 
@@ -8847,7 +8847,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![206pm3d/007](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/007.png)
+![206pm3d/007](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/007.png)
 
 ### 8
 
@@ -8866,7 +8866,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![206pm3d/008](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/008.png)
+![206pm3d/008](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/008.png)
 
 ### 9
 
@@ -8881,7 +8881,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![206pm3d/009](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/009.png)
+![206pm3d/009](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/009.png)
 
 ### 10
 
@@ -8896,7 +8896,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![206pm3d/010](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/010.png)
+![206pm3d/010](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/010.png)
 
 ### 11
 
@@ -8911,7 +8911,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![206pm3d/011](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/011.png)
+![206pm3d/011](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/011.png)
 
 ### 12
 
@@ -8926,7 +8926,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![206pm3d/012](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/012.png)
+![206pm3d/012](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/012.png)
 
 ### 13
 
@@ -8944,7 +8944,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![206pm3d/013](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/013.png)
+![206pm3d/013](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/013.png)
 
 ### 14
 
@@ -8977,7 +8977,7 @@ Numo.gnuplot do
   splot "sin(sqrt(x**2+y**2))/sqrt(x**2+y**2)"
 end
 ```
-![206pm3d/014](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/014.png)
+![206pm3d/014](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/014.png)
 
 ### 15
 
@@ -8996,7 +8996,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![206pm3d/015](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/015.png)
+![206pm3d/015](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/015.png)
 
 ### 16
 
@@ -9023,7 +9023,7 @@ Numo.gnuplot do
   splot "log(x*x*y*y)"
 end
 ```
-![206pm3d/016](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/016.png)
+![206pm3d/016](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/016.png)
 
 ### 17
 
@@ -9059,7 +9059,7 @@ Numo.gnuplot do
   splot "log(x*x*y*y)"
 end
 ```
-![206pm3d/017](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/017.png)
+![206pm3d/017](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/017.png)
 
 ### 18
 
@@ -9087,7 +9087,7 @@ Numo.gnuplot do
   splot "log(x*x*y*y)"
 end
 ```
-![206pm3d/018](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/018.png)
+![206pm3d/018](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/018.png)
 
 ### 19
 
@@ -9106,7 +9106,7 @@ Numo.gnuplot do
   splot "log(x*x*y*y)"
 end
 ```
-![206pm3d/019](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/019.png)
+![206pm3d/019](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/019.png)
 
 ### 20
 
@@ -9134,7 +9134,7 @@ Numo.gnuplot do
   splot "y"
 end
 ```
-![206pm3d/020](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/020.png)
+![206pm3d/020](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/020.png)
 
 ### 21
 
@@ -9159,7 +9159,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![206pm3d/021](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/021.png)
+![206pm3d/021](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/021.png)
 
 ### 22
 
@@ -9177,7 +9177,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![206pm3d/022](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/022.png)
+![206pm3d/022](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/022.png)
 
 ### 23
 
@@ -9198,7 +9198,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![206pm3d/023](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/023.png)
+![206pm3d/023](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/023.png)
 
 ### 24
 
@@ -9235,7 +9235,7 @@ Numo.gnuplot do
   splot "'triangle.dat'"
 end
 ```
-![206pm3d/024](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/024.png)
+![206pm3d/024](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/024.png)
 
 ### 25
 
@@ -9252,7 +9252,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![206pm3d/025](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/025.png)
+![206pm3d/025](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/025.png)
 
 ### 26
 
@@ -9267,7 +9267,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![206pm3d/026](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/026.png)
+![206pm3d/026](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/026.png)
 
 ### 27
 
@@ -9287,7 +9287,7 @@ Numo.gnuplot do
   splot "'triangle.dat'"
 end
 ```
-![206pm3d/027](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/027.png)
+![206pm3d/027](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/027.png)
 
 ### 28
 
@@ -9304,7 +9304,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![206pm3d/028](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/028.png)
+![206pm3d/028](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/028.png)
 
 ### 29
 
@@ -9319,7 +9319,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![206pm3d/029](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/029.png)
+![206pm3d/029](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/029.png)
 
 ### 30
 
@@ -9334,7 +9334,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![206pm3d/030](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/030.png)
+![206pm3d/030](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/030.png)
 
 ### 31
 
@@ -9349,7 +9349,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![206pm3d/031](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/031.png)
+![206pm3d/031](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/031.png)
 
 ### 32
 
@@ -9366,7 +9366,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![206pm3d/032](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/032.png)
+![206pm3d/032](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/032.png)
 
 ### 33
 
@@ -9404,7 +9404,7 @@ Numo.gnuplot do
   splot "abs(x)**3+abs(y)**3"
 end
 ```
-![206pm3d/033](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/033.png)
+![206pm3d/033](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/033.png)
 
 ### 34
 
@@ -9426,7 +9426,7 @@ Numo.gnuplot do
   splot "x+y"
 end
 ```
-![206pm3d/034](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/034.png)
+![206pm3d/034](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/034.png)
 
 ### 35
 
@@ -9443,7 +9443,7 @@ Numo.gnuplot do
   splot "x+y"
 end
 ```
-![206pm3d/035](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/035.png)
+![206pm3d/035](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/035.png)
 
 ### 36
 
@@ -9476,7 +9476,7 @@ Numo.gnuplot do
   splot "sin(y)/(y)", w:"lines", palette:true
 end
 ```
-![206pm3d/036](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/036.png)
+![206pm3d/036](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/036.png)
 
 ### 37
 
@@ -9499,7 +9499,7 @@ Numo.gnuplot do
   splot "'clip14in.dat'"
 end
 ```
-![206pm3d/037](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/037.png)
+![206pm3d/037](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/037.png)
 
 ### 38
 
@@ -9518,7 +9518,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![206pm3d/038](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/038.png)
+![206pm3d/038](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/038.png)
 
 ### 39
 
@@ -9533,7 +9533,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![206pm3d/039](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/039.png)
+![206pm3d/039](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/039.png)
 
 ### 40
 
@@ -9568,7 +9568,7 @@ Numo.gnuplot do
     ["1+sinc(x*4, y*4)", w:"l"]
 end
 ```
-![206pm3d/040](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/040.png)
+![206pm3d/040](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/040.png)
 
 ### 41
 
@@ -9588,7 +9588,7 @@ Numo.gnuplot do
     ["'binary2'", :binary, u:'1:2:(column(3) * 10 - 12)', notitle:true, w:"pm3d"]
 end
 ```
-![206pm3d/041](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/041.png)
+![206pm3d/041](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/041.png)
 
 ### 42
 
@@ -9728,7 +9728,7 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![206pm3d/042](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/042.png)
+![206pm3d/042](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/042.png)
 
 
 ## pm3d hidden surfaces
@@ -9774,7 +9774,7 @@ Numo.gnuplot do
     ["x*x-y*y", with:"lines", lc_rgb:"black"]
 end
 ```
-![207hidden2/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/207hidden2/image/001.png)
+![207hidden2/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/207hidden2/image/001.png)
 
 ### 2
 
@@ -9860,7 +9860,7 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![207hidden2/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/207hidden2/image/002.png)
+![207hidden2/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/207hidden2/image/002.png)
 
 
 ## 3D mapping
@@ -9922,7 +9922,7 @@ Numo.gnuplot do
     ["0", font:"Helvetica,7", tc_pal:true]
 end
 ```
-![208world2/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/208world2/image/001.png)
+![208world2/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/208world2/image/001.png)
 
 ### 2
 
@@ -9937,7 +9937,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![208world2/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/208world2/image/002.png)
+![208world2/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/208world2/image/002.png)
 
 
 ## polar coords
@@ -9976,7 +9976,7 @@ Numo.gnuplot do
     "1.5"
 end
 ```
-![301polar/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/301polar/image/001.png)
+![301polar/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/301polar/image/001.png)
 
 ### 2
 
@@ -9992,7 +9992,7 @@ Numo.gnuplot do
   plot "cos(2*t)"
 end
 ```
-![301polar/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/301polar/image/002.png)
+![301polar/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/301polar/image/002.png)
 
 ### 3
 
@@ -10004,7 +10004,7 @@ Numo.gnuplot do
     "-2*sqrt(cos(t))"
 end
 ```
-![301polar/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/301polar/image/003.png)
+![301polar/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/301polar/image/003.png)
 
 ### 4
 
@@ -10016,7 +10016,7 @@ Numo.gnuplot do
     "cos(4*t)"
 end
 ```
-![301polar/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/301polar/image/004.png)
+![301polar/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/301polar/image/004.png)
 
 ### 5
 
@@ -10034,7 +10034,7 @@ Numo.gnuplot do
   plot "t/cos(3*t)"
 end
 ```
-![301polar/005](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/301polar/image/005.png)
+![301polar/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/301polar/image/005.png)
 
 ### 6
 
@@ -10048,7 +10048,7 @@ Numo.gnuplot do
   plot "1-sin(t)"
 end
 ```
-![301polar/006](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/301polar/image/006.png)
+![301polar/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/301polar/image/006.png)
 
 ### 7
 
@@ -10061,7 +10061,7 @@ Numo.gnuplot do
   plot "2*t"
 end
 ```
-![301polar/007](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/301polar/image/007.png)
+![301polar/007](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/301polar/image/007.png)
 
 ### 8
 
@@ -10080,7 +10080,7 @@ Numo.gnuplot do
   plot "butterfly(t)"
 end
 ```
-![301polar/008](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/301polar/image/008.png)
+![301polar/008](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/301polar/image/008.png)
 
 ### 9
 
@@ -10117,7 +10117,7 @@ Numo.gnuplot do
     ["3.+sin(t)*cos(5*t)", with:"line"]
 end
 ```
-![301polar/009](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/301polar/image/009.png)
+![301polar/009](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/301polar/image/009.png)
 
 
 ## polar data
@@ -10206,7 +10206,7 @@ Numo.gnuplot do
     "tv(t,0)"
 end
 ```
-![302poldat/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/302poldat/image/001.png)
+![302poldat/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/302poldat/image/001.png)
 
 ### 2
 
@@ -11167,7 +11167,7 @@ EOL
   reset
 end
 ```
-![302poldat/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/302poldat/image/002.png)
+![302poldat/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/302poldat/image/002.png)
 
 ### 3
 
@@ -11207,7 +11207,7 @@ Numo.gnuplot do
   plot "'silver.dat'", using:'($1/100.):3:0', lc:"var", lw:2, title:'silver.dat'
 end
 ```
-![302poldat/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/302poldat/image/003.png)
+![302poldat/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/302poldat/image/003.png)
 
 
 ## cylindrical/spherical
@@ -11237,7 +11237,7 @@ Numo.gnuplot do
     ["'world.cor'", with:"points", lt:1, pt:2]
 end
 ```
-![303world/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/303world/image/001.png)
+![303world/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/303world/image/001.png)
 
 ### 2
 
@@ -11299,7 +11299,7 @@ Numo.gnuplot do
     ["'world.cor'", with:"points", lt:1, pt:2]
 end
 ```
-![303world/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/303world/image/002.png)
+![303world/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/303world/image/002.png)
 
 ### 3
 
@@ -11328,7 +11328,7 @@ Numo.gnuplot do
     ["'world.cor'", with:"points", lt:1, pt:2]
 end
 ```
-![303world/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/303world/image/003.png)
+![303world/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/303world/image/003.png)
 
 ### 4
 
@@ -11367,7 +11367,7 @@ Numo.gnuplot do
     ["'world.cor'", with:"points", lt:1, pt:2]
 end
 ```
-![303world/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/303world/image/004.png)
+![303world/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/303world/image/004.png)
 
 
 ## time/date coords
@@ -11410,7 +11410,7 @@ Numo.gnuplot do
     ["'timedat.dat'", using:[1,4], t:'PO4', with:"points"]
 end
 ```
-![304timedat/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/304timedat/image/001.png)
+![304timedat/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/304timedat/image/001.png)
 
 ### 2
 
@@ -11460,7 +11460,7 @@ EOL
   reset
 end
 ```
-![304timedat/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/304timedat/image/002.png)
+![304timedat/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/304timedat/image/002.png)
 
 
 ## binary data
@@ -11490,7 +11490,7 @@ Numo.gnuplot do
   splot "\"binary1\"", :binary
 end
 ```
-![401binary/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/401binary/image/001.png)
+![401binary/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/401binary/image/001.png)
 
 ### 2
 
@@ -11507,7 +11507,7 @@ Numo.gnuplot do
   splot "\"binary2\"", :binary
 end
 ```
-![401binary/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/401binary/image/002.png)
+![401binary/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/401binary/image/002.png)
 
 ### 3
 
@@ -11526,7 +11526,7 @@ Numo.gnuplot do
   splot "\"binary3\"", :binary
 end
 ```
-![401binary/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/401binary/image/003.png)
+![401binary/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/401binary/image/003.png)
 
 
 ## image data
@@ -11581,7 +11581,7 @@ Numo.gnuplot do
   plot "'blutux.rgb'", binary:'array=(128,128) flipy format="%uchar"', with:"rgbimage"
 end
 ```
-![402image/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/402image/image/001.png)
+![402image/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/402image/image/001.png)
 
 ### 2
 
@@ -11628,7 +11628,7 @@ Numo.gnuplot do
     ["'blutux.rgb'", binary:'array=(128,128) flip=y rot=0.5pi center=(64,64) format="%uchar"', using:[1,2,3], with:"rgbimage"]
 end
 ```
-![402image/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/402image/image/002.png)
+![402image/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/402image/image/002.png)
 
 ### 3
 
@@ -11665,7 +11665,7 @@ Numo.gnuplot do
   plot "'blutux.rgb'", binary:'array=(128,128) flipy format="%uchar%uchar%uchar"', using:'($1+$2+$3)', with:"image"
 end
 ```
-![402image/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/402image/image/003.png)
+![402image/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/402image/image/003.png)
 
 ### 4
 
@@ -11707,7 +11707,7 @@ Numo.gnuplot do
   plot "'blutux.rgb'", binary:'array=(128,128) flipy format="%uchar%uchar%uchar"', using:'($1+$2+$3)/3', with:"image"
 end
 ```
-![402image/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/402image/image/004.png)
+![402image/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/402image/image/004.png)
 
 ### 5
 
@@ -11752,7 +11752,7 @@ Numo.gnuplot do
   splot "'blutux.rgb'", binary:'array=(128,128) flipy format="%uchar%uchar%uchar"', using:'($1+$2+$3)/3', with:"image"
 end
 ```
-![402image/005](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/402image/image/005.png)
+![402image/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/402image/image/005.png)
 
 ### 6
 
@@ -11795,7 +11795,7 @@ Numo.gnuplot do
   plot "'blutux.rgb'", binary:'array=(128,128) dx=0.70711 dy=0.70711 flipy rotation=45d center=(63.5,63.5) format="%uchar"', using:'($1+$2+$3)/3', with:"image"
 end
 ```
-![402image/006](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/402image/image/006.png)
+![402image/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/402image/image/006.png)
 
 ### 7
 
@@ -11831,7 +11831,7 @@ Numo.gnuplot do
   plot "'blutux.rgb'", binary:'array=(128,128) dx=1 flip=y rotation=0.5pi origin=(0,0) format="%uchar"', using:'($1+$2+$3)/3', with:"image"
 end
 ```
-![402image/007](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/402image/image/007.png)
+![402image/007](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/402image/image/007.png)
 
 ### 8
 
@@ -11903,7 +11903,7 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![402image/008](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/402image/image/008.png)
+![402image/008](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/402image/image/008.png)
 
 ### 9
 
@@ -12005,7 +12005,7 @@ EOL
   unset :multiplot
 end
 ```
-![402image/009](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/402image/image/009.png)
+![402image/009](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/402image/image/009.png)
 
 
 ## binary and image tricks
@@ -12060,7 +12060,7 @@ Numo.gnuplot do
     ["'using.bin'", binary:'format="%*int32%int8%*int16%int8%*int16%*int16"', using:[1,2], title:"Logged in", with:"points"]
 end
 ```
-![403image2/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/001.png)
+![403image2/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/001.png)
 
 ### 2
 
@@ -12090,7 +12090,7 @@ Numo.gnuplot do
     ["'using.bin'", binary:'format="%*int32%*int8%int16%*int8%*int16%int16"', using:'($1/100):($2/100)', t:"%CPU used", with:"lines"]
 end
 ```
-![403image2/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/002.png)
+![403image2/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/002.png)
 
 ### 3
 
@@ -12120,7 +12120,7 @@ Numo.gnuplot do
   splot "'scatter2.bin'", binary:'endian=little record=30:30:29:26', using:[1,2,3]
 end
 ```
-![403image2/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/003.png)
+![403image2/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/003.png)
 
 ### 4
 
@@ -12204,7 +12204,7 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![403image2/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/004.png)
+![403image2/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/004.png)
 
 ### 5
 
@@ -12259,7 +12259,7 @@ EOL
   reset
 end
 ```
-![403image2/005](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/005.png)
+![403image2/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/005.png)
 
 ### 6
 
@@ -12286,7 +12286,7 @@ Numo.gnuplot do
   splot "'blutux.rgb'", binary:'array=(128,128) flip=y format="%uchar%uchar%uchar"', using:'($1+$2+$3)/3', with:"image"
 end
 ```
-![403image2/006](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/006.png)
+![403image2/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/006.png)
 
 ### 7
 
@@ -12309,7 +12309,7 @@ Numo.gnuplot do
   splot "'blutux.rgb'", binary:'array=(128,128) flipy rotate=90d center = (63.5,63.5,50) format="%uchar%uchar%uchar"', using:'($1+$2+$3)', with:"image"
 end
 ```
-![403image2/007](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/007.png)
+![403image2/007](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/007.png)
 
 ### 8
 
@@ -12352,7 +12352,7 @@ Numo.gnuplot do
   splot "'blutux.rgb'", binary:'array=(128,128) flipy rot=1.0pi center = (63.5,63.5,50) perp=(1,1,1) format="%uchar%uchar%uchar"', using:'($1+$2+$3)/3', with:"image"
 end
 ```
-![403image2/008](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/008.png)
+![403image2/008](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/008.png)
 
 ### 9
 
@@ -12421,7 +12421,7 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![403image2/009](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/009.png)
+![403image2/009](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/009.png)
 
 ### 10
 
@@ -12450,7 +12450,7 @@ Numo.gnuplot do
   splot "'scatter2.bin'", binary:'endian=little record=30:30:29:26 origin=(25,0,0):(50,0,0):(75,0,0):(100,0,0) format="%f%f"', using:'(0):2:3'
 end
 ```
-![403image2/010](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/010.png)
+![403image2/010](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/010.png)
 
 ### 11
 
@@ -12479,7 +12479,7 @@ Numo.gnuplot do
   splot "'scatter2.bin'", binary:'endian=little record=30:26 skip=360:348 origin=(50,0,0):(100,0,0) format="%f%f"', using:'(0):2:3'
 end
 ```
-![403image2/011](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/011.png)
+![403image2/011](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/011.png)
 
 ### 12
 
@@ -12516,7 +12516,7 @@ Numo.gnuplot do
   plot "'sine.bin'", binary:'endian=little array=201 dt=0.018326 origin=(0,0) format="%f"', using:1, with:"lines"
 end
 ```
-![403image2/012](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/012.png)
+![403image2/012](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/012.png)
 
 ### 13
 
@@ -12564,7 +12564,7 @@ Numo.gnuplot do
     ["\"binary3\"", binary:'center=(1.5,10.5,0) rotate=1.5pi', u:[1,2,3]]
 end
 ```
-![403image2/013](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/013.png)
+![403image2/013](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/013.png)
 
 ### 14
 
@@ -12602,7 +12602,7 @@ Numo.gnuplot do
   splot "\"binary2\"", :binary
 end
 ```
-![403image2/014](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/014.png)
+![403image2/014](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/014.png)
 
 ### 15
 
@@ -12615,7 +12615,7 @@ Numo.gnuplot do
   splot "\"binary2\"", :binary, every:2
 end
 ```
-![403image2/015](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/015.png)
+![403image2/015](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/015.png)
 
 ### 16
 
@@ -12628,7 +12628,7 @@ Numo.gnuplot do
   splot "\"binary2\"", :binary, every:":3"
 end
 ```
-![403image2/016](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/016.png)
+![403image2/016](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/016.png)
 
 ### 17
 
@@ -12641,7 +12641,7 @@ Numo.gnuplot do
   splot "\"binary2\"", :binary, every:[4,4]
 end
 ```
-![403image2/017](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/017.png)
+![403image2/017](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/017.png)
 
 ### 18
 
@@ -12667,7 +12667,7 @@ Numo.gnuplot do
   plot "'blutux.rgb'", binary:'array=(128,128) flipy format="%uchar"', every:[1,1,43,15,83,65], with:"rgbimage"
 end
 ```
-![403image2/018](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/018.png)
+![403image2/018](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/018.png)
 
 ### 19
 
@@ -12686,7 +12686,7 @@ Numo.gnuplot do
   plot "'blutux.rgb'", binary:'array=(128,128) flipy format="%uchar"', every:[8,8], with:"rgbimage"
 end
 ```
-![403image2/019](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/019.png)
+![403image2/019](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/019.png)
 
 ### 20
 
@@ -12718,7 +12718,7 @@ Numo.gnuplot do
   plot "'demo.edf'", binary:'filetype=auto', with:"image"
 end
 ```
-![403image2/020](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/020.png)
+![403image2/020](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/020.png)
 
 ### 21
 
@@ -12814,7 +12814,7 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![403image2/021](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/021.png)
+![403image2/021](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/021.png)
 
 ### 22
 
@@ -12926,7 +12926,7 @@ EOL
   unset :multiplot
 end
 ```
-![403image2/022](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/022.png)
+![403image2/022](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/022.png)
 
 ### 23
 
@@ -13042,7 +13042,7 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![403image2/023](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/023.png)
+![403image2/023](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/023.png)
 
 ### 24
 
@@ -13089,7 +13089,7 @@ Numo.gnuplot do
     ["'blutux.rgb'", binary:'array=(128,128) flipy rot=90d origin=(+137,+137,0) perp=(0,1,0) format="%uchar"', with:"rgbimage"]
 end
 ```
-![403image2/024](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/024.png)
+![403image2/024](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/024.png)
 
 
 ## RGB + alpha channel
@@ -13137,7 +13137,7 @@ Numo.gnuplot do
     ["'lena.rgb'", binary:'array=(128,128) format="%uchar" flipy', using:'1:2:3:(2.*column(0))', with:"rgbalpha", title:"Lena with linear\nalpha gradient"]
 end
 ```
-![404rgbalpha/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/404rgbalpha/image/001.png)
+![404rgbalpha/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/404rgbalpha/image/001.png)
 
 ### 2
 
@@ -13156,7 +13156,7 @@ Numo.gnuplot do
     ["'lena.rgb'", binary:'array=(128,128) format="%uchar" flipy', using:'1:2:3:(focus(70,50))', with:"rgbalpha", title:"Lena with circular mask"]
 end
 ```
-![404rgbalpha/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/404rgbalpha/image/002.png)
+![404rgbalpha/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/404rgbalpha/image/002.png)
 
 
 ## bar chart art
@@ -13208,7 +13208,7 @@ Numo.gnuplot do
     ["'bldg.png'", binary:'filetype=png origin=(125,0) dx=0.5 dy=0.35', with:"rgbimage"]
 end
 ```
-![405barchart_art/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/405barchart_art/image/001.png)
+![405barchart_art/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/405barchart_art/image/001.png)
 
 
 ## user-defined colors
@@ -13307,7 +13307,7 @@ Numo.gnuplot do
     ["cos(x-1.2)", ls:7, title:'violet']
 end
 ```
-![501rainbow/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/501rainbow/image/001.png)
+![501rainbow/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/501rainbow/image/001.png)
 
 ### 2
 
@@ -13368,7 +13368,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![501rainbow/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/501rainbow/image/002.png)
+![501rainbow/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/501rainbow/image/002.png)
 
 
 ## RGB coloring
@@ -13414,7 +13414,7 @@ Numo.gnuplot do
   plot "'rgb_variable.dat'", using:'(xrgb($1,$2,$3)):(yrgb($1,$2,$3)):(rgb($1,$2,$3))', with:"points", pt:7, ps:4, lc_rgb:"variable", notitle:true
 end
 ```
-![502rgb_variable/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/502rgb_variable/image/001.png)
+![502rgb_variable/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/502rgb_variable/image/001.png)
 
 ### 2
 
@@ -13428,7 +13428,7 @@ Numo.gnuplot do
   plot "'rgb_variable.dat'", using:'(xrgb($1,$2,$3)):(yrgb($1,$2,$3)):(1.+2.*rand(0)):(rgb($1,$2,$3))', with:"points", pt:7, ps:"var", lc_rgb:"variable", notitle:true
 end
 ```
-![502rgb_variable/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/502rgb_variable/image/002.png)
+![502rgb_variable/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/502rgb_variable/image/002.png)
 
 ### 3
 
@@ -13473,7 +13473,7 @@ Numo.gnuplot do
     ["''", using:'1:2:3:(sprintf("0x%x",rgb($1,$2,$3)))', with:"labels", left:true, offset:1, notitle:true]
 end
 ```
-![502rgb_variable/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/502rgb_variable/image/003.png)
+![502rgb_variable/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/502rgb_variable/image/003.png)
 
 ### 4
 
@@ -13491,7 +13491,7 @@ Numo.gnuplot do
   splot "'rgb_variable.dat'", using:'1:2:3:(5*rand(0)):4', with:"points", pt:7, ps:"variable", lc_rgb:"variable", title:"variable pointsize and rgb color read as hexidecimal"
 end
 ```
-![502rgb_variable/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/502rgb_variable/image/004.png)
+![502rgb_variable/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/502rgb_variable/image/004.png)
 
 ### 5
 
@@ -13523,7 +13523,7 @@ Numo.gnuplot do
   splot "'rgb_variable.dat'", using:'1:2:3:(5*rand(0)):(rgb($1,$2,$3))', with:"points", pt:7, ps:"variable", lc_rgb:"variable", title:"variable pointsize and rgb color computed from coords"
 end
 ```
-![502rgb_variable/005](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/502rgb_variable/image/005.png)
+![502rgb_variable/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/502rgb_variable/image/005.png)
 
 ### 6
 
@@ -13538,7 +13538,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![502rgb_variable/006](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/502rgb_variable/image/006.png)
+![502rgb_variable/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/502rgb_variable/image/006.png)
 
 
 ## pm3d colors
@@ -13590,7 +13590,7 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![503pm3dcolors/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/001.png)
+![503pm3dcolors/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/001.png)
 
 ### 2
 
@@ -13644,7 +13644,7 @@ Numo.gnuplot do
   splot "f(x)"
 end
 ```
-![503pm3dcolors/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/002.png)
+![503pm3dcolors/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/002.png)
 
 ### 3
 
@@ -13659,7 +13659,7 @@ Numo.gnuplot do
   splot "f(x)"
 end
 ```
-![503pm3dcolors/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/003.png)
+![503pm3dcolors/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/003.png)
 
 ### 4
 
@@ -13674,7 +13674,7 @@ Numo.gnuplot do
   splot "f(x)"
 end
 ```
-![503pm3dcolors/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/004.png)
+![503pm3dcolors/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/004.png)
 
 ### 5
 
@@ -13689,7 +13689,7 @@ Numo.gnuplot do
   splot "f(x)"
 end
 ```
-![503pm3dcolors/005](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/005.png)
+![503pm3dcolors/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/005.png)
 
 ### 6
 
@@ -13704,7 +13704,7 @@ Numo.gnuplot do
   splot "f(x)"
 end
 ```
-![503pm3dcolors/006](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/006.png)
+![503pm3dcolors/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/006.png)
 
 ### 7
 
@@ -13719,7 +13719,7 @@ Numo.gnuplot do
   splot "f(x)"
 end
 ```
-![503pm3dcolors/007](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/007.png)
+![503pm3dcolors/007](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/007.png)
 
 ### 8
 
@@ -13736,7 +13736,7 @@ Numo.gnuplot do
   splot "f(x)"
 end
 ```
-![503pm3dcolors/008](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/008.png)
+![503pm3dcolors/008](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/008.png)
 
 ### 9
 
@@ -13768,7 +13768,7 @@ EOL
   splot "f(x)"
 end
 ```
-![503pm3dcolors/009](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/009.png)
+![503pm3dcolors/009](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/009.png)
 
 ### 10
 
@@ -13797,7 +13797,7 @@ EOL
   splot "f(x)"
 end
 ```
-![503pm3dcolors/010](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/010.png)
+![503pm3dcolors/010](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/010.png)
 
 ### 11
 
@@ -13824,7 +13824,7 @@ EOL
   splot "f(x)"
 end
 ```
-![503pm3dcolors/011](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/011.png)
+![503pm3dcolors/011](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/011.png)
 
 ### 12
 
@@ -13861,7 +13861,7 @@ Numo.gnuplot do
   splot "f(x)"
 end
 ```
-![503pm3dcolors/012](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/012.png)
+![503pm3dcolors/012](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/012.png)
 
 ### 13
 
@@ -13876,7 +13876,7 @@ Numo.gnuplot do
   splot "f(x)"
 end
 ```
-![503pm3dcolors/013](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/013.png)
+![503pm3dcolors/013](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/013.png)
 
 ### 14
 
@@ -13891,7 +13891,7 @@ Numo.gnuplot do
   splot "f(x)"
 end
 ```
-![503pm3dcolors/014](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/014.png)
+![503pm3dcolors/014](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/014.png)
 
 ### 15
 
@@ -13906,7 +13906,7 @@ Numo.gnuplot do
   splot "f(x)"
 end
 ```
-![503pm3dcolors/015](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/015.png)
+![503pm3dcolors/015](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/015.png)
 
 ### 16
 
@@ -13921,7 +13921,7 @@ Numo.gnuplot do
   splot "f(x)"
 end
 ```
-![503pm3dcolors/016](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/016.png)
+![503pm3dcolors/016](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/016.png)
 
 ### 17
 
@@ -13936,7 +13936,7 @@ Numo.gnuplot do
   splot "f(x)"
 end
 ```
-![503pm3dcolors/017](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/017.png)
+![503pm3dcolors/017](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/017.png)
 
 ### 18
 
@@ -13977,7 +13977,7 @@ Numo.gnuplot do
   splot "f(x)"
 end
 ```
-![503pm3dcolors/018](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/018.png)
+![503pm3dcolors/018](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/018.png)
 
 ### 19
 
@@ -13992,7 +13992,7 @@ Numo.gnuplot do
   splot "f(x)"
 end
 ```
-![503pm3dcolors/019](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/019.png)
+![503pm3dcolors/019](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/019.png)
 
 ### 20
 
@@ -14007,7 +14007,7 @@ Numo.gnuplot do
   splot "f(x)"
 end
 ```
-![503pm3dcolors/020](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/020.png)
+![503pm3dcolors/020](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/020.png)
 
 ### 21
 
@@ -14022,7 +14022,7 @@ Numo.gnuplot do
   splot "f(x)"
 end
 ```
-![503pm3dcolors/021](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/021.png)
+![503pm3dcolors/021](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/021.png)
 
 ### 22
 
@@ -14045,7 +14045,7 @@ Numo.gnuplot do
   splot "f(x)"
 end
 ```
-![503pm3dcolors/022](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/022.png)
+![503pm3dcolors/022](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/022.png)
 
 
 ## pm3d gamma
@@ -14089,7 +14089,7 @@ Numo.gnuplot do
   splot "x"
 end
 ```
-![504pm3dgamma/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/504pm3dgamma/image/001.png)
+![504pm3dgamma/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/504pm3dgamma/image/001.png)
 
 ### 2
 
@@ -14104,7 +14104,7 @@ Numo.gnuplot do
   splot "x"
 end
 ```
-![504pm3dgamma/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/504pm3dgamma/image/002.png)
+![504pm3dgamma/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/504pm3dgamma/image/002.png)
 
 ### 3
 
@@ -14119,7 +14119,7 @@ Numo.gnuplot do
   splot "x"
 end
 ```
-![504pm3dgamma/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/504pm3dgamma/image/003.png)
+![504pm3dgamma/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/504pm3dgamma/image/003.png)
 
 ### 4
 
@@ -14134,7 +14134,7 @@ Numo.gnuplot do
   splot "x"
 end
 ```
-![504pm3dgamma/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/504pm3dgamma/image/004.png)
+![504pm3dgamma/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/504pm3dgamma/image/004.png)
 
 ### 5
 
@@ -14149,7 +14149,7 @@ Numo.gnuplot do
   splot "x"
 end
 ```
-![504pm3dgamma/005](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/504pm3dgamma/image/005.png)
+![504pm3dgamma/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/504pm3dgamma/image/005.png)
 
 ### 6
 
@@ -14164,7 +14164,7 @@ Numo.gnuplot do
   splot "x"
 end
 ```
-![504pm3dgamma/006](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/504pm3dgamma/image/006.png)
+![504pm3dgamma/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/504pm3dgamma/image/006.png)
 
 
 ## control models
@@ -14222,7 +14222,7 @@ Numo.gnuplot do
     "c(t)"
 end
 ```
-![601controls/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/601controls/image/001.png)
+![601controls/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/601controls/image/001.png)
 
 
 ## discrete contours
@@ -14241,7 +14241,7 @@ Numo.gnuplot do
   splot "x*y"
 end
 ```
-![602discrete/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/602discrete/image/001.png)
+![602discrete/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/602discrete/image/001.png)
 
 ### 2
 
@@ -14257,7 +14257,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![602discrete/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/602discrete/image/002.png)
+![602discrete/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/602discrete/image/002.png)
 
 ### 3
 
@@ -14273,7 +14273,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![602discrete/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/602discrete/image/003.png)
+![602discrete/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/602discrete/image/003.png)
 
 
 ## financial data
@@ -14344,7 +14344,7 @@ Numo.gnuplot do
   plot "'finance.dat'", using:[0,5], notitle:true, with:"lines"
 end
 ```
-![603finance/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/001.png)
+![603finance/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/001.png)
 
 ### 2
 
@@ -14371,7 +14371,7 @@ Numo.gnuplot do
   plot "'finance.dat'", using:[0,5], notitle:true, with:"lines"
 end
 ```
-![603finance/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/002.png)
+![603finance/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/002.png)
 
 ### 3
 
@@ -14400,7 +14400,7 @@ Numo.gnuplot do
   plot "'finance.dat'", using:[0,5], notitle:true, with:"lines"
 end
 ```
-![603finance/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/003.png)
+![603finance/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/003.png)
 
 ### 4
 
@@ -14429,7 +14429,7 @@ Numo.gnuplot do
   plot "'finance.dat'", using:[0,2,3,4,5], notitle:true, with:"financebars", lt:8
 end
 ```
-![603finance/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/004.png)
+![603finance/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/004.png)
 
 ### 5
 
@@ -14464,7 +14464,7 @@ Numo.gnuplot do
     ["'finance.dat'", using:[0,11], notitle:true, with:"lines", lt:2]
 end
 ```
-![603finance/005](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/005.png)
+![603finance/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/005.png)
 
 ### 6
 
@@ -14501,7 +14501,7 @@ Numo.gnuplot do
     ["'finance.dat'", using:[0,8], axes:"x1y2", notitle:true, with:"lines", lt:4]
 end
 ```
-![603finance/006](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/006.png)
+![603finance/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/006.png)
 
 ### 7
 
@@ -14542,7 +14542,7 @@ Numo.gnuplot do
     ["'finance.dat'", using:[0,8], axes:"x1y2", notitle:true, with:"lines", lt:4]
 end
 ```
-![603finance/007](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/007.png)
+![603finance/007](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/007.png)
 
 ### 8
 
@@ -14623,7 +14623,7 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![603finance/008](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/008.png)
+![603finance/008](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/008.png)
 
 ### 9
 
@@ -14706,7 +14706,7 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![603finance/009](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/009.png)
+![603finance/009](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/009.png)
 
 ### 10
 
@@ -14791,7 +14791,7 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![603finance/010](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/010.png)
+![603finance/010](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/010.png)
 
 ### 11
 
@@ -14880,7 +14880,7 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![603finance/011](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/011.png)
+![603finance/011](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/011.png)
 
 ### 12
 
@@ -14973,7 +14973,7 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![603finance/012](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/012.png)
+![603finance/012](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/012.png)
 
 ### 13
 
@@ -15066,7 +15066,7 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![603finance/013](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/013.png)
+![603finance/013](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/013.png)
 
 ### 14
 
@@ -15165,7 +15165,7 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![603finance/014](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/014.png)
+![603finance/014](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/014.png)
 
 
 ## non-gridded data
@@ -15201,7 +15201,7 @@ Numo.gnuplot do
   splot "\"hemisphr.dat\""
 end
 ```
-![604scatter/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/604scatter/image/001.png)
+![604scatter/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/604scatter/image/001.png)
 
 ### 2
 
@@ -15218,7 +15218,7 @@ Numo.gnuplot do
   splot "\"hemisphr.dat\""
 end
 ```
-![604scatter/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/604scatter/image/002.png)
+![604scatter/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/604scatter/image/002.png)
 
 ### 3
 
@@ -15235,7 +15235,7 @@ Numo.gnuplot do
   splot "\"hemisphr.dat\""
 end
 ```
-![604scatter/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/604scatter/image/003.png)
+![604scatter/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/604scatter/image/003.png)
 
 ### 4
 
@@ -15252,7 +15252,7 @@ Numo.gnuplot do
   splot "\"hemisphr.dat\""
 end
 ```
-![604scatter/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/604scatter/image/004.png)
+![604scatter/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/604scatter/image/004.png)
 
 ### 5
 
@@ -15267,7 +15267,7 @@ Numo.gnuplot do
   splot "\"hemisphr.dat\""
 end
 ```
-![604scatter/005](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/604scatter/image/005.png)
+![604scatter/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/604scatter/image/005.png)
 
 ### 6
 
@@ -15284,7 +15284,7 @@ Numo.gnuplot do
   splot "\"scatter2.dat\""
 end
 ```
-![604scatter/006](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/604scatter/image/006.png)
+![604scatter/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/604scatter/image/006.png)
 
 ### 7
 
@@ -15303,7 +15303,7 @@ Numo.gnuplot do
   splot "\"scatter2.dat\""
 end
 ```
-![604scatter/007](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/604scatter/image/007.png)
+![604scatter/007](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/604scatter/image/007.png)
 
 ### 8
 
@@ -15320,7 +15320,7 @@ Numo.gnuplot do
   splot "\"scatter2.dat\""
 end
 ```
-![604scatter/008](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/604scatter/image/008.png)
+![604scatter/008](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/604scatter/image/008.png)
 
 
 ## running averages
@@ -15390,7 +15390,7 @@ Numo.gnuplot do
     ["''", using:'0:(sum = sum + $2, sum/($0+1))', title:"cumulative mean", pt:1, lw:1, lc_rgb:"dark-red"]
 end
 ```
-![605running_avg/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/605running_avg/image/001.png)
+![605running_avg/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/605running_avg/image/001.png)
 
 
 ## binning/histograms
@@ -15423,7 +15423,7 @@ Numo.gnuplot do
     ["\"\"", u:'1:(1/300.)', s:"cumul", t:'smooth cumulative']
 end
 ```
-![606smooth/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/606smooth/image/001.png)
+![606smooth/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/606smooth/image/001.png)
 
 ### 2
 
@@ -15445,7 +15445,7 @@ Numo.gnuplot do
     ["\"\"", u:'2:(1/300.)', s:"cumul", t:'smooth cumulative']
 end
 ```
-![606smooth/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/606smooth/image/002.png)
+![606smooth/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/606smooth/image/002.png)
 
 ### 3
 
@@ -15468,7 +15468,7 @@ Numo.gnuplot do
     ["\"\"", u:'3:(1/300.)', s:"cumul", t:'smooth cumulative']
 end
 ```
-![606smooth/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/606smooth/image/003.png)
+![606smooth/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/606smooth/image/003.png)
 
 ### 4
 
@@ -15490,7 +15490,7 @@ Numo.gnuplot do
     ["\"\"", u:'4:(1/300.)', s:"cumul", t:'smooth cumulative']
 end
 ```
-![606smooth/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/606smooth/image/004.png)
+![606smooth/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/606smooth/image/004.png)
 
 
 ## 2D and 3D heat maps
@@ -15551,7 +15551,7 @@ EOL
   set title:"Heat Map generated by 'plot' from a stream of XYZ values"+"\nNB: Rows must be separated by blank lines!"
 end
 ```
-![607heatmaps/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/607heatmaps/image/001.png)
+![607heatmaps/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/607heatmaps/image/001.png)
 
 ### 2
 
@@ -15623,7 +15623,7 @@ EOL
   reset
 end
 ```
-![607heatmaps/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/607heatmaps/image/002.png)
+![607heatmaps/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/607heatmaps/image/002.png)
 
 ### 3
 
@@ -15678,7 +15678,7 @@ Numo.gnuplot do
   splot "'++'", using:'1:2:(Z($1,$2)):(color($1,$2))', with:"pm3d", title:"4 data columns x/y/z/color"
 end
 ```
-![607heatmaps/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/607heatmaps/image/003.png)
+![607heatmaps/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/607heatmaps/image/003.png)
 
 ### 4
 
@@ -15698,7 +15698,7 @@ Numo.gnuplot do
   splot "'++'", using:'1:2:(Z($1,$2)):(color($1,$2))', with:"pm3d", title:"4 data columns x/y/z/color"
 end
 ```
-![607heatmaps/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/607heatmaps/image/004.png)
+![607heatmaps/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/607heatmaps/image/004.png)
 
 
 ## rotated text
@@ -15758,7 +15758,7 @@ Numo.gnuplot do
   plot "0"
 end
 ```
-![701textrotate/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/701textrotate/image/001.png)
+![701textrotate/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/701textrotate/image/001.png)
 
 
 ## 'enhanced' text
@@ -15852,7 +15852,7 @@ Numo.gnuplot do
   plot "sin(x)**2", lt:2, lw:2, title:"sin^2(x)"
 end
 ```
-![702enhanced_utf8/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/702enhanced_utf8/image/001.png)
+![702enhanced_utf8/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/702enhanced_utf8/image/001.png)
 
 
 ## string data
@@ -15897,7 +15897,7 @@ Numo.gnuplot do
     ["''", using:2, index:3]
 end
 ```
-![703datastrings/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/703datastrings/image/001.png)
+![703datastrings/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/703datastrings/image/001.png)
 
 ### 2
 
@@ -15943,7 +15943,7 @@ Numo.gnuplot do
     ["''", using:'($0):2:xticlabels(1)', index:3, with:"linespoints", lw:3, title:"       2000-2001"]
 end
 ```
-![703datastrings/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/703datastrings/image/002.png)
+![703datastrings/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/703datastrings/image/002.png)
 
 ### 3
 
@@ -15964,7 +15964,7 @@ Numo.gnuplot do
     ["''", using:'($0):2:x2ticlabels(1)', index:3, with:"linespoints", lw:3, title:"       2000-2001"]
 end
 ```
-![703datastrings/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/703datastrings/image/003.png)
+![703datastrings/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/703datastrings/image/003.png)
 
 ### 4
 
@@ -15985,7 +15985,7 @@ Numo.gnuplot do
     ["''", using:'($0):5:xtic(1)', title_nq:'column(5)', with:"linespoints"]
 end
 ```
-![703datastrings/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/703datastrings/image/004.png)
+![703datastrings/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/703datastrings/image/004.png)
 
 ### 5
 
@@ -16001,7 +16001,7 @@ Numo.gnuplot do
     ["1", :notitle]
 end
 ```
-![703datastrings/005](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/703datastrings/image/005.png)
+![703datastrings/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/703datastrings/image/005.png)
 
 ### 6
 
@@ -16036,7 +16036,7 @@ Numo.gnuplot do
     ["''", using:[7,9,4], with:"labels", tc_lt:3, font:"Helvetica,10", notitle:true]
 end
 ```
-![703datastrings/006](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/703datastrings/image/006.png)
+![703datastrings/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/703datastrings/image/006.png)
 
 ### 7
 
@@ -16066,7 +16066,7 @@ Numo.gnuplot do
     ["0", point_ps:2, pt:1, tc_lt:3, font:"Helvetica,10", notitle:true]
 end
 ```
-![703datastrings/007](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/703datastrings/image/007.png)
+![703datastrings/007](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/703datastrings/image/007.png)
 
 
 ## variable font size
@@ -16107,7 +16107,7 @@ Numo.gnuplot do
   plot "'cities.dat'", using:'5:4:($3 < 5000 ? "-" : CityName(1,3))', with:"labels"
 end
 ```
-![704cities/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/704cities/image/001.png)
+![704cities/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/704cities/image/001.png)
 
 
 ## string variables
@@ -16179,7 +16179,7 @@ EOL
   plot "0"
 end
 ```
-![705stringvar/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/705stringvar/image/001.png)
+![705stringvar/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/705stringvar/image/001.png)
 
 ### 2
 
@@ -16254,7 +16254,7 @@ EOL
   plot "0"
 end
 ```
-![705stringvar/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/705stringvar/image/002.png)
+![705stringvar/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/705stringvar/image/002.png)
 
 ### 3
 
@@ -16274,7 +16274,7 @@ Numo.gnuplot do
     ["''", using:'1:2:(sprintf("[%.0f,%.0f]",$1,$2))', with:"labels"]
 end
 ```
-![705stringvar/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/705stringvar/image/003.png)
+![705stringvar/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/705stringvar/image/003.png)
 
 ### 4
 
@@ -16306,7 +16306,7 @@ Numo.gnuplot do
     ["''", using:'1:2:( ($2>($3+$1/50.)) ? "Up" : "Dn" )', with:"labels", title:'plot <foo> using 1:2:( ($3>$2) ? "Up" : "Dn" ) with labels']
 end
 ```
-![705stringvar/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/705stringvar/image/004.png)
+![705stringvar/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/705stringvar/image/004.png)
 
 ### 5
 
@@ -16323,7 +16323,7 @@ Numo.gnuplot do
     ["''", using:'1:2:( ($2>($3+$1/50.)) ? "J" : "D" )', with:"labels", font:"WingDings,28", title:'Same thing using character glyphs from WingDings font']
 end
 ```
-![705stringvar/005](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/705stringvar/image/005.png)
+![705stringvar/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/705stringvar/image/005.png)
 
 ### 6
 
@@ -16350,7 +16350,7 @@ Numo.gnuplot do
     "file(M)"
 end
 ```
-![705stringvar/006](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/705stringvar/image/006.png)
+![705stringvar/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/705stringvar/image/006.png)
 
 ### 7
 
@@ -16392,7 +16392,7 @@ Numo.gnuplot do
     ["'timedat.dat'", using:'(read_time(fmt,1)):($3-0.01):2', with:"labels", title:'']
 end
 ```
-![705stringvar/007](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/705stringvar/image/007.png)
+![705stringvar/007](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/705stringvar/image/007.png)
 
 
 ## plot key
@@ -16477,7 +16477,7 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![801key/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/801key/image/001.png)
+![801key/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/801key/image/001.png)
 
 ### 2
 
@@ -16546,7 +16546,7 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![801key/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/801key/image/002.png)
+![801key/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/801key/image/002.png)
 
 ### 3
 
@@ -16615,7 +16615,7 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![801key/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/801key/image/003.png)
+![801key/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/801key/image/003.png)
 
 ### 4
 
@@ -16684,7 +16684,7 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![801key/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/801key/image/004.png)
+![801key/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/801key/image/004.png)
 
 ### 5
 
@@ -16757,7 +16757,7 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![801key/005](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/801key/image/005.png)
+![801key/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/801key/image/005.png)
 
 ### 6
 
@@ -16848,7 +16848,7 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![801key/006](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/801key/image/006.png)
+![801key/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/801key/image/006.png)
 
 
 ## multiplot layout
@@ -16907,7 +16907,7 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![802layout/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/802layout/image/001.png)
+![802layout/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/802layout/image/001.png)
 
 ### 2
 
@@ -16964,7 +16964,7 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![802layout/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/802layout/image/002.png)
+![802layout/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/802layout/image/002.png)
 
 ### 3
 
@@ -17021,7 +17021,7 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![802layout/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/802layout/image/003.png)
+![802layout/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/802layout/image/003.png)
 
 ### 4
 
@@ -17078,7 +17078,7 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![802layout/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/802layout/image/004.png)
+![802layout/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/802layout/image/004.png)
 
 
 ## multiple plots
@@ -17346,7 +17346,7 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![803multiplt/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/803multiplt/image/001.png)
+![803multiplt/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/803multiplt/image/001.png)
 
 
 ## aligned plots
@@ -17483,7 +17483,7 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![804margins/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/804margins/image/001.png)
+![804margins/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/804margins/image/001.png)
 
 
 ## axis location
@@ -17539,7 +17539,7 @@ Numo.gnuplot do
   plot "'random.tmp'", using:'(1.5 + $1*cos(A)-2.*$2*sin(A)):(1.0 + $1*sin(A)+2.*$2*cos(A))', with:"dots"
 end
 ```
-![805ellipse/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/805ellipse/image/001.png)
+![805ellipse/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/805ellipse/image/001.png)
 
 ### 2
 
@@ -17564,7 +17564,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![805ellipse/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/805ellipse/image/002.png)
+![805ellipse/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/805ellipse/image/002.png)
 
 
 ## axis ticmarks
@@ -17594,7 +17594,7 @@ Numo.gnuplot do
   plot "sin(sqrt(x**2))/sqrt(x**2)", :notitle
 end
 ```
-![806tics/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/806tics/image/001.png)
+![806tics/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/806tics/image/001.png)
 
 ### 2
 
@@ -17611,7 +17611,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![806tics/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/806tics/image/002.png)
+![806tics/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/806tics/image/002.png)
 
 ### 3
 
@@ -17626,7 +17626,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![806tics/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/806tics/image/003.png)
+![806tics/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/806tics/image/003.png)
 
 ### 4
 
@@ -17661,7 +17661,7 @@ Numo.gnuplot do
   splot "sin(sqrt(x**2+y**2))/sqrt(x**2+y**2)", :notitle
 end
 ```
-![806tics/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/806tics/image/004.png)
+![806tics/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/806tics/image/004.png)
 
 
 ## rectangles
@@ -17729,7 +17729,7 @@ Numo.gnuplot do
     ["-3+sin(x*5)/x", lt:3, lw:3]
 end
 ```
-![807rectangle/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/807rectangle/image/001.png)
+![807rectangle/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/807rectangle/image/001.png)
 
 ### 2
 
@@ -17773,7 +17773,7 @@ Numo.gnuplot do
     ["'using.dat'", using:[3,6], t:"%CPU used", with:"lines"]
 end
 ```
-![807rectangle/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/807rectangle/image/002.png)
+![807rectangle/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/807rectangle/image/002.png)
 
 
 ## line styles
@@ -17857,7 +17857,7 @@ Numo.gnuplot do
     ["cos(x-1.2)", lt:5, lc:3, title:'lt 5 lc 3']
 end
 ```
-![901dashcolor/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/901dashcolor/image/001.png)
+![901dashcolor/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/901dashcolor/image/001.png)
 
 ### 2
 
@@ -17895,7 +17895,7 @@ Numo.gnuplot do
     ["cos(x+.2)", with:"line", lt:-1, lw:2, title:'lw 2']
 end
 ```
-![901dashcolor/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/901dashcolor/image/002.png)
+![901dashcolor/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/901dashcolor/image/002.png)
 
 
 ## fill styles
@@ -17930,7 +17930,7 @@ Numo.gnuplot do
     "100/(1.0+x*x)", title:'distribution', with:"boxes"
 end
 ```
-![902fillstyle/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/902fillstyle/image/001.png)
+![902fillstyle/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/902fillstyle/image/001.png)
 
 ### 2
 
@@ -17945,7 +17945,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![902fillstyle/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/902fillstyle/image/002.png)
+![902fillstyle/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/902fillstyle/image/002.png)
 
 ### 3
 
@@ -17960,7 +17960,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![902fillstyle/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/902fillstyle/image/003.png)
+![902fillstyle/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/902fillstyle/image/003.png)
 
 ### 4
 
@@ -17975,7 +17975,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![902fillstyle/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/902fillstyle/image/004.png)
+![902fillstyle/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/902fillstyle/image/004.png)
 
 ### 5
 
@@ -17990,7 +17990,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![902fillstyle/005](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/902fillstyle/image/005.png)
+![902fillstyle/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/902fillstyle/image/005.png)
 
 ### 6
 
@@ -18005,7 +18005,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![902fillstyle/006](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/902fillstyle/image/006.png)
+![902fillstyle/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/902fillstyle/image/006.png)
 
 ### 7
 
@@ -18031,7 +18031,7 @@ Numo.gnuplot do
     ["20/(1.0+x*x)", title:'pattern 3', with:"boxes", lt:-1]
 end
 ```
-![902fillstyle/007](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/902fillstyle/image/007.png)
+![902fillstyle/007](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/902fillstyle/image/007.png)
 
 
 ## arrow styles
@@ -18116,7 +18116,7 @@ Numo.gnuplot do
   plot "'arrowstyle.dat'", using:'1:2:(0):3', notitle:true, with:"vectors", arrowstyle:1
 end
 ```
-![903arrowstyle/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/903arrowstyle/image/001.png)
+![903arrowstyle/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/903arrowstyle/image/001.png)
 
 ### 2
 
@@ -18130,7 +18130,7 @@ Numo.gnuplot do
   plot "'arrowstyle.dat'", using:'1:2:(0):3', notitle:true, with:"vectors", arrowstyle:2
 end
 ```
-![903arrowstyle/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/903arrowstyle/image/002.png)
+![903arrowstyle/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/903arrowstyle/image/002.png)
 
 ### 3
 
@@ -18144,7 +18144,7 @@ Numo.gnuplot do
   plot "'arrowstyle.dat'", using:'1:2:(0):3', notitle:true, with:"vectors", arrowstyle:3
 end
 ```
-![903arrowstyle/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/903arrowstyle/image/003.png)
+![903arrowstyle/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/903arrowstyle/image/003.png)
 
 ### 4
 
@@ -18158,7 +18158,7 @@ Numo.gnuplot do
   plot "'arrowstyle.dat'", using:'1:2:(0):3', notitle:true, with:"vectors", arrowstyle:4
 end
 ```
-![903arrowstyle/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/903arrowstyle/image/004.png)
+![903arrowstyle/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/903arrowstyle/image/004.png)
 
 ### 5
 
@@ -18172,7 +18172,7 @@ Numo.gnuplot do
   plot "'arrowstyle.dat'", using:'1:2:(0):3', notitle:true, with:"vectors", arrowstyle:5
 end
 ```
-![903arrowstyle/005](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/903arrowstyle/image/005.png)
+![903arrowstyle/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/903arrowstyle/image/005.png)
 
 ### 6
 
@@ -18186,7 +18186,7 @@ Numo.gnuplot do
   plot "'arrowstyle.dat'", using:'1:2:(0):3', notitle:true, with:"vectors", arrowstyle:6
 end
 ```
-![903arrowstyle/006](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/903arrowstyle/image/006.png)
+![903arrowstyle/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/903arrowstyle/image/006.png)
 
 ### 7
 
@@ -18200,7 +18200,7 @@ Numo.gnuplot do
   plot "'arrowstyle.dat'", using:'1:2:(0):3', notitle:true, with:"vectors", arrowstyle:7
 end
 ```
-![903arrowstyle/007](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/903arrowstyle/image/007.png)
+![903arrowstyle/007](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/903arrowstyle/image/007.png)
 
 ### 8
 
@@ -18214,7 +18214,7 @@ Numo.gnuplot do
   plot "'arrowstyle.dat'", using:'1:2:(0):3', notitle:true, with:"vectors", arrowstyle:8
 end
 ```
-![903arrowstyle/008](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/903arrowstyle/image/008.png)
+![903arrowstyle/008](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/903arrowstyle/image/008.png)
 
 ### 9
 
@@ -18244,7 +18244,7 @@ Numo.gnuplot do
     ["'2.dat'", using:'($1):(2-$2/3):(+1):(+2.5):(int($0)%8 + 1)', with:"vectors", as:"var", ti:'arrowstyle variable']
 end
 ```
-![903arrowstyle/009](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/903arrowstyle/image/009.png)
+![903arrowstyle/009](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/903arrowstyle/image/009.png)
 
 
 ## transparency
@@ -18303,7 +18303,7 @@ Numo.gnuplot do
     ["d3(x)", lc_rgb:"red", title:"μ = -1.0 σ = 2.0"]
 end
 ```
-![904transparent/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/904transparent/image/001.png)
+![904transparent/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/904transparent/image/001.png)
 
 ### 2
 
@@ -18318,7 +18318,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![904transparent/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/904transparent/image/002.png)
+![904transparent/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/904transparent/image/002.png)
 
 ### 3
 
@@ -18333,7 +18333,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![904transparent/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/904transparent/image/003.png)
+![904transparent/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/904transparent/image/003.png)
 
 ### 4
 
@@ -18348,7 +18348,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![904transparent/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/904transparent/image/004.png)
+![904transparent/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/904transparent/image/004.png)
 
 
 ## transparent solids
@@ -18408,7 +18408,7 @@ Numo.gnuplot do
     ["sin(u)+.5*sin(u)*cos(v)", with:"pm3d"]
 end
 ```
-![905transparent_solids/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/905transparent_solids/image/001.png)
+![905transparent_solids/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/905transparent_solids/image/001.png)
 
 ### 2
 
@@ -18476,6 +18476,6 @@ Numo.gnuplot do
     ["z(u,v)", with:"pm3d"]
 end
 ```
-![905transparent_solids/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/905transparent_solids/image/002.png)
+![905transparent_solids/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/905transparent_solids/image/002.png)
 
 

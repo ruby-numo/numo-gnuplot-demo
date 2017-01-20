@@ -40,7 +40,7 @@ Numo.gnuplot do
     ["''", using:2, index:3]
 end
 ```
-![703datastrings/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/703datastrings/image/001.png)
+![703datastrings/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/703datastrings/image/001.png)
 
 ### 2
 
@@ -86,7 +86,7 @@ Numo.gnuplot do
     ["''", using:'($0):2:xticlabels(1)', index:3, with:"linespoints", lw:3, title:"       2000-2001"]
 end
 ```
-![703datastrings/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/703datastrings/image/002.png)
+![703datastrings/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/703datastrings/image/002.png)
 
 ### 3
 
@@ -107,7 +107,7 @@ Numo.gnuplot do
     ["''", using:'($0):2:x2ticlabels(1)', index:3, with:"linespoints", lw:3, title:"       2000-2001"]
 end
 ```
-![703datastrings/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/703datastrings/image/003.png)
+![703datastrings/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/703datastrings/image/003.png)
 
 ### 4
 
@@ -128,7 +128,7 @@ Numo.gnuplot do
     ["''", using:'($0):5:xtic(1)', title_nq:'column(5)', with:"linespoints"]
 end
 ```
-![703datastrings/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/703datastrings/image/004.png)
+![703datastrings/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/703datastrings/image/004.png)
 
 ### 5
 
@@ -144,7 +144,7 @@ Numo.gnuplot do
     ["1", :notitle]
 end
 ```
-![703datastrings/005](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/703datastrings/image/005.png)
+![703datastrings/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/703datastrings/image/005.png)
 
 ### 6
 
@@ -179,7 +179,7 @@ Numo.gnuplot do
     ["''", using:[7,9,4], with:"labels", tc_lt:3, font:"Helvetica,10", notitle:true]
 end
 ```
-![703datastrings/006](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/703datastrings/image/006.png)
+![703datastrings/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/703datastrings/image/006.png)
 
 ### 7
 
@@ -209,4 +209,4 @@ Numo.gnuplot do
     ["0", point_ps:2, pt:1, tc_lt:3, font:"Helvetica,10", notitle:true]
 end
 ```
-![703datastrings/007](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/703datastrings/image/007.png)
+![703datastrings/007](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/703datastrings/image/007.png)

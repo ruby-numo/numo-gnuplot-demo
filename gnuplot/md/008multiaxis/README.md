@@ -54,4 +54,4 @@ Numo.gnuplot do
     ["180./pi*arg(A(jw))", axes:"x2y2"]
 end
 ```
-![008multiaxis/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/008multiaxis/image/001.png)
+![008multiaxis/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/008multiaxis/image/001.png)

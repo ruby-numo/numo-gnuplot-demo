@@ -25,7 +25,7 @@ Numo.gnuplot do
   plot "sin(sqrt(x**2))/sqrt(x**2)", :notitle
 end
 ```
-![806tics/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/806tics/image/001.png)
+![806tics/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/806tics/image/001.png)
 
 ### 2
 
@@ -42,7 +42,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![806tics/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/806tics/image/002.png)
+![806tics/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/806tics/image/002.png)
 
 ### 3
 
@@ -57,7 +57,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![806tics/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/806tics/image/003.png)
+![806tics/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/806tics/image/003.png)
 
 ### 4
 
@@ -92,4 +92,4 @@ Numo.gnuplot do
   splot "sin(sqrt(x**2+y**2))/sqrt(x**2+y**2)", :notitle
 end
 ```
-![806tics/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/806tics/image/004.png)
+![806tics/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/806tics/image/004.png)

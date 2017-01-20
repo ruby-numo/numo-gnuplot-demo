@@ -93,7 +93,7 @@ Numo.gnuplot do
     ["gamma(5*gsampfunc(5*t,2))", lt:1]
 end
 ```
-![106prob/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/001.png)
+![106prob/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/001.png)
 
 ### 2
 
@@ -145,7 +145,7 @@ Numo.gnuplot do
     ["lgamma(5*gsampfunc(5*t,3))", lt:1]
 end
 ```
-![106prob/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/002.png)
+![106prob/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/002.png)
 
 ### 3
 
@@ -194,7 +194,7 @@ Numo.gnuplot do
   plot "arcsin(x, r)"
 end
 ```
-![106prob/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/003.png)
+![106prob/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/003.png)
 
 ### 4
 
@@ -209,7 +209,7 @@ Numo.gnuplot do
   plot "carcsin(x, r)"
 end
 ```
-![106prob/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/004.png)
+![106prob/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/004.png)
 
 ### 5
 
@@ -262,7 +262,7 @@ Numo.gnuplot do
     ["beta(x, 0.5, 2.5)", title:"p = 0.5, q = 2.5"]
 end
 ```
-![106prob/005](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/005.png)
+![106prob/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/005.png)
 
 ### 6
 
@@ -283,7 +283,7 @@ Numo.gnuplot do
     ["cbeta(x, 0.5, 2.5)", title:"p = 0.5, q = 2.5"]
 end
 ```
-![106prob/006](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/006.png)
+![106prob/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/006.png)
 
 ### 7
 
@@ -333,7 +333,7 @@ Numo.gnuplot do
   plot "binom(x, n, p)", with:"impulses"
 end
 ```
-![106prob/007](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/007.png)
+![106prob/007](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/007.png)
 
 ### 8
 
@@ -354,7 +354,7 @@ Numo.gnuplot do
   plot "cbinom(x, n, p)", with:"steps"
 end
 ```
-![106prob/008](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/008.png)
+![106prob/008](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/008.png)
 
 ### 9
 
@@ -402,7 +402,7 @@ Numo.gnuplot do
     ["cauchy(x, 0, 4)", title:"a = 0, b = 4"]
 end
 ```
-![106prob/009](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/009.png)
+![106prob/009](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/009.png)
 
 ### 10
 
@@ -418,7 +418,7 @@ Numo.gnuplot do
     ["ccauchy(x, 0, 4)", title:"a = 0, b = 4"]
 end
 ```
-![106prob/010](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/010.png)
+![106prob/010](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/010.png)
 
 ### 11
 
@@ -498,7 +498,7 @@ Numo.gnuplot do
     ["chisq(x, k)", title_nq:'keystr(k)']
 end
 ```
-![106prob/011](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/011.png)
+![106prob/011](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/011.png)
 
 ### 12
 
@@ -537,7 +537,7 @@ Numo.gnuplot do
     ["cchisq(x, k)", title_nq:'keystr(k)']
 end
 ```
-![106prob/012](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/012.png)
+![106prob/012](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/012.png)
 
 ### 13
 
@@ -606,7 +606,7 @@ Numo.gnuplot do
     ["erlang(x, n, lambda)", title_nq:'keystr(n,lambda)']
 end
 ```
-![106prob/013](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/013.png)
+![106prob/013](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/013.png)
 
 ### 14
 
@@ -640,7 +640,7 @@ Numo.gnuplot do
     ["cerlang(x, n, lambda)", title_nq:'keystr(n,lambda)']
 end
 ```
-![106prob/014](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/014.png)
+![106prob/014](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/014.png)
 
 ### 15
 
@@ -690,7 +690,7 @@ Numo.gnuplot do
     ["extreme(x, 0.0, 1.0)", title:"alpha = 1.0, u = 0.0"]
 end
 ```
-![106prob/015](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/015.png)
+![106prob/015](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/015.png)
 
 ### 16
 
@@ -706,7 +706,7 @@ Numo.gnuplot do
     ["cextreme(x, 0.0, 1.0)", title:"alpha = 1.0, u = 0.0"]
 end
 ```
-![106prob/016](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/016.png)
+![106prob/016](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/016.png)
 
 ### 17
 
@@ -756,7 +756,7 @@ Numo.gnuplot do
     ["f(x, 7.0, 6.0)", title:"df1 = 7, df2 = 6"]
 end
 ```
-![106prob/017](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/017.png)
+![106prob/017](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/017.png)
 
 ### 18
 
@@ -774,7 +774,7 @@ Numo.gnuplot do
     ["cf(x, 7.0, 6.0)", title:"df1 = 7, df2 = 6"]
 end
 ```
-![106prob/018](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/018.png)
+![106prob/018](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/018.png)
 
 ### 19
 
@@ -865,7 +865,7 @@ Numo.gnuplot do
     ["gmm(x, rho, lambda)", title_nq:'keystr(rho,lambda)']
 end
 ```
-![106prob/019](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/019.png)
+![106prob/019](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/019.png)
 
 ### 20
 
@@ -911,7 +911,7 @@ Numo.gnuplot do
     ["cgmm(x, rho, lambda)", title_nq:'keystr(rho,lambda)']
 end
 ```
-![106prob/020](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/020.png)
+![106prob/020](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/020.png)
 
 ### 21
 
@@ -961,7 +961,7 @@ Numo.gnuplot do
   plot "geometric(x, p)", with:"impulses"
 end
 ```
-![106prob/021](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/021.png)
+![106prob/021](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/021.png)
 
 ### 22
 
@@ -978,7 +978,7 @@ Numo.gnuplot do
   plot "cgeometric(x, p)", with:"steps"
 end
 ```
-![106prob/022](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/022.png)
+![106prob/022](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/022.png)
 
 ### 23
 
@@ -1037,7 +1037,7 @@ Numo.gnuplot do
     ["halfnormal(t<0?0.0:t, sigma)", ls:1]
 end
 ```
-![106prob/023](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/023.png)
+![106prob/023](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/023.png)
 
 ### 24
 
@@ -1059,7 +1059,7 @@ Numo.gnuplot do
     ["chalfnormal(t<0?0.0:t, sigma)", ls:1]
 end
 ```
-![106prob/024](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/024.png)
+![106prob/024](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/024.png)
 
 ### 25
 
@@ -1118,7 +1118,7 @@ Numo.gnuplot do
   plot "hypgeo(x,N,C,d)", with:"impulses"
 end
 ```
-![106prob/025](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/025.png)
+![106prob/025](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/025.png)
 
 ### 26
 
@@ -1135,7 +1135,7 @@ Numo.gnuplot do
   plot "chypgeo(x,N,C,d)", with:"steps"
 end
 ```
-![106prob/026](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/026.png)
+![106prob/026](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/026.png)
 
 ### 27
 
@@ -1185,7 +1185,7 @@ Numo.gnuplot do
   plot "laplace(x, mu, b)"
 end
 ```
-![106prob/027](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/027.png)
+![106prob/027](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/027.png)
 
 ### 28
 
@@ -1204,7 +1204,7 @@ Numo.gnuplot do
   plot "claplace(x, mu, b)"
 end
 ```
-![106prob/028](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/028.png)
+![106prob/028](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/028.png)
 
 ### 29
 
@@ -1256,7 +1256,7 @@ Numo.gnuplot do
   plot "logistic(x, a, lambda)"
 end
 ```
-![106prob/029](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/029.png)
+![106prob/029](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/029.png)
 
 ### 30
 
@@ -1271,7 +1271,7 @@ Numo.gnuplot do
   plot "clogistic(x, a, lambda)"
 end
 ```
-![106prob/030](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/030.png)
+![106prob/030](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/030.png)
 
 ### 31
 
@@ -1321,7 +1321,7 @@ Numo.gnuplot do
   plot "lognormal(x, mu, sigma)"
 end
 ```
-![106prob/031](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/031.png)
+![106prob/031](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/031.png)
 
 ### 32
 
@@ -1336,7 +1336,7 @@ Numo.gnuplot do
   plot "clognormal(x, mu, sigma)"
 end
 ```
-![106prob/032](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/032.png)
+![106prob/032](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/032.png)
 
 ### 33
 
@@ -1391,7 +1391,7 @@ Numo.gnuplot do
     ["maxwell(x, 0.5)", title:"a = 0.5"]
 end
 ```
-![106prob/033](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/033.png)
+![106prob/033](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/033.png)
 
 ### 34
 
@@ -1411,7 +1411,7 @@ Numo.gnuplot do
     ["cmaxwell(x, 0.5)", title:"a = 0.5"]
 end
 ```
-![106prob/034](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/034.png)
+![106prob/034](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/034.png)
 
 ### 35
 
@@ -1459,7 +1459,7 @@ Numo.gnuplot do
   plot "negbin(x, r, p)", with:"impulses"
 end
 ```
-![106prob/035](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/035.png)
+![106prob/035](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/035.png)
 
 ### 36
 
@@ -1476,7 +1476,7 @@ Numo.gnuplot do
   plot "cnegbin(x, r, p)", with:"steps"
 end
 ```
-![106prob/036](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/036.png)
+![106prob/036](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/036.png)
 
 ### 37
 
@@ -1522,7 +1522,7 @@ Numo.gnuplot do
   plot "nexp(x, lambda)"
 end
 ```
-![106prob/037](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/037.png)
+![106prob/037](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/037.png)
 
 ### 38
 
@@ -1537,7 +1537,7 @@ Numo.gnuplot do
   plot "cnexp(x, lambda)"
 end
 ```
-![106prob/038](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/038.png)
+![106prob/038](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/038.png)
 
 ### 39
 
@@ -1584,7 +1584,7 @@ Numo.gnuplot do
     ["normal(x, 1, 2.0)", title:"mu = 1, sigma = 2.0"]
 end
 ```
-![106prob/039](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/039.png)
+![106prob/039](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/039.png)
 
 ### 40
 
@@ -1610,7 +1610,7 @@ Numo.gnuplot do
     ["cnormal(x, mu, sigma)", title:"mu = 1, sigma = 2.0"]
 end
 ```
-![106prob/040](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/040.png)
+![106prob/040](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/040.png)
 
 ### 41
 
@@ -1680,7 +1680,7 @@ Numo.gnuplot do
     ["pareto(x2(t), a, b)", ls:1]
 end
 ```
-![106prob/041](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/041.png)
+![106prob/041](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/041.png)
 
 ### 42
 
@@ -1703,7 +1703,7 @@ Numo.gnuplot do
   plot "cpareto(x, a, b)"
 end
 ```
-![106prob/042](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/042.png)
+![106prob/042](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/042.png)
 
 ### 43
 
@@ -1754,7 +1754,7 @@ Numo.gnuplot do
   plot "poisson(x, mu)", with:"impulses"
 end
 ```
-![106prob/043](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/043.png)
+![106prob/043](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/043.png)
 
 ### 44
 
@@ -1771,7 +1771,7 @@ Numo.gnuplot do
   plot "cpoisson(x, mu)", with:"steps"
 end
 ```
-![106prob/044](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/044.png)
+![106prob/044](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/044.png)
 
 ### 45
 
@@ -1817,7 +1817,7 @@ Numo.gnuplot do
   plot "rayleigh(x, lambda)"
 end
 ```
-![106prob/045](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/045.png)
+![106prob/045](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/045.png)
 
 ### 46
 
@@ -1832,7 +1832,7 @@ Numo.gnuplot do
   plot "crayleigh(x, lambda)"
 end
 ```
-![106prob/046](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/046.png)
+![106prob/046](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/046.png)
 
 ### 47
 
@@ -1899,7 +1899,7 @@ Numo.gnuplot do
     ["sine(x, f, a)", title_nq:'keystr(a, f)', with:"steps"]
 end
 ```
-![106prob/047](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/047.png)
+![106prob/047](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/047.png)
 
 ### 48
 
@@ -1929,7 +1929,7 @@ Numo.gnuplot do
     ["csine(x, f, a)", title_nq:'keystr(a, f)', with:"steps"]
 end
 ```
-![106prob/048](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/048.png)
+![106prob/048](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/048.png)
 
 ### 49
 
@@ -1985,7 +1985,7 @@ Numo.gnuplot do
     ["normal(x, 0, 1)", ti:"normal"]
 end
 ```
-![106prob/049](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/049.png)
+![106prob/049](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/049.png)
 
 ### 50
 
@@ -2006,7 +2006,7 @@ Numo.gnuplot do
     ["cnormal(x, 0, 1)", ti:"normal"]
 end
 ```
-![106prob/050](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/050.png)
+![106prob/050](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/050.png)
 
 ### 51
 
@@ -2059,7 +2059,7 @@ Numo.gnuplot do
   plot "triangular(x, m, g)"
 end
 ```
-![106prob/051](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/051.png)
+![106prob/051](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/051.png)
 
 ### 52
 
@@ -2074,7 +2074,7 @@ Numo.gnuplot do
   plot "ctriangular(x, m, g)"
 end
 ```
-![106prob/052](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/052.png)
+![106prob/052](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/052.png)
 
 ### 53
 
@@ -2124,7 +2124,7 @@ Numo.gnuplot do
   plot "uniform(x, a, b)", with:"steps"
 end
 ```
-![106prob/053](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/053.png)
+![106prob/053](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/053.png)
 
 ### 54
 
@@ -2139,7 +2139,7 @@ Numo.gnuplot do
   plot "cuniform(x, a, b)"
 end
 ```
-![106prob/054](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/054.png)
+![106prob/054](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/054.png)
 
 ### 55
 
@@ -2227,7 +2227,7 @@ Numo.gnuplot do
     ["weibull(x, a, lambda)", ti_nq:'ks(a, lambda)']
 end
 ```
-![106prob/055](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/055.png)
+![106prob/055](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/055.png)
 
 ### 56
 
@@ -2261,4 +2261,4 @@ Numo.gnuplot do
     ["cweibull(x, a, lambda)", ti_nq:'ks(a, lambda)']
 end
 ```
-![106prob/056](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/056.png)
+![106prob/056](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/106prob/image/056.png)

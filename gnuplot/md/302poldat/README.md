@@ -84,7 +84,7 @@ Numo.gnuplot do
     "tv(t,0)"
 end
 ```
-![302poldat/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/302poldat/image/001.png)
+![302poldat/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/302poldat/image/001.png)
 
 ### 2
 
@@ -1045,7 +1045,7 @@ EOL
   reset
 end
 ```
-![302poldat/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/302poldat/image/002.png)
+![302poldat/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/302poldat/image/002.png)
 
 ### 3
 
@@ -1085,4 +1085,4 @@ Numo.gnuplot do
   plot "'silver.dat'", using:'($1/100.):3:0', lc:"var", lw:2, title:'silver.dat'
 end
 ```
-![302poldat/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/302poldat/image/003.png)
+![302poldat/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/302poldat/image/003.png)

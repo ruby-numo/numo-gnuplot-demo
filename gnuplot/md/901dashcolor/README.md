@@ -79,7 +79,7 @@ Numo.gnuplot do
     ["cos(x-1.2)", lt:5, lc:3, title:'lt 5 lc 3']
 end
 ```
-![901dashcolor/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/901dashcolor/image/001.png)
+![901dashcolor/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/901dashcolor/image/001.png)
 
 ### 2
 
@@ -117,4 +117,4 @@ Numo.gnuplot do
     ["cos(x+.2)", with:"line", lt:-1, lw:2, title:'lw 2']
 end
 ```
-![901dashcolor/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/901dashcolor/image/002.png)
+![901dashcolor/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/901dashcolor/image/002.png)

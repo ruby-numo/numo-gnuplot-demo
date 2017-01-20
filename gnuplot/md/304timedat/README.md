@@ -38,7 +38,7 @@ Numo.gnuplot do
     ["'timedat.dat'", using:[1,4], t:'PO4', with:"points"]
 end
 ```
-![304timedat/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/304timedat/image/001.png)
+![304timedat/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/304timedat/image/001.png)
 
 ### 2
 
@@ -88,4 +88,4 @@ EOL
   reset
 end
 ```
-![304timedat/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/304timedat/image/002.png)
+![304timedat/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/304timedat/image/002.png)

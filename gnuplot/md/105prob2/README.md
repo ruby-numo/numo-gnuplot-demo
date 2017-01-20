@@ -83,7 +83,7 @@ Numo.gnuplot do
     "normal(x, mu, sigma)"
 end
 ```
-![105prob2/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/105prob2/image/001.png)
+![105prob2/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/105prob2/image/001.png)
 
 ### 2
 
@@ -146,7 +146,7 @@ Numo.gnuplot do
     ["poisson(x, mu)", with:"histeps"]
 end
 ```
-![105prob2/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/105prob2/image/002.png)
+![105prob2/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/105prob2/image/002.png)
 
 ### 3
 
@@ -213,7 +213,7 @@ Numo.gnuplot do
     "gmm(x, rho, lambda)"
 end
 ```
-![105prob2/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/105prob2/image/003.png)
+![105prob2/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/105prob2/image/003.png)
 
 ### 4
 
@@ -276,7 +276,7 @@ Numo.gnuplot do
     "normal(x, mu, sigma)"
 end
 ```
-![105prob2/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/105prob2/image/004.png)
+![105prob2/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/105prob2/image/004.png)
 
 ### 5
 
@@ -341,7 +341,7 @@ Numo.gnuplot do
     ["binom(x, n, p)", with:"histeps"]
 end
 ```
-![105prob2/005](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/105prob2/image/005.png)
+![105prob2/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/105prob2/image/005.png)
 
 ### 6
 
@@ -406,7 +406,7 @@ Numo.gnuplot do
     "normal(x, mu, sigma)"
 end
 ```
-![105prob2/006](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/105prob2/image/006.png)
+![105prob2/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/105prob2/image/006.png)
 
 ### 7
 
@@ -473,7 +473,7 @@ Numo.gnuplot do
     "gmm(x, rho, lambda)"
 end
 ```
-![105prob2/007](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/105prob2/image/007.png)
+![105prob2/007](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/105prob2/image/007.png)
 
 ### 8
 
@@ -536,7 +536,7 @@ Numo.gnuplot do
     "normal(x, mu, sigma)"
 end
 ```
-![105prob2/008](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/105prob2/image/008.png)
+![105prob2/008](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/105prob2/image/008.png)
 
 ### 9
 
@@ -597,7 +597,7 @@ Numo.gnuplot do
     "normal(x, mu, sigma)"
 end
 ```
-![105prob2/009](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/105prob2/image/009.png)
+![105prob2/009](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/105prob2/image/009.png)
 
 ### 10
 
@@ -658,4 +658,4 @@ Numo.gnuplot do
     "normal(x, mu, sigma)"
 end
 ```
-![105prob2/010](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/105prob2/image/010.png)
+![105prob2/010](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/105prob2/image/010.png)

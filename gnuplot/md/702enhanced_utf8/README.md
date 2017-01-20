@@ -89,4 +89,4 @@ Numo.gnuplot do
   plot "sin(x)**2", lt:2, lw:2, title:"sin^2(x)"
 end
 ```
-![702enhanced_utf8/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/702enhanced_utf8/image/001.png)
+![702enhanced_utf8/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/702enhanced_utf8/image/001.png)

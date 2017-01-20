@@ -1,6 +1,6 @@
 require 'fileutils'
 
-RAW_BASE = "https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md"
+RAW_BASE = "https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md"
 DOC_BASE = "https://github.com/ruby-numo/gnuplot-demo/blob/master/gnuplot"
 GITHUB_URL = "https://github.com/ruby-numo/gnuplot-demo/tree/master/gnuplot"
 

@@ -104,7 +104,7 @@ Numo.gnuplot do
   splot "vtot(x,y)", w:"l"
 end
 ```
-![012vector/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/012vector/image/001.png)
+![012vector/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/012vector/image/001.png)
 
 ### 2
 
@@ -126,7 +126,7 @@ Numo.gnuplot do
   plot "\"equipo2.tmp\"", w:"l"
 end
 ```
-![012vector/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/012vector/image/002.png)
+![012vector/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/012vector/image/002.png)
 
 ### 3
 
@@ -161,4 +161,4 @@ Numo.gnuplot do
     ["\"equipo2.tmp\"", w:"l"]
 end
 ```
-![012vector/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/012vector/image/003.png)
+![012vector/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/012vector/image/003.png)

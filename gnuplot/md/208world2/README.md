@@ -57,7 +57,7 @@ Numo.gnuplot do
     ["0", font:"Helvetica,7", tc_pal:true]
 end
 ```
-![208world2/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/208world2/image/001.png)
+![208world2/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/208world2/image/001.png)
 
 ### 2
 
@@ -72,4 +72,4 @@ Numo.gnuplot do
   replot
 end
 ```
-![208world2/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/208world2/image/002.png)
+![208world2/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/208world2/image/002.png)

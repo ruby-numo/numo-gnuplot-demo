@@ -50,7 +50,7 @@ Numo.gnuplot do
     ["'using.bin'", binary:'format="%*int32%int8%*int16%int8%*int16%*int16"', using:[1,2], title:"Logged in", with:"points"]
 end
 ```
-![403image2/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/001.png)
+![403image2/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/001.png)
 
 ### 2
 
@@ -80,7 +80,7 @@ Numo.gnuplot do
     ["'using.bin'", binary:'format="%*int32%*int8%int16%*int8%*int16%int16"', using:'($1/100):($2/100)', t:"%CPU used", with:"lines"]
 end
 ```
-![403image2/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/002.png)
+![403image2/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/002.png)
 
 ### 3
 
@@ -110,7 +110,7 @@ Numo.gnuplot do
   splot "'scatter2.bin'", binary:'endian=little record=30:30:29:26', using:[1,2,3]
 end
 ```
-![403image2/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/003.png)
+![403image2/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/003.png)
 
 ### 4
 
@@ -194,7 +194,7 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![403image2/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/004.png)
+![403image2/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/004.png)
 
 ### 5
 
@@ -249,7 +249,7 @@ EOL
   reset
 end
 ```
-![403image2/005](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/005.png)
+![403image2/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/005.png)
 
 ### 6
 
@@ -276,7 +276,7 @@ Numo.gnuplot do
   splot "'blutux.rgb'", binary:'array=(128,128) flip=y format="%uchar%uchar%uchar"', using:'($1+$2+$3)/3', with:"image"
 end
 ```
-![403image2/006](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/006.png)
+![403image2/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/006.png)
 
 ### 7
 
@@ -299,7 +299,7 @@ Numo.gnuplot do
   splot "'blutux.rgb'", binary:'array=(128,128) flipy rotate=90d center = (63.5,63.5,50) format="%uchar%uchar%uchar"', using:'($1+$2+$3)', with:"image"
 end
 ```
-![403image2/007](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/007.png)
+![403image2/007](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/007.png)
 
 ### 8
 
@@ -342,7 +342,7 @@ Numo.gnuplot do
   splot "'blutux.rgb'", binary:'array=(128,128) flipy rot=1.0pi center = (63.5,63.5,50) perp=(1,1,1) format="%uchar%uchar%uchar"', using:'($1+$2+$3)/3', with:"image"
 end
 ```
-![403image2/008](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/008.png)
+![403image2/008](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/008.png)
 
 ### 9
 
@@ -411,7 +411,7 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![403image2/009](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/009.png)
+![403image2/009](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/009.png)
 
 ### 10
 
@@ -440,7 +440,7 @@ Numo.gnuplot do
   splot "'scatter2.bin'", binary:'endian=little record=30:30:29:26 origin=(25,0,0):(50,0,0):(75,0,0):(100,0,0) format="%f%f"', using:'(0):2:3'
 end
 ```
-![403image2/010](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/010.png)
+![403image2/010](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/010.png)
 
 ### 11
 
@@ -469,7 +469,7 @@ Numo.gnuplot do
   splot "'scatter2.bin'", binary:'endian=little record=30:26 skip=360:348 origin=(50,0,0):(100,0,0) format="%f%f"', using:'(0):2:3'
 end
 ```
-![403image2/011](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/011.png)
+![403image2/011](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/011.png)
 
 ### 12
 
@@ -506,7 +506,7 @@ Numo.gnuplot do
   plot "'sine.bin'", binary:'endian=little array=201 dt=0.018326 origin=(0,0) format="%f"', using:1, with:"lines"
 end
 ```
-![403image2/012](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/012.png)
+![403image2/012](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/012.png)
 
 ### 13
 
@@ -554,7 +554,7 @@ Numo.gnuplot do
     ["\"binary3\"", binary:'center=(1.5,10.5,0) rotate=1.5pi', u:[1,2,3]]
 end
 ```
-![403image2/013](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/013.png)
+![403image2/013](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/013.png)
 
 ### 14
 
@@ -592,7 +592,7 @@ Numo.gnuplot do
   splot "\"binary2\"", :binary
 end
 ```
-![403image2/014](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/014.png)
+![403image2/014](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/014.png)
 
 ### 15
 
@@ -605,7 +605,7 @@ Numo.gnuplot do
   splot "\"binary2\"", :binary, every:2
 end
 ```
-![403image2/015](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/015.png)
+![403image2/015](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/015.png)
 
 ### 16
 
@@ -618,7 +618,7 @@ Numo.gnuplot do
   splot "\"binary2\"", :binary, every:":3"
 end
 ```
-![403image2/016](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/016.png)
+![403image2/016](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/016.png)
 
 ### 17
 
@@ -631,7 +631,7 @@ Numo.gnuplot do
   splot "\"binary2\"", :binary, every:[4,4]
 end
 ```
-![403image2/017](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/017.png)
+![403image2/017](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/017.png)
 
 ### 18
 
@@ -657,7 +657,7 @@ Numo.gnuplot do
   plot "'blutux.rgb'", binary:'array=(128,128) flipy format="%uchar"', every:[1,1,43,15,83,65], with:"rgbimage"
 end
 ```
-![403image2/018](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/018.png)
+![403image2/018](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/018.png)
 
 ### 19
 
@@ -676,7 +676,7 @@ Numo.gnuplot do
   plot "'blutux.rgb'", binary:'array=(128,128) flipy format="%uchar"', every:[8,8], with:"rgbimage"
 end
 ```
-![403image2/019](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/019.png)
+![403image2/019](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/019.png)
 
 ### 20
 
@@ -708,7 +708,7 @@ Numo.gnuplot do
   plot "'demo.edf'", binary:'filetype=auto', with:"image"
 end
 ```
-![403image2/020](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/020.png)
+![403image2/020](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/020.png)
 
 ### 21
 
@@ -804,7 +804,7 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![403image2/021](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/021.png)
+![403image2/021](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/021.png)
 
 ### 22
 
@@ -916,7 +916,7 @@ EOL
   unset :multiplot
 end
 ```
-![403image2/022](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/022.png)
+![403image2/022](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/022.png)
 
 ### 23
 
@@ -1032,7 +1032,7 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![403image2/023](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/023.png)
+![403image2/023](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/023.png)
 
 ### 24
 
@@ -1079,4 +1079,4 @@ Numo.gnuplot do
     ["'blutux.rgb'", binary:'array=(128,128) flipy rot=90d origin=(+137,+137,0) perp=(0,1,0) format="%uchar"', with:"rgbimage"]
 end
 ```
-![403image2/024](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/024.png)
+![403image2/024](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/403image2/image/024.png)

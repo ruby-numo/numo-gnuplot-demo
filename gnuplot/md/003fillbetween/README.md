@@ -26,7 +26,7 @@ Numo.gnuplot do
     ["''", u:[1,3], lt:-1, notitle:true]
 end
 ```
-![003fillbetween/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/003fillbetween/image/001.png)
+![003fillbetween/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/003fillbetween/image/001.png)
 
 ### 2
 
@@ -41,7 +41,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![003fillbetween/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/003fillbetween/image/002.png)
+![003fillbetween/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/003fillbetween/image/002.png)
 
 ### 3
 
@@ -66,4 +66,4 @@ Numo.gnuplot do
     ["''", u:'1:($3+$1/50.)', lt:3, lw:2, title:'curve 2']
 end
 ```
-![003fillbetween/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/003fillbetween/image/003.png)
+![003fillbetween/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/003fillbetween/image/003.png)

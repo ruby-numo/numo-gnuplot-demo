@@ -31,7 +31,7 @@ Numo.gnuplot do
     "sin(u)"
 end
 ```
-![202surface2/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/202surface2/image/001.png)
+![202surface2/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/202surface2/image/001.png)
 
 ### 2
 
@@ -46,7 +46,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![202surface2/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/202surface2/image/002.png)
+![202surface2/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/202surface2/image/002.png)
 
 ### 3
 
@@ -61,7 +61,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![202surface2/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/202surface2/image/003.png)
+![202surface2/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/202surface2/image/003.png)
 
 ### 4
 
@@ -85,7 +85,7 @@ Numo.gnuplot do
     "0.2*sin(v)"
 end
 ```
-![202surface2/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/202surface2/image/004.png)
+![202surface2/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/202surface2/image/004.png)
 
 ### 5
 
@@ -112,7 +112,7 @@ Numo.gnuplot do
     "sin(u)**3"
 end
 ```
-![202surface2/005](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/202surface2/image/005.png)
+![202surface2/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/202surface2/image/005.png)
 
 ### 6
 
@@ -138,7 +138,7 @@ Numo.gnuplot do
     "0.1*(sin(v)+u/1.7-10)"
 end
 ```
-![202surface2/006](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/202surface2/image/006.png)
+![202surface2/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/202surface2/image/006.png)
 
 ### 7
 
@@ -163,7 +163,7 @@ Numo.gnuplot do
     "sin(u)*u*(1+cos(v)/2)"
 end
 ```
-![202surface2/007](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/202surface2/image/007.png)
+![202surface2/007](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/202surface2/image/007.png)
 
 ### 8
 
@@ -178,7 +178,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![202surface2/008](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/202surface2/image/008.png)
+![202surface2/008](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/202surface2/image/008.png)
 
 ### 9
 
@@ -204,4 +204,4 @@ Numo.gnuplot do
     ["sin(u)+.5*sin(u)*cos(v)", with:"lines"]
 end
 ```
-![202surface2/009](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/202surface2/image/009.png)
+![202surface2/009](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/202surface2/image/009.png)

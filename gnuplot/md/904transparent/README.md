@@ -54,7 +54,7 @@ Numo.gnuplot do
     ["d3(x)", lc_rgb:"red", title:"μ = -1.0 σ = 2.0"]
 end
 ```
-![904transparent/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/904transparent/image/001.png)
+![904transparent/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/904transparent/image/001.png)
 
 ### 2
 
@@ -69,7 +69,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![904transparent/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/904transparent/image/002.png)
+![904transparent/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/904transparent/image/002.png)
 
 ### 3
 
@@ -84,7 +84,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![904transparent/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/904transparent/image/003.png)
+![904transparent/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/904transparent/image/003.png)
 
 ### 4
 
@@ -99,4 +99,4 @@ Numo.gnuplot do
   replot
 end
 ```
-![904transparent/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/904transparent/image/004.png)
+![904transparent/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/904transparent/image/004.png)

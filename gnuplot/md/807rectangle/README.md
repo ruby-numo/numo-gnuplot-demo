@@ -63,7 +63,7 @@ Numo.gnuplot do
     ["-3+sin(x*5)/x", lt:3, lw:3]
 end
 ```
-![807rectangle/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/807rectangle/image/001.png)
+![807rectangle/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/807rectangle/image/001.png)
 
 ### 2
 
@@ -107,4 +107,4 @@ Numo.gnuplot do
     ["'using.dat'", using:[3,6], t:"%CPU used", with:"lines"]
 end
 ```
-![807rectangle/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/807rectangle/image/002.png)
+![807rectangle/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/807rectangle/image/002.png)

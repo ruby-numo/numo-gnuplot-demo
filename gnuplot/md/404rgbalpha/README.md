@@ -43,7 +43,7 @@ Numo.gnuplot do
     ["'lena.rgb'", binary:'array=(128,128) format="%uchar" flipy', using:'1:2:3:(2.*column(0))', with:"rgbalpha", title:"Lena with linear\nalpha gradient"]
 end
 ```
-![404rgbalpha/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/404rgbalpha/image/001.png)
+![404rgbalpha/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/404rgbalpha/image/001.png)
 
 ### 2
 
@@ -62,4 +62,4 @@ Numo.gnuplot do
     ["'lena.rgb'", binary:'array=(128,128) format="%uchar" flipy', using:'1:2:3:(focus(70,50))', with:"rgbalpha", title:"Lena with circular mask"]
 end
 ```
-![404rgbalpha/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/404rgbalpha/image/002.png)
+![404rgbalpha/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/404rgbalpha/image/002.png)

@@ -41,7 +41,7 @@ Numo.gnuplot do
     ["x*x-y*y", with:"lines", lc_rgb:"black"]
 end
 ```
-![207hidden2/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/207hidden2/image/001.png)
+![207hidden2/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/207hidden2/image/001.png)
 
 ### 2
 
@@ -127,4 +127,4 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![207hidden2/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/207hidden2/image/002.png)
+![207hidden2/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/207hidden2/image/002.png)

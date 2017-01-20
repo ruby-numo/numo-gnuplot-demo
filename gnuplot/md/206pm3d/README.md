@@ -61,7 +61,7 @@ Numo.gnuplot do
   splot "sin(sqrt(x**2+y**2))/sqrt(x**2+y**2)"
 end
 ```
-![206pm3d/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/001.png)
+![206pm3d/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/001.png)
 
 ### 2
 
@@ -80,7 +80,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![206pm3d/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/002.png)
+![206pm3d/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/002.png)
 
 ### 3
 
@@ -95,7 +95,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![206pm3d/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/003.png)
+![206pm3d/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/003.png)
 
 ### 4
 
@@ -112,7 +112,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![206pm3d/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/004.png)
+![206pm3d/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/004.png)
 
 ### 5
 
@@ -132,7 +132,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![206pm3d/005](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/005.png)
+![206pm3d/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/005.png)
 
 ### 6
 
@@ -151,7 +151,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![206pm3d/006](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/006.png)
+![206pm3d/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/006.png)
 
 ### 7
 
@@ -168,7 +168,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![206pm3d/007](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/007.png)
+![206pm3d/007](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/007.png)
 
 ### 8
 
@@ -187,7 +187,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![206pm3d/008](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/008.png)
+![206pm3d/008](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/008.png)
 
 ### 9
 
@@ -202,7 +202,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![206pm3d/009](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/009.png)
+![206pm3d/009](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/009.png)
 
 ### 10
 
@@ -217,7 +217,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![206pm3d/010](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/010.png)
+![206pm3d/010](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/010.png)
 
 ### 11
 
@@ -232,7 +232,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![206pm3d/011](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/011.png)
+![206pm3d/011](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/011.png)
 
 ### 12
 
@@ -247,7 +247,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![206pm3d/012](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/012.png)
+![206pm3d/012](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/012.png)
 
 ### 13
 
@@ -265,7 +265,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![206pm3d/013](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/013.png)
+![206pm3d/013](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/013.png)
 
 ### 14
 
@@ -298,7 +298,7 @@ Numo.gnuplot do
   splot "sin(sqrt(x**2+y**2))/sqrt(x**2+y**2)"
 end
 ```
-![206pm3d/014](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/014.png)
+![206pm3d/014](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/014.png)
 
 ### 15
 
@@ -317,7 +317,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![206pm3d/015](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/015.png)
+![206pm3d/015](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/015.png)
 
 ### 16
 
@@ -344,7 +344,7 @@ Numo.gnuplot do
   splot "log(x*x*y*y)"
 end
 ```
-![206pm3d/016](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/016.png)
+![206pm3d/016](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/016.png)
 
 ### 17
 
@@ -380,7 +380,7 @@ Numo.gnuplot do
   splot "log(x*x*y*y)"
 end
 ```
-![206pm3d/017](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/017.png)
+![206pm3d/017](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/017.png)
 
 ### 18
 
@@ -408,7 +408,7 @@ Numo.gnuplot do
   splot "log(x*x*y*y)"
 end
 ```
-![206pm3d/018](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/018.png)
+![206pm3d/018](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/018.png)
 
 ### 19
 
@@ -427,7 +427,7 @@ Numo.gnuplot do
   splot "log(x*x*y*y)"
 end
 ```
-![206pm3d/019](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/019.png)
+![206pm3d/019](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/019.png)
 
 ### 20
 
@@ -455,7 +455,7 @@ Numo.gnuplot do
   splot "y"
 end
 ```
-![206pm3d/020](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/020.png)
+![206pm3d/020](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/020.png)
 
 ### 21
 
@@ -480,7 +480,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![206pm3d/021](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/021.png)
+![206pm3d/021](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/021.png)
 
 ### 22
 
@@ -498,7 +498,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![206pm3d/022](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/022.png)
+![206pm3d/022](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/022.png)
 
 ### 23
 
@@ -519,7 +519,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![206pm3d/023](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/023.png)
+![206pm3d/023](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/023.png)
 
 ### 24
 
@@ -556,7 +556,7 @@ Numo.gnuplot do
   splot "'triangle.dat'"
 end
 ```
-![206pm3d/024](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/024.png)
+![206pm3d/024](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/024.png)
 
 ### 25
 
@@ -573,7 +573,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![206pm3d/025](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/025.png)
+![206pm3d/025](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/025.png)
 
 ### 26
 
@@ -588,7 +588,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![206pm3d/026](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/026.png)
+![206pm3d/026](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/026.png)
 
 ### 27
 
@@ -608,7 +608,7 @@ Numo.gnuplot do
   splot "'triangle.dat'"
 end
 ```
-![206pm3d/027](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/027.png)
+![206pm3d/027](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/027.png)
 
 ### 28
 
@@ -625,7 +625,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![206pm3d/028](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/028.png)
+![206pm3d/028](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/028.png)
 
 ### 29
 
@@ -640,7 +640,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![206pm3d/029](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/029.png)
+![206pm3d/029](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/029.png)
 
 ### 30
 
@@ -655,7 +655,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![206pm3d/030](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/030.png)
+![206pm3d/030](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/030.png)
 
 ### 31
 
@@ -670,7 +670,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![206pm3d/031](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/031.png)
+![206pm3d/031](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/031.png)
 
 ### 32
 
@@ -687,7 +687,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![206pm3d/032](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/032.png)
+![206pm3d/032](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/032.png)
 
 ### 33
 
@@ -725,7 +725,7 @@ Numo.gnuplot do
   splot "abs(x)**3+abs(y)**3"
 end
 ```
-![206pm3d/033](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/033.png)
+![206pm3d/033](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/033.png)
 
 ### 34
 
@@ -747,7 +747,7 @@ Numo.gnuplot do
   splot "x+y"
 end
 ```
-![206pm3d/034](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/034.png)
+![206pm3d/034](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/034.png)
 
 ### 35
 
@@ -764,7 +764,7 @@ Numo.gnuplot do
   splot "x+y"
 end
 ```
-![206pm3d/035](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/035.png)
+![206pm3d/035](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/035.png)
 
 ### 36
 
@@ -797,7 +797,7 @@ Numo.gnuplot do
   splot "sin(y)/(y)", w:"lines", palette:true
 end
 ```
-![206pm3d/036](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/036.png)
+![206pm3d/036](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/036.png)
 
 ### 37
 
@@ -820,7 +820,7 @@ Numo.gnuplot do
   splot "'clip14in.dat'"
 end
 ```
-![206pm3d/037](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/037.png)
+![206pm3d/037](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/037.png)
 
 ### 38
 
@@ -839,7 +839,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![206pm3d/038](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/038.png)
+![206pm3d/038](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/038.png)
 
 ### 39
 
@@ -854,7 +854,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![206pm3d/039](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/039.png)
+![206pm3d/039](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/039.png)
 
 ### 40
 
@@ -889,7 +889,7 @@ Numo.gnuplot do
     ["1+sinc(x*4, y*4)", w:"l"]
 end
 ```
-![206pm3d/040](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/040.png)
+![206pm3d/040](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/040.png)
 
 ### 41
 
@@ -909,7 +909,7 @@ Numo.gnuplot do
     ["'binary2'", :binary, u:'1:2:(column(3) * 10 - 12)', notitle:true, w:"pm3d"]
 end
 ```
-![206pm3d/041](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/041.png)
+![206pm3d/041](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/041.png)
 
 ### 42
 
@@ -1049,4 +1049,4 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![206pm3d/042](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/042.png)
+![206pm3d/042](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/206pm3d/image/042.png)

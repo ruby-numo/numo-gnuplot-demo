@@ -62,7 +62,7 @@ Numo.gnuplot do
     ["erf(x)", with:"points"]
 end
 ```
-![108bivariat/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/108bivariat/image/001.png)
+![108bivariat/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/108bivariat/image/001.png)
 
 ### 2
 
@@ -78,7 +78,7 @@ Numo.gnuplot do
     "integral_f(x)"
 end
 ```
-![108bivariat/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/108bivariat/image/002.png)
+![108bivariat/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/108bivariat/image/002.png)
 
 ### 3
 
@@ -97,7 +97,7 @@ Numo.gnuplot do
     "integral2_f(-5,x)"
 end
 ```
-![108bivariat/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/108bivariat/image/003.png)
+![108bivariat/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/108bivariat/image/003.png)
 
 ### 4
 
@@ -113,7 +113,7 @@ Numo.gnuplot do
     "integral2_f(x,1)"
 end
 ```
-![108bivariat/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/108bivariat/image/004.png)
+![108bivariat/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/108bivariat/image/004.png)
 
 ### 5
 
@@ -144,7 +144,7 @@ Numo.gnuplot do
   splot "ack(x, y)"
 end
 ```
-![108bivariat/005](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/108bivariat/image/005.png)
+![108bivariat/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/108bivariat/image/005.png)
 
 ### 6
 
@@ -177,7 +177,7 @@ Numo.gnuplot do
     "max(sin(x), min(x**2, x**3))+0.5"
 end
 ```
-![108bivariat/006](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/108bivariat/image/006.png)
+![108bivariat/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/108bivariat/image/006.png)
 
 ### 7
 
@@ -210,7 +210,7 @@ Numo.gnuplot do
   plot "gcd(x, 60)", with:"impulses"
 end
 ```
-![108bivariat/007](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/108bivariat/image/007.png)
+![108bivariat/007](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/108bivariat/image/007.png)
 
 ### 8
 
@@ -250,4 +250,4 @@ Numo.gnuplot do
     ["sum1000(x)", title:"1./2 + sum [k=1:1000] sin(3./2*k)/k * 2./3*cos(k*x)"]
 end
 ```
-![108bivariat/008](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/108bivariat/image/008.png)
+![108bivariat/008](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/108bivariat/image/008.png)

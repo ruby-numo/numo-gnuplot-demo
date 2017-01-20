@@ -47,7 +47,7 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![503pm3dcolors/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/001.png)
+![503pm3dcolors/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/001.png)
 
 ### 2
 
@@ -101,7 +101,7 @@ Numo.gnuplot do
   splot "f(x)"
 end
 ```
-![503pm3dcolors/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/002.png)
+![503pm3dcolors/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/002.png)
 
 ### 3
 
@@ -116,7 +116,7 @@ Numo.gnuplot do
   splot "f(x)"
 end
 ```
-![503pm3dcolors/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/003.png)
+![503pm3dcolors/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/003.png)
 
 ### 4
 
@@ -131,7 +131,7 @@ Numo.gnuplot do
   splot "f(x)"
 end
 ```
-![503pm3dcolors/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/004.png)
+![503pm3dcolors/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/004.png)
 
 ### 5
 
@@ -146,7 +146,7 @@ Numo.gnuplot do
   splot "f(x)"
 end
 ```
-![503pm3dcolors/005](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/005.png)
+![503pm3dcolors/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/005.png)
 
 ### 6
 
@@ -161,7 +161,7 @@ Numo.gnuplot do
   splot "f(x)"
 end
 ```
-![503pm3dcolors/006](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/006.png)
+![503pm3dcolors/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/006.png)
 
 ### 7
 
@@ -176,7 +176,7 @@ Numo.gnuplot do
   splot "f(x)"
 end
 ```
-![503pm3dcolors/007](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/007.png)
+![503pm3dcolors/007](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/007.png)
 
 ### 8
 
@@ -193,7 +193,7 @@ Numo.gnuplot do
   splot "f(x)"
 end
 ```
-![503pm3dcolors/008](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/008.png)
+![503pm3dcolors/008](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/008.png)
 
 ### 9
 
@@ -225,7 +225,7 @@ EOL
   splot "f(x)"
 end
 ```
-![503pm3dcolors/009](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/009.png)
+![503pm3dcolors/009](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/009.png)
 
 ### 10
 
@@ -254,7 +254,7 @@ EOL
   splot "f(x)"
 end
 ```
-![503pm3dcolors/010](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/010.png)
+![503pm3dcolors/010](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/010.png)
 
 ### 11
 
@@ -281,7 +281,7 @@ EOL
   splot "f(x)"
 end
 ```
-![503pm3dcolors/011](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/011.png)
+![503pm3dcolors/011](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/011.png)
 
 ### 12
 
@@ -318,7 +318,7 @@ Numo.gnuplot do
   splot "f(x)"
 end
 ```
-![503pm3dcolors/012](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/012.png)
+![503pm3dcolors/012](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/012.png)
 
 ### 13
 
@@ -333,7 +333,7 @@ Numo.gnuplot do
   splot "f(x)"
 end
 ```
-![503pm3dcolors/013](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/013.png)
+![503pm3dcolors/013](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/013.png)
 
 ### 14
 
@@ -348,7 +348,7 @@ Numo.gnuplot do
   splot "f(x)"
 end
 ```
-![503pm3dcolors/014](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/014.png)
+![503pm3dcolors/014](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/014.png)
 
 ### 15
 
@@ -363,7 +363,7 @@ Numo.gnuplot do
   splot "f(x)"
 end
 ```
-![503pm3dcolors/015](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/015.png)
+![503pm3dcolors/015](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/015.png)
 
 ### 16
 
@@ -378,7 +378,7 @@ Numo.gnuplot do
   splot "f(x)"
 end
 ```
-![503pm3dcolors/016](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/016.png)
+![503pm3dcolors/016](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/016.png)
 
 ### 17
 
@@ -393,7 +393,7 @@ Numo.gnuplot do
   splot "f(x)"
 end
 ```
-![503pm3dcolors/017](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/017.png)
+![503pm3dcolors/017](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/017.png)
 
 ### 18
 
@@ -434,7 +434,7 @@ Numo.gnuplot do
   splot "f(x)"
 end
 ```
-![503pm3dcolors/018](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/018.png)
+![503pm3dcolors/018](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/018.png)
 
 ### 19
 
@@ -449,7 +449,7 @@ Numo.gnuplot do
   splot "f(x)"
 end
 ```
-![503pm3dcolors/019](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/019.png)
+![503pm3dcolors/019](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/019.png)
 
 ### 20
 
@@ -464,7 +464,7 @@ Numo.gnuplot do
   splot "f(x)"
 end
 ```
-![503pm3dcolors/020](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/020.png)
+![503pm3dcolors/020](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/020.png)
 
 ### 21
 
@@ -479,7 +479,7 @@ Numo.gnuplot do
   splot "f(x)"
 end
 ```
-![503pm3dcolors/021](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/021.png)
+![503pm3dcolors/021](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/021.png)
 
 ### 22
 
@@ -502,4 +502,4 @@ Numo.gnuplot do
   splot "f(x)"
 end
 ```
-![503pm3dcolors/022](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/022.png)
+![503pm3dcolors/022](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/022.png)

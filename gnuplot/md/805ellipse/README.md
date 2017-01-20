@@ -51,7 +51,7 @@ Numo.gnuplot do
   plot "'random.tmp'", using:'(1.5 + $1*cos(A)-2.*$2*sin(A)):(1.0 + $1*sin(A)+2.*$2*cos(A))', with:"dots"
 end
 ```
-![805ellipse/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/805ellipse/image/001.png)
+![805ellipse/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/805ellipse/image/001.png)
 
 ### 2
 
@@ -76,4 +76,4 @@ Numo.gnuplot do
   replot
 end
 ```
-![805ellipse/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/805ellipse/image/002.png)
+![805ellipse/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/805ellipse/image/002.png)

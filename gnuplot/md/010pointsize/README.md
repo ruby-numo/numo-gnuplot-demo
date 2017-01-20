@@ -33,7 +33,7 @@ Numo.gnuplot do
     ["'world.cor'", using:'1:2:(5.*rand(0))', with:"points", lt:1, pt:6, ps:"variable"]
 end
 ```
-![010pointsize/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/010pointsize/image/001.png)
+![010pointsize/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/010pointsize/image/001.png)
 
 ### 2
 
@@ -52,7 +52,7 @@ Numo.gnuplot do
     ["'world.cor'", using:'1:2:(0.5-rand(0)):(5.*rand(0))', with:"points", pt:5, ps:"var", lt:true, palette:true]
 end
 ```
-![010pointsize/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/010pointsize/image/002.png)
+![010pointsize/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/010pointsize/image/002.png)
 
 ### 3
 
@@ -90,7 +90,7 @@ Numo.gnuplot do
     ["'world.cor'", using:'1:2:(1):(5.*rand(0))', with:"points", lt:1, pt:6, ps:"variable"]
 end
 ```
-![010pointsize/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/010pointsize/image/003.png)
+![010pointsize/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/010pointsize/image/003.png)
 
 ### 4
 
@@ -120,4 +120,4 @@ Numo.gnuplot do
     ["'world.cor'", using:'1:2:(1):(5.*rand(0))', with:"points", lt:1, pt:6, ps:"var"]
 end
 ```
-![010pointsize/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/010pointsize/image/004.png)
+![010pointsize/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/010pointsize/image/004.png)

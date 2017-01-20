@@ -20,7 +20,7 @@ Numo.gnuplot do
   plot "'candlesticks.dat'", using:[1,3,2,6,5], with:"candlesticks"
 end
 ```
-![004candlesticks/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/004candlesticks/image/001.png)
+![004candlesticks/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/004candlesticks/image/001.png)
 
 ### 2
 
@@ -35,7 +35,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![004candlesticks/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/004candlesticks/image/002.png)
+![004candlesticks/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/004candlesticks/image/002.png)
 
 ### 3
 
@@ -52,7 +52,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![004candlesticks/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/004candlesticks/image/003.png)
+![004candlesticks/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/004candlesticks/image/003.png)
 
 ### 4
 
@@ -71,7 +71,7 @@ Numo.gnuplot do
     ["NaN", with:"boxes", lt:1, fs_solid:1, title:"close < open"]
 end
 ```
-![004candlesticks/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/004candlesticks/image/004.png)
+![004candlesticks/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/004candlesticks/image/004.png)
 
 ### 5
 
@@ -88,7 +88,7 @@ Numo.gnuplot do
     ["''", using:[1,4,4,4,4], with:"candlesticks", lt:-1, lw:2, notitle:true]
 end
 ```
-![004candlesticks/005](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/004candlesticks/image/005.png)
+![004candlesticks/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/004candlesticks/image/005.png)
 
 ### 6
 
@@ -103,4 +103,4 @@ Numo.gnuplot do
     ["''", using:[1,4,4,4,4], with:"candlesticks", lt:-1, lw:2, notitle:true]
 end
 ```
-![004candlesticks/006](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/004candlesticks/image/006.png)
+![004candlesticks/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/004candlesticks/image/006.png)

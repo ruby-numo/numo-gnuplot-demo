@@ -25,7 +25,7 @@ Numo.gnuplot do
   splot "\"binary1\"", :binary
 end
 ```
-![401binary/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/401binary/image/001.png)
+![401binary/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/401binary/image/001.png)
 
 ### 2
 
@@ -42,7 +42,7 @@ Numo.gnuplot do
   splot "\"binary2\"", :binary
 end
 ```
-![401binary/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/401binary/image/002.png)
+![401binary/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/401binary/image/002.png)
 
 ### 3
 
@@ -61,4 +61,4 @@ Numo.gnuplot do
   splot "\"binary3\"", :binary
 end
 ```
-![401binary/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/401binary/image/003.png)
+![401binary/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/401binary/image/003.png)

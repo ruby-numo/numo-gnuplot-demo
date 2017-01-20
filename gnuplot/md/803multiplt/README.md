@@ -263,4 +263,4 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![803multiplt/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/803multiplt/image/001.png)
+![803multiplt/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/803multiplt/image/001.png)

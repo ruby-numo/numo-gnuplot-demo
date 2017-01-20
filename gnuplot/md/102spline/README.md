@@ -36,7 +36,7 @@ Numo.gnuplot do
     "m3(x)"
 end
 ```
-![102spline/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/102spline/image/001.png)
+![102spline/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/102spline/image/001.png)
 
 ### 2
 
@@ -61,7 +61,7 @@ Numo.gnuplot do
     "h11(x)"
 end
 ```
-![102spline/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/102spline/image/002.png)
+![102spline/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/102spline/image/002.png)
 
 ### 3
 
@@ -85,7 +85,7 @@ Numo.gnuplot do
     "bez3(x)"
 end
 ```
-![102spline/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/102spline/image/003.png)
+![102spline/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/102spline/image/003.png)
 
 ### 4
 
@@ -109,7 +109,7 @@ Numo.gnuplot do
     "bsp3(x)"
 end
 ```
-![102spline/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/102spline/image/004.png)
+![102spline/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/102spline/image/004.png)
 
 ### 5
 
@@ -173,7 +173,7 @@ Numo.gnuplot do
     ["cub_bsplin_y(t)", with:"lines", lt:3]
 end
 ```
-![102spline/005](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/102spline/image/005.png)
+![102spline/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/102spline/image/005.png)
 
 ### 6
 
@@ -212,4 +212,4 @@ Numo.gnuplot do
     ["cub_hermit_y2(t)", with:"lines", lt:3]
 end
 ```
-![102spline/006](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/102spline/image/006.png)
+![102spline/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/102spline/image/006.png)

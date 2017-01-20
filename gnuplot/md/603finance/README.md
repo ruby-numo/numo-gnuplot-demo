@@ -66,7 +66,7 @@ Numo.gnuplot do
   plot "'finance.dat'", using:[0,5], notitle:true, with:"lines"
 end
 ```
-![603finance/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/001.png)
+![603finance/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/001.png)
 
 ### 2
 
@@ -93,7 +93,7 @@ Numo.gnuplot do
   plot "'finance.dat'", using:[0,5], notitle:true, with:"lines"
 end
 ```
-![603finance/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/002.png)
+![603finance/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/002.png)
 
 ### 3
 
@@ -122,7 +122,7 @@ Numo.gnuplot do
   plot "'finance.dat'", using:[0,5], notitle:true, with:"lines"
 end
 ```
-![603finance/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/003.png)
+![603finance/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/003.png)
 
 ### 4
 
@@ -151,7 +151,7 @@ Numo.gnuplot do
   plot "'finance.dat'", using:[0,2,3,4,5], notitle:true, with:"financebars", lt:8
 end
 ```
-![603finance/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/004.png)
+![603finance/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/004.png)
 
 ### 5
 
@@ -186,7 +186,7 @@ Numo.gnuplot do
     ["'finance.dat'", using:[0,11], notitle:true, with:"lines", lt:2]
 end
 ```
-![603finance/005](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/005.png)
+![603finance/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/005.png)
 
 ### 6
 
@@ -223,7 +223,7 @@ Numo.gnuplot do
     ["'finance.dat'", using:[0,8], axes:"x1y2", notitle:true, with:"lines", lt:4]
 end
 ```
-![603finance/006](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/006.png)
+![603finance/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/006.png)
 
 ### 7
 
@@ -264,7 +264,7 @@ Numo.gnuplot do
     ["'finance.dat'", using:[0,8], axes:"x1y2", notitle:true, with:"lines", lt:4]
 end
 ```
-![603finance/007](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/007.png)
+![603finance/007](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/007.png)
 
 ### 8
 
@@ -345,7 +345,7 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![603finance/008](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/008.png)
+![603finance/008](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/008.png)
 
 ### 9
 
@@ -428,7 +428,7 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![603finance/009](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/009.png)
+![603finance/009](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/009.png)
 
 ### 10
 
@@ -513,7 +513,7 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![603finance/010](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/010.png)
+![603finance/010](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/010.png)
 
 ### 11
 
@@ -602,7 +602,7 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![603finance/011](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/011.png)
+![603finance/011](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/011.png)
 
 ### 12
 
@@ -695,7 +695,7 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![603finance/012](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/012.png)
+![603finance/012](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/012.png)
 
 ### 13
 
@@ -788,7 +788,7 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![603finance/013](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/013.png)
+![603finance/013](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/013.png)
 
 ### 14
 
@@ -887,4 +887,4 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![603finance/014](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/014.png)
+![603finance/014](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/014.png)

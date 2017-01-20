@@ -25,7 +25,7 @@ Numo.gnuplot do
     ["'world.cor'", with:"points", lt:1, pt:2]
 end
 ```
-![303world/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/303world/image/001.png)
+![303world/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/303world/image/001.png)
 
 ### 2
 
@@ -87,7 +87,7 @@ Numo.gnuplot do
     ["'world.cor'", with:"points", lt:1, pt:2]
 end
 ```
-![303world/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/303world/image/002.png)
+![303world/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/303world/image/002.png)
 
 ### 3
 
@@ -116,7 +116,7 @@ Numo.gnuplot do
     ["'world.cor'", with:"points", lt:1, pt:2]
 end
 ```
-![303world/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/303world/image/003.png)
+![303world/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/303world/image/003.png)
 
 ### 4
 
@@ -155,4 +155,4 @@ Numo.gnuplot do
     ["'world.cor'", with:"points", lt:1, pt:2]
 end
 ```
-![303world/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/303world/image/004.png)
+![303world/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/303world/image/004.png)

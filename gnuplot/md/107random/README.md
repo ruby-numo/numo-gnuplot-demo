@@ -54,7 +54,7 @@ Numo.gnuplot do
     "rand(0)"
 end
 ```
-![107random/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/107random/image/001.png)
+![107random/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/107random/image/001.png)
 
 ### 2
 
@@ -70,7 +70,7 @@ Numo.gnuplot do
     "rand(0)"
 end
 ```
-![107random/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/107random/image/002.png)
+![107random/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/107random/image/002.png)
 
 ### 3
 
@@ -150,7 +150,7 @@ EOL
     ["\"random.tmp\"", using:'1:2:(-0.2)', with:"points", pointtype:7, lc_rgb:"black"]
 end
 ```
-![107random/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/107random/image/003.png)
+![107random/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/107random/image/003.png)
 
 ### 4
 
@@ -222,7 +222,7 @@ EOL
     ["normal(x,0,1)", with:"lines", title:"Gaussian p.d.f."]
 end
 ```
-![107random/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/107random/image/004.png)
+![107random/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/107random/image/004.png)
 
 ### 5
 
@@ -292,7 +292,7 @@ EOL
   splot "\"random.tmp\"", every:":::::0", with:"dots"
 end
 ```
-![107random/005](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/107random/image/005.png)
+![107random/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/107random/image/005.png)
 
 ### 6
 
@@ -342,4 +342,4 @@ Numo.gnuplot do
     ["maxwell(x, 1/sqrt(2))", with:"lines", title:"Maxwell p.d.f."]
 end
 ```
-![107random/006](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/107random/image/006.png)
+![107random/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/107random/image/006.png)

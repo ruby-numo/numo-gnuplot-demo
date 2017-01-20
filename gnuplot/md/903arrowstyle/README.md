@@ -80,7 +80,7 @@ Numo.gnuplot do
   plot "'arrowstyle.dat'", using:'1:2:(0):3', notitle:true, with:"vectors", arrowstyle:1
 end
 ```
-![903arrowstyle/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/903arrowstyle/image/001.png)
+![903arrowstyle/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/903arrowstyle/image/001.png)
 
 ### 2
 
@@ -94,7 +94,7 @@ Numo.gnuplot do
   plot "'arrowstyle.dat'", using:'1:2:(0):3', notitle:true, with:"vectors", arrowstyle:2
 end
 ```
-![903arrowstyle/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/903arrowstyle/image/002.png)
+![903arrowstyle/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/903arrowstyle/image/002.png)
 
 ### 3
 
@@ -108,7 +108,7 @@ Numo.gnuplot do
   plot "'arrowstyle.dat'", using:'1:2:(0):3', notitle:true, with:"vectors", arrowstyle:3
 end
 ```
-![903arrowstyle/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/903arrowstyle/image/003.png)
+![903arrowstyle/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/903arrowstyle/image/003.png)
 
 ### 4
 
@@ -122,7 +122,7 @@ Numo.gnuplot do
   plot "'arrowstyle.dat'", using:'1:2:(0):3', notitle:true, with:"vectors", arrowstyle:4
 end
 ```
-![903arrowstyle/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/903arrowstyle/image/004.png)
+![903arrowstyle/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/903arrowstyle/image/004.png)
 
 ### 5
 
@@ -136,7 +136,7 @@ Numo.gnuplot do
   plot "'arrowstyle.dat'", using:'1:2:(0):3', notitle:true, with:"vectors", arrowstyle:5
 end
 ```
-![903arrowstyle/005](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/903arrowstyle/image/005.png)
+![903arrowstyle/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/903arrowstyle/image/005.png)
 
 ### 6
 
@@ -150,7 +150,7 @@ Numo.gnuplot do
   plot "'arrowstyle.dat'", using:'1:2:(0):3', notitle:true, with:"vectors", arrowstyle:6
 end
 ```
-![903arrowstyle/006](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/903arrowstyle/image/006.png)
+![903arrowstyle/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/903arrowstyle/image/006.png)
 
 ### 7
 
@@ -164,7 +164,7 @@ Numo.gnuplot do
   plot "'arrowstyle.dat'", using:'1:2:(0):3', notitle:true, with:"vectors", arrowstyle:7
 end
 ```
-![903arrowstyle/007](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/903arrowstyle/image/007.png)
+![903arrowstyle/007](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/903arrowstyle/image/007.png)
 
 ### 8
 
@@ -178,7 +178,7 @@ Numo.gnuplot do
   plot "'arrowstyle.dat'", using:'1:2:(0):3', notitle:true, with:"vectors", arrowstyle:8
 end
 ```
-![903arrowstyle/008](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/903arrowstyle/image/008.png)
+![903arrowstyle/008](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/903arrowstyle/image/008.png)
 
 ### 9
 
@@ -208,4 +208,4 @@ Numo.gnuplot do
     ["'2.dat'", using:'($1):(2-$2/3):(+1):(+2.5):(int($0)%8 + 1)', with:"vectors", as:"var", ti:'arrowstyle variable']
 end
 ```
-![903arrowstyle/009](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/903arrowstyle/image/009.png)
+![903arrowstyle/009](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/903arrowstyle/image/009.png)

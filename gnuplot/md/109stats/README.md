@@ -43,7 +43,7 @@ Numo.gnuplot do
     ["A_mean", title:"  Mean"]
 end
 ```
-![109stats/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/109stats/image/001.png)
+![109stats/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/109stats/image/001.png)
 
 ### 2
 
@@ -76,4 +76,4 @@ Numo.gnuplot do
     ["B_slope *", 'x+B_intercept', title:"Linear fit"]
 end
 ```
-![109stats/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/109stats/image/002.png)
+![109stats/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/109stats/image/002.png)

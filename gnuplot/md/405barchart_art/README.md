@@ -47,4 +47,4 @@ Numo.gnuplot do
     ["'bldg.png'", binary:'filetype=png origin=(125,0) dx=0.5 dy=0.35', with:"rgbimage"]
 end
 ```
-![405barchart_art/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/405barchart_art/image/001.png)
+![405barchart_art/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/405barchart_art/image/001.png)

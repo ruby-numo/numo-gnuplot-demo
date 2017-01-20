@@ -203,7 +203,7 @@ Numo.gnuplot do
     ["airfoil_y2(t, thick)", title:"lower surface", w:"l", lt:1]
 end
 ```
-![103airfoil/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/103airfoil/image/001.png)
+![103airfoil/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/103airfoil/image/001.png)
 
 ### 2
 
@@ -231,7 +231,7 @@ Numo.gnuplot do
     ["airfoil_y2(t, thick)", title:"lower surface", w:"l", lt:1]
 end
 ```
-![103airfoil/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/103airfoil/image/002.png)
+![103airfoil/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/103airfoil/image/002.png)
 
 ### 3
 
@@ -280,7 +280,7 @@ Numo.gnuplot do
     "imag(eta(t))"
 end
 ```
-![103airfoil/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/103airfoil/image/003.png)
+![103airfoil/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/103airfoil/image/003.png)
 
 ### 4
 
@@ -296,4 +296,4 @@ Numo.gnuplot do
     "imag(eta(t))"
 end
 ```
-![103airfoil/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/103airfoil/image/004.png)
+![103airfoil/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/103airfoil/image/004.png)

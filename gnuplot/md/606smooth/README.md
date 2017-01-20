@@ -28,7 +28,7 @@ Numo.gnuplot do
     ["\"\"", u:'1:(1/300.)', s:"cumul", t:'smooth cumulative']
 end
 ```
-![606smooth/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/606smooth/image/001.png)
+![606smooth/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/606smooth/image/001.png)
 
 ### 2
 
@@ -50,7 +50,7 @@ Numo.gnuplot do
     ["\"\"", u:'2:(1/300.)', s:"cumul", t:'smooth cumulative']
 end
 ```
-![606smooth/002](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/606smooth/image/002.png)
+![606smooth/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/606smooth/image/002.png)
 
 ### 3
 
@@ -73,7 +73,7 @@ Numo.gnuplot do
     ["\"\"", u:'3:(1/300.)', s:"cumul", t:'smooth cumulative']
 end
 ```
-![606smooth/003](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/606smooth/image/003.png)
+![606smooth/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/606smooth/image/003.png)
 
 ### 4
 
@@ -95,4 +95,4 @@ Numo.gnuplot do
     ["\"\"", u:'4:(1/300.)', s:"cumul", t:'smooth cumulative']
 end
 ```
-![606smooth/004](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/606smooth/image/004.png)
+![606smooth/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/606smooth/image/004.png)

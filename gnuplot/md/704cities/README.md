@@ -36,4 +36,4 @@ Numo.gnuplot do
   plot "'cities.dat'", using:'5:4:($3 < 5000 ? "-" : CityName(1,3))', with:"labels"
 end
 ```
-![704cities/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/704cities/image/001.png)
+![704cities/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/704cities/image/001.png)

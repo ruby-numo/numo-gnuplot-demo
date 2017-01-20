@@ -58,4 +58,4 @@ Numo.gnuplot do
     ["sin(x)", with:"lines", lw:1, lc_rgb:"black"]
 end
 ```
-![101approximate/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/gnuplot/md/101approximate/image/001.png)
+![101approximate/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/101approximate/image/001.png)
