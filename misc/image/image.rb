@@ -57,7 +57,7 @@ end
 # unset colorbox
 # plot 'blutux.rgb' binary array=(128,128) flipy format='%uchar%uchar%uchar' using ($1+$2+$3) with image
 
-Numo.gnuplot do
+gpl do
   reset
   unset :key
   set xrange:-10..137
