@@ -4,12 +4,12 @@
 ### 1
 
 ```ruby
+# # demo for plotting images using pixels and binary 2d data
+
 # load binary data
 blutux = Numo::UInt8.from_string(open("blutux.rgb").read,[128,128,3]).reverse(0)
 blutux_ave = Numo::Int16.cast(blutux).sum(2)/3
 
-# # demo for plotting images using pixels and binary 2d data
-#
 # set title "Larry Ewing's GIMP penguin on vacation basking in\nthe balmy waters off the coast of Murmansk"
 # set xrange [-10:137]
 # set yrange [-10:157]
