@@ -1,6 +1,6 @@
 ## Conway's Game of Life
 
-[Description of this demo on jupyter notebook (iruby)](http://nbviewer.jupyter.org/github/icm7216/iruby-notebook-demo/blob/master/lifegame/lifegame_with_narray_convolution.ipynb) (in Japanese)
+[Description of this demo on jupyter notebook (iruby)](http://nbviewer.jupyter.org/github/icm7216/iruby-notebook-demo/blob/master/lifegame/lifegame_with_narray_convolution.ipynb) by [icm7216](https://github.com/icm7216) (in Japanese)
 
 ```ruby
 require 'numo/narray'
