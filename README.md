@@ -15,7 +15,7 @@ and open a web browser to http://localhost:8888 . Then you should see a folder n
 By running the cells in the notebook you can reproduce the plots in the following links.
 
 Our Docker image is based on Minimal Jupyter Notebook Stack.
-See https://github.com/jupyter/docker-stacks/tree/master/base-notebook for more details on the Docker command options.
+See https://github.com/jupyter/docker-stacks/tree/master/minimal-notebook for more details on the Docker command options.
 
 ## [Demo translated from Gnuplot demo](gnuplot)
 
