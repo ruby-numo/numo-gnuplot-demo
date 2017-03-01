@@ -1,4 +1,4 @@
-## Lorenz attractor
+# Lorenz attractor
 
 from Lorenz attractor plotting example:
 
@@ -50,5 +50,11 @@ Numo.gnuplot do
   end
 end
 ```
+
+## PNGCairo
+
 ![lorenz.png](https://raw.github.com/ruby-numo/gnuplot-demo/master/misc/lorenz/lorenz.png)
+
+## GIF animation
+
 ![lorenz.gif](https://raw.github.com/ruby-numo/gnuplot-demo/master/misc/lorenz/lorenz.gif)
