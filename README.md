@@ -3,6 +3,16 @@
 This repository contains demo script of
 [Ruby/Numo::Gnuplot](https://github.com/ruby-numo/gnuplot)
 
+## [Demo translated from Gnuplot demo](gnuplot)
+
+## [Bessel functions in Numo::GSL](gsl/bessel)
+
+## [Conway's Game of Life](misc/lifegame)
+
+## [Show images using Numo::NArray](misc/image)
+
+## [Lorenz attractor](misc/lorenz)
+
 ## Quick Start
 If you're familiar with Docker, the following commands should work in most cases:
 
@@ -16,11 +26,3 @@ By running the cells in the notebook you can reproduce the plots in the followin
 
 Our Docker image is based on Minimal Jupyter Notebook Stack.
 See https://github.com/jupyter/docker-stacks/tree/master/minimal-notebook for more details on the Docker command options.
-
-## [Demo translated from Gnuplot demo](gnuplot)
-
-## [Bessel functions in Numo::GSL](gsl/bessel)
-
-## [Conway's Game of Life](misc/lifegame)
-
-## [Show images using Numo::NArray](misc/image)
