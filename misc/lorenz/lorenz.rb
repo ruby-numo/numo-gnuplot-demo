@@ -21,15 +21,24 @@ stepCnt.times do |i|
 end
 
 Numo.gnuplot do
-  set term:"pngcairo"
-  set output:"lorenz.png"
-  set xlabel:"X Axis"
-  set ylabel:"Y Axis"
-  set zlabel:"Z Axis"
-  set title:"Lorenz Attractor"
-  set grid:"xtics ytics ztics"
-  set xyplane_at:0
-  set view:[60,30,0.8,1.5]
+  set term: "pngcairo", size:[600,600]
+  set output: "lorenz.png"
+  set xlabel: "X Axis"
+  set ylabel: "Y Axis"
+  set zlabel: "Z Axis"
+  set title: "Lorenz Attractor"
+  set grid: "xtics ytics ztics"
+  set xyplane_at: 0
   unset :key
-  splot xs, ys, zs, w:"lines", lw:0.3, lc_rgb:"blue"
+
+  set view: [60,30,1,1]
+  splot xs, ys, zs, w:"lines", lw:0.5, lc_rgb:"blue"
+
+  set term: "gif", animate:true, delay:50, size:[600,600]
+  set output: "lorenz.gif"
+
+  12.times do |i|
+    set view: [80-i*5,10+i*15,1,1]
+    splot xs, ys, zs, w:"lines", lw:1, lc_rgb:"blue"
+  end
 end
