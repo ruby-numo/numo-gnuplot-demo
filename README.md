@@ -3,16 +3,17 @@
 This repository contains demo script of
 [Ruby/Numo::Gnuplot](https://github.com/ruby-numo/gnuplot)
 
-## [Demo translated from Gnuplot demo](gnuplot)
-### [Show images using Numo::NArray](misc/image)
+## Contents
 
-## Numo::GSL demo
-### [Bessel functions](gsl/bessel)
-### [Random Number Generation](gsl/rng)
+* [Demo translated from Gnuplot demo](gnuplot)
+ * [Show images using Numo::NArray](misc/image)
 
-## [Conway's Game of Life](misc/lifegame)
+* [Numo::GSL](https://github.com/ruby-numo/gsl) demo
+ * [Bessel functions](gsl/bessel)
+ * [Random Number Generation](gsl/rng)
 
-## [Lorenz attractor](misc/lorenz)
+* [Conway's Game of Life](misc/lifegame)
+* [Lorenz attractor](misc/lorenz)
 
 ## Quick Start
 If you're familiar with Docker, the following commands should work in most cases:
