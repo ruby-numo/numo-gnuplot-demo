@@ -4,12 +4,13 @@ This repository contains demo script of
 [Ruby/Numo::Gnuplot](https://github.com/ruby-numo/gnuplot)
 
 ## [Demo translated from Gnuplot demo](gnuplot)
+### [Show images using Numo::NArray](misc/image)
 
-## [Bessel functions in Numo::GSL](gsl/bessel)
+## Numo::GSL demo
+### [Bessel functions](gsl/bessel)
+### [Random Number Generation](gsl/rng)
 
 ## [Conway's Game of Life](misc/lifegame)
-
-## [Show images using Numo::NArray](misc/image)
 
 ## [Lorenz attractor](misc/lorenz)
 
