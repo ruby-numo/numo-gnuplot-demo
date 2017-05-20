@@ -1,0 +1,17 @@
+# http://stackoverflow.com/questions/4515621/gnuplot-timefmt-issue
+
+set xdata time
+set timefmt x '"%Y-%m-%d %H:%M:%S"'
+#set xrange ['"2010-08-28 02:44:55"':'"2010-12-19 16:46:55"']
+#set xrange ['"2010-08-28 02:44:55"':'"2010-08-30 16:46:55"']
+#set yrange [0:500]
+#set datafile separator "|"
+
+plot '-' using 3:1 w lp
+ 3 Harpos "2010-08-28 02:44:55"
+ 5 Harpos "2010-08-29 02:09:19"
+ 4 Harpos "2010-08-29 02:22:25"
+26 Harpos "2010-08-30 03:01:09"
+e
+
+pause mouse
