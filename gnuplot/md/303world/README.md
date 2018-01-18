@@ -25,7 +25,7 @@ Numo.gnuplot do
     ["'world.cor'", with:"points", lt:1, pt:2]
 end
 ```
-![303world/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/303world/image/001.png)
+![303world/001](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/303world/image/001.png)
 
 ### 2
 
@@ -87,7 +87,7 @@ Numo.gnuplot do
     ["'world.cor'", with:"points", lt:1, pt:2]
 end
 ```
-![303world/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/303world/image/002.png)
+![303world/002](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/303world/image/002.png)
 
 ### 3
 
@@ -98,7 +98,7 @@ end
 # set title "3D solid version with hidden line removal"
 # set hidden3d offset 0
 # set arrow from 0,0,-1.2 to 0,0,1.2 lc rgb "cyan" lw 2
-# set arrow from -1.2, 0, 0 to 1.2, 0, 0 nohead lc rgb "cyan" lw 1 
+# set arrow from -1.2, 0, 0 to 1.2, 0, 0 nohead lc rgb "cyan" lw 1
 # set arrow from 0, -1.2, 0 to 0, 1.2, 0 nohead lc rgb "cyan" lw 1
 # splot cos(u)*cos(v),-cos(u)*sin(v),sin(u) with lines lc rgb "cyan" ,\
 # 'world.dat' u 1:2:(1.001) with lines lc rgb "blue" , 'world.cor' with points lt 1 pt 2
@@ -116,13 +116,13 @@ Numo.gnuplot do
     ["'world.cor'", with:"points", lt:1, pt:2]
 end
 ```
-![303world/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/303world/image/003.png)
+![303world/003](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/303world/image/003.png)
 
 ### 4
 
 ```ruby
 # unset arrow
-# 
+#
 # #
 # # plot a '3D version using cylindrical coordinate system' of the world.
 # set title "3D version using cylindrical coordinate system"
@@ -155,4 +155,4 @@ Numo.gnuplot do
     ["'world.cor'", with:"points", lt:1, pt:2]
 end
 ```
-![303world/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/303world/image/004.png)
+![303world/004](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/303world/image/004.png)

@@ -7,32 +7,32 @@
 # # demo for the use of "set object circle" and "plot ... with circles"
 # #
 # # Ethan A Merritt, Ralf Juengling - 2007,2008
-# 
+#
 # if ((GPVAL_VERSION == 4.3 || GPVAL_VERSION == 4.2) \
 # &&  (!strstrt(GPVAL_COMPILE_OPTIONS,"+OBJECTS"))) \
 #     print ">>> Skipping demo <<<\n" ; \
 #     print "This copy of gnuplot was built without support for circles\n" ; \
 #     exit ;
-# 
+#
 # set size ratio -1
 # set style fill solid 1.0 border -1
-# 
-# set obj 10 circle   arc [  0 :  20] fc rgb "red" 
-# set obj 11 circle   arc [ 20 :  50] fc rgb "orange" 
-# set obj 12 circle   arc [ 50 :  90] fc rgb "yellow" 
-# set obj 13 circle   arc [ 90 : 120] fc rgb "forest-green" 
-# set obj 14 circle   arc [120 : 190] fc rgb "dark-turquoise" 
-# set obj 15 circle   arc [190 : 360] fc rgb "dark-magenta" 
-# 
+#
+# set obj 10 circle   arc [  0 :  20] fc rgb "red"
+# set obj 11 circle   arc [ 20 :  50] fc rgb "orange"
+# set obj 12 circle   arc [ 50 :  90] fc rgb "yellow"
+# set obj 13 circle   arc [ 90 : 120] fc rgb "forest-green"
+# set obj 14 circle   arc [120 : 190] fc rgb "dark-turquoise"
+# set obj 15 circle   arc [190 : 360] fc rgb "dark-magenta"
+#
 # set obj 10 circle at screen .18,.32   size screen .10  front
 # set obj 11 circle at screen .18,.32   size screen .10  front
 # set obj 12 circle at screen .18,.32   size screen .10  front
 # set obj 13 circle at screen .1767,.342   size screen .10  front
 # set obj 14 circle at screen .18,.32   size screen .10  front
 # set obj 15 circle at screen .18,.32   size screen .10  front
-# 
+#
 # set obj 20 rect from graph 0,0 to graph 1,1 behind fc rgb "cyan" fs solid 0.2
-# 
+#
 # # plot world map and correspondent locations as a circle
 # set title ""
 # set xlabel "Note that overlapping transparent circles produce a darker area"
@@ -40,9 +40,9 @@
 # unset xtics
 # unset ytics
 # set border
-# 
+#
 # set yrange [-70:*]
-# 
+#
 # plot 'world.dat' with filledcurves lc rgb "light-green" , \
 #      'world.cor' using 1:2:(7.*rand(0)) with circles lt 3 \
 #                  fs transparent solid 0.5 noborder
@@ -74,29 +74,29 @@ Numo.gnuplot do
     ["'world.cor'", using:'1:2:(7.*rand(0))', with:"circles", lt:3, fs:"transparent", solid:0.5, noborder:true]
 end
 ```
-![013circles/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/013circles/image/001.png)
+![013circles/001](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/013circles/image/001.png)
 
 ### 2
 
 ```ruby
 # # by Peter Juhasz - 2010
-# 
+#
 # reset
-# 
+#
 # set style fill solid 1.0 border -1
 # set size ratio -1
-# 
+#
 # # Plot pie charts on top of the map of the world.
 # # The pie segments are read from a data file.
 # # Each segment has to be specified with a start and end angle.
-# 
+#
 # set title "Sources of energy production, plotted for each continent"
-# 
+#
 # unset key
 # unset xtics
 # unset ytics
 # set border
-# 
+#
 # set yrange [-70:*]
 # set palette model HSV func gray*0.75, 0.5, 0.99
 # unset colorbox
@@ -105,10 +105,10 @@ end
 # keyx = -137.
 # keyy = -15.
 # keyr = 25.
-# 
+#
 # set obj 20 rect from graph 0,0 to graph 1,1 behind fc rgb "cyan" fs solid 0.2
 # set angle degree
-# 
+#
 # plot 'world.dat' with filledcurves lc rgb "light-green" notit, \
 #      'energy_circles.dat' using 2:1:(sqrt($9)*r):6:($6+$7):5 \
 #             with circles lc pal fs solid 1.0 border rgb "gray",\
@@ -143,13 +143,13 @@ Numo.gnuplot do
     "for [i=0:types-1] '' using              (keyx+keyr*cos(-(i+0.5)*360./types)):(keyy+keyr*sin(-(i+0.5)*360./types)):4              every ::i::i with labels"
 end
 ```
-![013circles/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/013circles/image/002.png)
+![013circles/002](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/013circles/image/002.png)
 
 ### 3
 
 ```ruby
 # # by Ralf Juengling - 2008
-# 
+#
 # reset
 # set title "Trace of unconstrained optimization with trust-region method"
 # unset key
@@ -170,7 +170,7 @@ Numo.gnuplot do
     ["'optimize.dat'", u:[1,2], with:"linespoints", lw:2, lc_rgb:"black"]
 end
 ```
-![013circles/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/013circles/image/003.png)
+![013circles/003](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/013circles/image/003.png)
 
 ### 4
 
@@ -183,7 +183,7 @@ end
 # unset key
 # unset border
 # set yrange [] reverse
-# 
+#
 # plot 'lena.rgb' binary array=(128,128) dx=4 dy=4 format='%uchar' with rgbimage, \
 #      'lena-keypoints.bin' binary format='%double' with circles lc rgb "yellow"
 
@@ -200,7 +200,7 @@ Numo.gnuplot do
     ["'lena-keypoints.bin'", binary:'format="%double"', with:"circles", lc_rgb:"yellow"]
 end
 ```
-![013circles/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/013circles/image/004.png)
+![013circles/004](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/013circles/image/004.png)
 
 ### 5
 
@@ -209,7 +209,7 @@ end
 # set size ratio -1
 # set title "Delaunay triangulation of Hemisphere points, some empty circles in red"
 # unset key
-# 
+#
 # plot 'empty-circles.dat' with circles lw 2 lc rgb "red", \
 #      'delaunay-edges.dat' with lines lc rgb "forest-green", \
 #      'hemisphr.dat' u (100*$1):(100*$2) with points pt 7 lc rgb "black"
@@ -224,4 +224,4 @@ Numo.gnuplot do
     ["'hemisphr.dat'", u:'(100*$1):(100*$2)', with:"points", pt:7, lc_rgb:"black"]
 end
 ```
-![013circles/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/013circles/image/005.png)
+![013circles/005](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/013circles/image/005.png)

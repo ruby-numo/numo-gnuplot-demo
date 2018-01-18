@@ -22,27 +22,27 @@
 # #
 # set label 1 at -0.65, 0.95
 # set label 1 "Superscripts and subscripts:" tc lt 3
-# 
+#
 # set label 3 at -0.55, 0.85
 # set label 3 'A_{j,k} 10^{-2}  x@^2_k    x@_0^{-3/2}y'
-# 
-# set label 5 at -0.55,  0.7 
+#
+# set label 5 at -0.55,  0.7
 # set label 5 "Space-holders:" tc lt 3
-# set label 6 at -0.45, 0.6 
+# set label 6 at -0.45, 0.6
 # set label 6 "<&{{/=20 B}ig}> <&{x@_0^{-3/2}y}> holds space for"
-# set label 7 at -0.45, 0.5 
+# set label 7 at -0.45, 0.5
 # set label 7 "<{{/=20 B}ig}> <{x@_0^{-3/2}y}>"
-# 
+#
 # set label 8 at -0.9, -0.2
 # set label 8 "Overprint\n(v should be centred over d)" tc lt 3
 # set label 9 at -0.85, -0.4
 # set label 9 " ~{abcdefg}{0.8v}"
-# 
+#
 # set label 10 at  -.40, 0.35
 # set label 10 "UTF-8 encoding does not require Symbol font:" tc lt 3
 # set label 11 at -.30, 0.2
 # set label 11 "{/*1.5 ∫@_{/=9.6 0}^{/=12 ∞}} {e^{-{μ}^2/2} d}{μ=(π/2)^{1/2}}"
-# 
+#
 # set label 21 at 0.5, -.1
 # set label 21 "Left  ^{centered} ƒ(αβγδεζ)" left
 # set label 22 at 0.5, -.2
@@ -89,4 +89,4 @@ Numo.gnuplot do
   plot "sin(x)**2", lt:2, lw:2, title:"sin^2(x)"
 end
 ```
-![702enhanced_utf8/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/702enhanced_utf8/image/001.png)
+![702enhanced_utf8/001](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/702enhanced_utf8/image/001.png)

@@ -36,7 +36,7 @@ Numo.gnuplot do
   splot "x*y"
 end
 ```
-![201surface1/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/001.png)
+![201surface1/001](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/201surface1/image/001.png)
 
 ### 2
 
@@ -54,7 +54,7 @@ Numo.gnuplot do
     "x**2-y**2"
 end
 ```
-![201surface1/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/002.png)
+![201surface1/002](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/201surface1/image/002.png)
 
 ### 3
 
@@ -65,7 +65,7 @@ Numo.gnuplot do
   replot "x*y"
 end
 ```
-![201surface1/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/003.png)
+![201surface1/003](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/201surface1/image/003.png)
 
 ### 4
 
@@ -76,7 +76,7 @@ Numo.gnuplot do
   replot "(x**3+y**3)/10"
 end
 ```
-![201surface1/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/004.png)
+![201surface1/004](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/201surface1/image/004.png)
 
 ### 5
 
@@ -91,7 +91,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![201surface1/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/005.png)
+![201surface1/005](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/201surface1/image/005.png)
 
 ### 6
 
@@ -106,7 +106,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![201surface1/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/006.png)
+![201surface1/006](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/201surface1/image/006.png)
 
 ### 7
 
@@ -121,7 +121,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![201surface1/007](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/007.png)
+![201surface1/007](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/201surface1/image/007.png)
 
 ### 8
 
@@ -136,7 +136,7 @@ Numo.gnuplot do
   splot "x*y", with:"points"
 end
 ```
-![201surface1/008](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/008.png)
+![201surface1/008](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/201surface1/image/008.png)
 
 ### 9
 
@@ -159,7 +159,7 @@ Numo.gnuplot do
     ["x**3*y*2", with:"points"]
 end
 ```
-![201surface1/009](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/009.png)
+![201surface1/009](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/201surface1/image/009.png)
 
 ### 10
 
@@ -184,7 +184,7 @@ Numo.gnuplot do
     "x**4*y**2 + 2"
 end
 ```
-![201surface1/010](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/010.png)
+![201surface1/010](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/201surface1/image/010.png)
 
 ### 11
 
@@ -213,7 +213,7 @@ Numo.gnuplot do
   splot "u*v / (u**2 + v**2 + 0.1)"
 end
 ```
-![201surface1/011](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/011.png)
+![201surface1/011](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/201surface1/image/011.png)
 
 ### 12
 
@@ -225,7 +225,7 @@ Numo.gnuplot do
     "sin(x) * cos(y)"
 end
 ```
-![201surface1/012](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/012.png)
+![201surface1/012](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/201surface1/image/012.png)
 
 ### 13
 
@@ -238,7 +238,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![201surface1/013](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/013.png)
+![201surface1/013](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/201surface1/image/013.png)
 
 ### 14
 
@@ -260,7 +260,7 @@ Numo.gnuplot do
     "sinc(u,v)"
 end
 ```
-![201surface1/014](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/014.png)
+![201surface1/014](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/201surface1/image/014.png)
 
 ### 15
 
@@ -282,7 +282,7 @@ Numo.gnuplot do
     "sinc(u,v)"
 end
 ```
-![201surface1/015](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/015.png)
+![201surface1/015](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/201surface1/image/015.png)
 
 ### 16
 
@@ -386,7 +386,7 @@ Numo.gnuplot do
     ["(u<0.5) ? -1 : sinc(x9,v)", :notitle]
 end
 ```
-![201surface1/016](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/016.png)
+![201surface1/016](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/201surface1/image/016.png)
 
 ### 17
 
@@ -439,7 +439,7 @@ Numo.gnuplot do
     ["((floor(u)%3)==0) ? zbase : (((floor(u)%3)==1) ? sinc(xmin+u/3.*dx,v) : 1/0)", :notitle]
 end
 ```
-![201surface1/017](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/017.png)
+![201surface1/017](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/201surface1/image/017.png)
 
 ### 18
 
@@ -467,7 +467,7 @@ Numo.gnuplot do
     "x**2+y**2"
 end
 ```
-![201surface1/018](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/018.png)
+![201surface1/018](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/201surface1/image/018.png)
 
 ### 19
 
@@ -495,7 +495,7 @@ Numo.gnuplot do
   splot "\"glass.dat\""
 end
 ```
-![201surface1/019](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/019.png)
+![201surface1/019](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/201surface1/image/019.png)
 
 ### 20
 
@@ -506,7 +506,7 @@ Numo.gnuplot do
   splot "\"glass.dat\"", using:[3,2,1]
 end
 ```
-![201surface1/020](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/020.png)
+![201surface1/020](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/201surface1/image/020.png)
 
 ### 21
 
@@ -529,7 +529,7 @@ Numo.gnuplot do
     ["\"glass.dat\"", using:3]
 end
 ```
-![201surface1/021](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/021.png)
+![201surface1/021](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/201surface1/image/021.png)
 
 ### 22
 
@@ -548,7 +548,7 @@ Numo.gnuplot do
   splot "'glass.dat'", every:"2::0::12", with:"lines"
 end
 ```
-![201surface1/022](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/022.png)
+![201surface1/022](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/201surface1/image/022.png)
 
 ### 23
 
@@ -565,7 +565,7 @@ Numo.gnuplot do
   splot "'glass.dat'", every:"2::0::12", with:"lines"
 end
 ```
-![201surface1/023](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/023.png)
+![201surface1/023](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/201surface1/image/023.png)
 
 ### 24
 
@@ -586,7 +586,7 @@ Numo.gnuplot do
   splot "\"glass.dat\""
 end
 ```
-![201surface1/024](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/024.png)
+![201surface1/024](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/201surface1/image/024.png)
 
 ### 25
 
@@ -601,7 +601,7 @@ end
 # set hidden3d
 # compl(a,b)=a*{1,0}+b*{0,1}
 # mand(z,a,n) = n<=0 || abs(z)>100 ? 1:mand(z*z+a,a,n-1)+1
-# splot [-2:1][-1.5:1.5] mand({0,0},compl(x,y),30)     
+# splot [-2:1][-1.5:1.5] mand({0,0},compl(x,y),30)
 
 Numo.gnuplot do
   set title:"Mandelbrot function"
@@ -617,4 +617,4 @@ Numo.gnuplot do
     "mand({0,0},compl(x,y),30)"
 end
 ```
-![201surface1/025](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/201surface1/image/025.png)
+![201surface1/025](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/201surface1/image/025.png)

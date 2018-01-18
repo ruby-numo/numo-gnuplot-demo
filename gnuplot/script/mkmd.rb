@@ -1,8 +1,8 @@
 require 'fileutils'
 
-RAW_BASE = "https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md"
-DOC_BASE = "https://github.com/ruby-numo/gnuplot-demo/blob/master/gnuplot"
-GITHUB_URL = "https://github.com/ruby-numo/gnuplot-demo/tree/master/gnuplot"
+RAW_BASE = "https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md"
+DOC_BASE = "https://github.com/ruby-numo/numo-gnuplot-demo/blob/master/gnuplot"
+GITHUB_URL = "https://github.com/ruby-numo/numo-gnuplot-demo/tree/master/gnuplot"
 
 def put_code(f,base,img,code)
   f.puts <<EOL
@@ -109,7 +109,7 @@ Translated from [Gnuplot Demo](http://gnuplot.sourceforge.net/demo_4.6/)
 
 EOL
 
-  Dir.glob("../md/*/README.md").each do |fn|
+  Dir.glob("../md/*/README.md").sort.each do |fn|
     w.write open(fn,"r").read
     w.write "\n\n"
   end

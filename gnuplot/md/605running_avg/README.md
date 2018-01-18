@@ -22,25 +22,25 @@
 # set xtics nomirror
 # set ytics nomirror
 # set border 3
-# 
+#
 # samples(x) = $0 > 4 ? 5 : ($0+1)
 # avg5(x) = (shift5(x), (back1+back2+back3+back4+back5)/samples($0))
 # shift5(x) = (back5 = back4, back4 = back3, back3 = back2, back2 = back1, back1 = x)
-# 
+#
 # #
 # # Initialize a running sum
 # #
 # init(x) = (back1 = back2 = back3 = back4 = back5 = sum = 0)
-# 
+#
 # #
 # # Plot data, running average and cumulative average
 # #
-# 
+#
 # datafile = 'silver.dat'
 # set xrange [0:57]
-# 
+#
 # set style data linespoints
-# 
+#
 # plot sum = init(0), \
 #      datafile using 0:2 title 'data' lw 2 lc rgb 'forest-green', \
 #      '' using 0:(avg5($2)) title "running mean over previous 5 points" pt 7 ps 0.5 lw 1 lc rgb "blue", \
@@ -65,4 +65,4 @@ Numo.gnuplot do
     ["''", using:'0:(sum = sum + $2, sum/($0+1))', title:"cumulative mean", pt:1, lw:1, lc_rgb:"dark-red"]
 end
 ```
-![605running_avg/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/605running_avg/image/001.png)
+![605running_avg/001](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/605running_avg/image/001.png)

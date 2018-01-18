@@ -16,12 +16,12 @@
 # # The same holds for the cube function w=z^3. The graphs are given by
 # # (x,y,x^3-3xy^2,3x^2y-y^3) and (x^3-3xy^2,3x^2y-y^3,x,y).
 # # And so on...
-# 
+#
 # set parametric
 # set hidden3d
 # set isosamples 21
 # set autoscale
-# 
+#
 # set view 60,30
 # set urange [-3:3]
 # set vrange [-3:3]
@@ -42,7 +42,7 @@ Numo.gnuplot do
     "u"
 end
 ```
-![204singulr/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/001.png)
+![204singulr/001](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/204singulr/image/001.png)
 
 ### 2
 
@@ -57,7 +57,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![204singulr/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/002.png)
+![204singulr/002](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/204singulr/image/002.png)
 
 ### 3
 
@@ -78,7 +78,7 @@ Numo.gnuplot do
     "v"
 end
 ```
-![204singulr/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/003.png)
+![204singulr/003](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/204singulr/image/003.png)
 
 ### 4
 
@@ -93,7 +93,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![204singulr/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/004.png)
+![204singulr/004](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/204singulr/image/004.png)
 
 ### 5
 
@@ -114,7 +114,7 @@ Numo.gnuplot do
     "u"
 end
 ```
-![204singulr/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/005.png)
+![204singulr/005](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/204singulr/image/005.png)
 
 ### 6
 
@@ -129,7 +129,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![204singulr/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/006.png)
+![204singulr/006](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/204singulr/image/006.png)
 
 ### 7
 
@@ -150,7 +150,7 @@ Numo.gnuplot do
     "v"
 end
 ```
-![204singulr/007](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/007.png)
+![204singulr/007](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/204singulr/image/007.png)
 
 ### 8
 
@@ -165,7 +165,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![204singulr/008](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/008.png)
+![204singulr/008](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/204singulr/image/008.png)
 
 ### 9
 
@@ -188,7 +188,7 @@ Numo.gnuplot do
     "u"
 end
 ```
-![204singulr/009](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/009.png)
+![204singulr/009](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/204singulr/image/009.png)
 
 ### 10
 
@@ -203,7 +203,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![204singulr/010](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/010.png)
+![204singulr/010](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/204singulr/image/010.png)
 
 ### 11
 
@@ -224,7 +224,7 @@ Numo.gnuplot do
     "v"
 end
 ```
-![204singulr/011](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/011.png)
+![204singulr/011](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/204singulr/image/011.png)
 
 ### 12
 
@@ -239,7 +239,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![204singulr/012](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/012.png)
+![204singulr/012](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/204singulr/image/012.png)
 
 ### 13
 
@@ -262,7 +262,7 @@ Numo.gnuplot do
     "u**2-v**2"
 end
 ```
-![204singulr/013](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/013.png)
+![204singulr/013](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/204singulr/image/013.png)
 
 ### 14
 
@@ -277,7 +277,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![204singulr/014](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/014.png)
+![204singulr/014](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/204singulr/image/014.png)
 
 ### 15
 
@@ -300,7 +300,7 @@ Numo.gnuplot do
     "v*cos(u/2)"
 end
 ```
-![204singulr/015](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/015.png)
+![204singulr/015](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/204singulr/image/015.png)
 
 ### 16
 
@@ -315,7 +315,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![204singulr/016](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/016.png)
+![204singulr/016](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/204singulr/image/016.png)
 
 ### 17
 
@@ -348,7 +348,7 @@ Numo.gnuplot do
     "2*sin(u)*sin(v/2)+sin(2*u)*cos(v/2)"
 end
 ```
-![204singulr/017](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/017.png)
+![204singulr/017](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/204singulr/image/017.png)
 
 ### 18
 
@@ -369,7 +369,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![204singulr/018](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/018.png)
+![204singulr/018](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/204singulr/image/018.png)
 
 ### 19
 
@@ -396,7 +396,7 @@ Numo.gnuplot do
   splot "\"klein.dat\""
 end
 ```
-![204singulr/019](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/019.png)
+![204singulr/019](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/204singulr/image/019.png)
 
 ### 20
 
@@ -413,4 +413,4 @@ Numo.gnuplot do
   splot "\"klein.dat\""
 end
 ```
-![204singulr/020](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/204singulr/image/020.png)
+![204singulr/020](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/204singulr/image/020.png)

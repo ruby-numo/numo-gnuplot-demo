@@ -34,14 +34,14 @@ Numo.gnuplot do
     "1.5"
 end
 ```
-![301polar/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/301polar/image/001.png)
+![301polar/001](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/301polar/image/001.png)
 
 ### 2
 
 ```ruby
 # set title ""
 # set key box
-# 
+#
 # plot cos(2*t)
 
 Numo.gnuplot do
@@ -50,7 +50,7 @@ Numo.gnuplot do
   plot "cos(2*t)"
 end
 ```
-![301polar/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/301polar/image/002.png)
+![301polar/002](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/301polar/image/002.png)
 
 ### 3
 
@@ -62,7 +62,7 @@ Numo.gnuplot do
     "-2*sqrt(cos(t))"
 end
 ```
-![301polar/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/301polar/image/003.png)
+![301polar/003](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/301polar/image/003.png)
 
 ### 4
 
@@ -74,13 +74,13 @@ Numo.gnuplot do
     "cos(4*t)"
 end
 ```
-![301polar/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/301polar/image/004.png)
+![301polar/004](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/301polar/image/004.png)
 
 ### 5
 
 ```ruby
 # set offset 0,0,0,0
-# 
+#
 # set xrange [-5:5]
 # set yrange [-5:5]
 # plot t/cos(3*t)
@@ -92,13 +92,13 @@ Numo.gnuplot do
   plot "t/cos(3*t)"
 end
 ```
-![301polar/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/301polar/image/005.png)
+![301polar/005](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/301polar/image/005.png)
 
 ### 6
 
 ```ruby
 # set autoscale
-# 
+#
 # plot 1-sin(t)
 
 Numo.gnuplot do
@@ -106,7 +106,7 @@ Numo.gnuplot do
   plot "1-sin(t)"
 end
 ```
-![301polar/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/301polar/image/006.png)
+![301polar/006](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/301polar/image/006.png)
 
 ### 7
 
@@ -119,7 +119,7 @@ Numo.gnuplot do
   plot "2*t"
 end
 ```
-![301polar/007](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/301polar/image/007.png)
+![301polar/007](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/301polar/image/007.png)
 
 ### 8
 
@@ -138,15 +138,15 @@ Numo.gnuplot do
   plot "butterfly(t)"
 end
 ```
-![301polar/008](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/301polar/image/008.png)
+![301polar/008](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/301polar/image/008.png)
 
 ### 9
 
 ```ruby
 # reset
-# 
+#
 # set polar
-# set grid polar 
+# set grid polar
 # unset xtics
 # unset ytics
 # set border 0
@@ -155,7 +155,7 @@ end
 # set size square
 # set key title "bounding radius 2.5"
 # set key outside top right samplen 0.7
-# 
+#
 # plot 3.+sin(t)*cos(5*t) with filledcurve above r=2.5 notitle,\
 #      3.+sin(t)*cos(5*t) with line
 
@@ -175,4 +175,4 @@ Numo.gnuplot do
     ["3.+sin(t)*cos(5*t)", with:"line"]
 end
 ```
-![301polar/009](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/301polar/image/009.png)
+![301polar/009](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/301polar/image/009.png)

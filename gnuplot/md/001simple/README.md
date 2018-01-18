@@ -22,7 +22,7 @@ Numo.gnuplot do
     "cos(atan(x))"
 end
 ```
-![001simple/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/001simple/image/001.png)
+![001simple/001](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/001simple/image/001.png)
 
 ### 2
 
@@ -39,7 +39,7 @@ Numo.gnuplot do
     "-(sin(x) > sin(x+1) ? sin(x) : sin(x+1))"
 end
 ```
-![001simple/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/001simple/image/002.png)
+![001simple/002](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/001simple/image/002.png)
 
 ### 3
 
@@ -56,7 +56,7 @@ Numo.gnuplot do
     "acos(x)"
 end
 ```
-![001simple/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/001simple/image/003.png)
+![001simple/003](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/001simple/image/003.png)
 
 ### 4
 
@@ -69,7 +69,7 @@ Numo.gnuplot do
     ["(x**besj0(x))-2.5", with:"points"]
 end
 ```
-![001simple/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/001simple/image/004.png)
+![001simple/004](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/001simple/image/004.png)
 
 ### 5
 
@@ -83,7 +83,7 @@ Numo.gnuplot do
     "real(sin(x)**besj0(x))"
 end
 ```
-![001simple/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/001simple/image/005.png)
+![001simple/005](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/001simple/image/005.png)
 
 ### 6
 
@@ -98,7 +98,7 @@ Numo.gnuplot do
     "1/x"
 end
 ```
-![001simple/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/001simple/image/006.png)
+![001simple/006](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/001simple/image/006.png)
 
 ### 7
 
@@ -116,7 +116,7 @@ Numo.gnuplot do
     "sin(x*20)*atan(x)"
 end
 ```
-![001simple/007](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/001simple/image/007.png)
+![001simple/007](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/001simple/image/007.png)
 
 ### 8
 
@@ -130,4 +130,4 @@ Numo.gnuplot do
     ["'3.dat'", with:"lines"]
 end
 ```
-![001simple/008](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/001simple/image/008.png)
+![001simple/008](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/001simple/image/008.png)

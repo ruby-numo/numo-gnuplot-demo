@@ -7,7 +7,7 @@
 # # Demonstrate explicit choice of both dot/dash pattern (linetype) and color (linecolor).
 # #
 # set termoption dash
-# 
+#
 # reset
 # set xrange [-0.5:3.5]
 # set yrange [-1:1.4]
@@ -79,7 +79,7 @@ Numo.gnuplot do
     ["cos(x-1.2)", lt:5, lc:3, title:'lt 5 lc 3']
 end
 ```
-![901dashcolor/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/901dashcolor/image/001.png)
+![901dashcolor/001](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/901dashcolor/image/001.png)
 
 ### 2
 
@@ -91,7 +91,7 @@ end
 # set offset .05, .05
 # set xrange [-0.5:3.3]
 # set style func linespoints
-# 
+#
 # plot cos(x)     lt -1 pi -4 pt 6 title 'pi -4',   \
 #      cos(x-.8)  lt -1 pi -3 pt 7 ps 0.2 title 'pi -3 pt 7 ps 0.2',  \
 #      cos(x-.2)  lt -1 pi -6 pt 7 title 'pi -6',\
@@ -117,4 +117,4 @@ Numo.gnuplot do
     ["cos(x+.2)", with:"line", lt:-1, lw:2, title:'lw 2']
 end
 ```
-![901dashcolor/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/901dashcolor/image/002.png)
+![901dashcolor/002](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/901dashcolor/image/002.png)

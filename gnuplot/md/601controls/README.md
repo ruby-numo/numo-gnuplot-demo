@@ -53,4 +53,4 @@ Numo.gnuplot do
     "c(t)"
 end
 ```
-![601controls/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/601controls/image/001.png)
+![601controls/001](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/601controls/image/001.png)

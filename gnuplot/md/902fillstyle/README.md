@@ -6,16 +6,16 @@
 ```ruby
 # # E A Merritt <merritt@u.washington.edu>          24-Sep-2002
 # #
-# # Demo for revised fillstyle code selected by 
+# # Demo for revised fillstyle code selected by
 # # ./configure --enable-filledboxes --enable-relative-boxwidth
 # #
 # reset
-# 
+#
 # set samples 25
 # unset xtics
 # unset ytics
 # set yrange [0:120]
-# 
+#
 # set title "A demonstration of boxes with default properties"
 # plot [-10:10] 100/(1.0+x*x) title 'distribution' with boxes
 
@@ -30,7 +30,7 @@ Numo.gnuplot do
     "100/(1.0+x*x)", title:'distribution', with:"boxes"
 end
 ```
-![902fillstyle/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/902fillstyle/image/001.png)
+![902fillstyle/001](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/902fillstyle/image/001.png)
 
 ### 2
 
@@ -45,7 +45,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![902fillstyle/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/902fillstyle/image/002.png)
+![902fillstyle/002](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/902fillstyle/image/002.png)
 
 ### 3
 
@@ -60,13 +60,13 @@ Numo.gnuplot do
   replot
 end
 ```
-![902fillstyle/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/902fillstyle/image/003.png)
+![902fillstyle/003](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/902fillstyle/image/003.png)
 
 ### 4
 
 ```ruby
 # set title "Filled boxes of reduced width"
-# set boxwidth 0.5 
+# set boxwidth 0.5
 # replot
 
 Numo.gnuplot do
@@ -75,7 +75,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![902fillstyle/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/902fillstyle/image/004.png)
+![902fillstyle/004](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/902fillstyle/image/004.png)
 
 ### 5
 
@@ -90,7 +90,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![902fillstyle/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/902fillstyle/image/005.png)
+![902fillstyle/005](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/902fillstyle/image/005.png)
 
 ### 6
 
@@ -105,14 +105,14 @@ Numo.gnuplot do
   replot
 end
 ```
-![902fillstyle/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/902fillstyle/image/006.png)
+![902fillstyle/006](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/902fillstyle/image/006.png)
 
 ### 7
 
 ```ruby
 # set title "A demonstration of boxes in mono with style fill pattern"
 # set samples 11
-# set boxwidth 0.5 
+# set boxwidth 0.5
 # set style fill pattern border
 # plot [-2.5:4.5] 100/(1.0+x*x) title 'pattern 0' with boxes lt -1, \
 #                  80/(1.0+x*x) title 'pattern 1' with boxes lt -1, \
@@ -131,4 +131,4 @@ Numo.gnuplot do
     ["20/(1.0+x*x)", title:'pattern 3', with:"boxes", lt:-1]
 end
 ```
-![902fillstyle/007](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/902fillstyle/image/007.png)
+![902fillstyle/007](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/902fillstyle/image/007.png)

@@ -11,9 +11,9 @@
 # #
 # # Aug 2006 - Ethan A Merritt
 # #
-# 
+#
 # set multiplot title "Demo of placing multiple plots (2D and 3D)\nwith explicit alignment of plot borders"
-# 
+#
 # #
 # # First plot  (large)
 # #
@@ -21,7 +21,7 @@
 # set rmargin at screen 0.85
 # set bmargin at screen 0.25
 # set tmargin at screen 0.90
-# 
+#
 # set pm3d
 # set palette rgbformulae 7, 5, 15
 # set view map
@@ -31,40 +31,40 @@
 # set xrange [ -15.00 : 15.00 ]
 # set yrange [ -15.00 : 15.00 ]
 # set zrange [ -0.250 : 1.000 ]
-# 
+#
 # unset xtics
 # unset ytics
-# 
+#
 # set key above
-# 
+#
 # splot sin(sqrt(x**2+y**2))/sqrt(x**2+y**2)
-# 
+#
 # unset pm3d
 # unset key
-# 
+#
 # #
 # # second plot  (tall and narrow; at left of main plot)
 # #
 # set lmargin at screen 0.10
 # set rmargin at screen 0.20
-# 
+#
 # set ytics
-# 
+#
 # set parametric
 # set dummy u,v
 # set view map
-# 
+#
 # f(h) = sin(sqrt(h**2))/sqrt(h**2)
-# 
+#
 # set urange [ -15.00 : 15.00 ]
 # set vrange [ -15.00 : 15.00 ]
 # set xrange [*:*]
 # set surface
-# 
+#
 # splot f(u), u, 0 with lines lc rgb "green"
-# 
+#
 # unset parametric
-# 
+#
 # #
 # # third plot  (short and wide; at bottom of main plot)
 # #
@@ -72,15 +72,15 @@
 # set rmargin at screen 0.85
 # set bmargin at screen 0.10
 # set tmargin at screen 0.25
-# 
+#
 # set xrange [ -15.00 : 15.00 ]
 # set yrange [ * : * ]
 # set xtics
 # unset ytics
-# 
+#
 # y = 0
 # plot sin(sqrt(x**2+y**2))/sqrt(x**2+y**2)
-# 
+#
 # unset multiplot
 
 Numo.gnuplot do
@@ -132,4 +132,4 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![804margins/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/804margins/image/001.png)
+![804margins/001](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/804margins/image/001.png)

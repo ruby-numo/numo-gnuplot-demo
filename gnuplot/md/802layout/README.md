@@ -27,7 +27,7 @@
 # plot 'immigration.dat' using 2 with histograms, \
 #      '' using 7  with histograms , \
 #      '' using 8  with histograms , \
-#      '' using 11 with histograms 
+#      '' using 11 with histograms
 # #
 # unset multiplot
 
@@ -54,7 +54,7 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![802layout/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/802layout/image/001.png)
+![802layout/001](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/802layout/image/001.png)
 
 ### 2
 
@@ -82,7 +82,7 @@ end
 # plot 'immigration.dat' using 2 with histograms , \
 #      '' using  7 with histograms , \
 #      '' using  8 with histograms , \
-#      '' using 11 with histograms 
+#      '' using 11 with histograms
 # #
 # unset multiplot
 
@@ -111,7 +111,7 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![802layout/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/802layout/image/002.png)
+![802layout/002](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/802layout/image/002.png)
 
 ### 3
 
@@ -139,7 +139,7 @@ end
 # plot 'immigration.dat' using 2 with histograms , \
 #      '' using  7 with histograms , \
 #      '' using  8 with histograms , \
-#      '' using 11 with histograms 
+#      '' using 11 with histograms
 # #
 # unset multiplot
 
@@ -168,7 +168,7 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![802layout/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/802layout/image/003.png)
+![802layout/003](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/802layout/image/003.png)
 
 ### 4
 
@@ -187,21 +187,21 @@ end
 # set rmargin 3
 # unset xtics
 # unset ytics
-# 
+#
 # set multiplot layout 4,1 title "Auto-layout of stacked plots\n"
-# 
+#
 # set key autotitle column nobox samplen 1 noenhanced
 # unset title
 # set style data boxes
 # set yrange [0 : 800000]
-# 
+#
 # plot 'immigration.dat' using 3 lt 1
 # plot 'immigration.dat' using 8 lt 3
 # set xtics nomirror
 # set tics scale 0 font ",8"
 # set xlabel "Immigration to U.S. by Decade"
 # plot 'immigration.dat' using 21:xtic(1) lt 4
-# 
+#
 # unset multiplot
 
 Numo.gnuplot do
@@ -225,4 +225,4 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![802layout/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/802layout/image/004.png)
+![802layout/004](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/802layout/image/004.png)

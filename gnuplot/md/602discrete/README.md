@@ -14,7 +14,7 @@ Numo.gnuplot do
   splot "x*y"
 end
 ```
-![602discrete/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/602discrete/image/001.png)
+![602discrete/001](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/602discrete/image/001.png)
 
 ### 2
 
@@ -30,7 +30,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![602discrete/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/602discrete/image/002.png)
+![602discrete/002](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/602discrete/image/002.png)
 
 ### 3
 
@@ -46,4 +46,4 @@ Numo.gnuplot do
   replot
 end
 ```
-![602discrete/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/602discrete/image/003.png)
+![602discrete/003](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/602discrete/image/003.png)

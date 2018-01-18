@@ -47,4 +47,4 @@ Numo.gnuplot do
   end
 end
 ```
-![008multiaxis/001](https://raw.github.com/ruby-numo/gnuplot-demo/master/misc/lifegame/lifegame.gif)
+![008multiaxis/001](https://raw.github.com/ruby-numo/numo-gnuplot-demo/master/misc/lifegame/lifegame.gif)

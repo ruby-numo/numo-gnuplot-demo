@@ -6,7 +6,7 @@
 ```ruby
 # # Simple demo of scatter data conversion to grid data.
 # #
-# 
+#
 # set title "Simple demo of scatter data conversion to grid data"
 # unset hidden3d
 # set ticslevel 0.5
@@ -31,7 +31,7 @@ Numo.gnuplot do
   splot "\"hemisphr.dat\""
 end
 ```
-![604scatter/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/604scatter/image/001.png)
+![604scatter/001](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/604scatter/image/001.png)
 
 ### 2
 
@@ -48,7 +48,7 @@ Numo.gnuplot do
   splot "\"hemisphr.dat\""
 end
 ```
-![604scatter/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/604scatter/image/002.png)
+![604scatter/002](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/604scatter/image/002.png)
 
 ### 3
 
@@ -65,7 +65,7 @@ Numo.gnuplot do
   splot "\"hemisphr.dat\""
 end
 ```
-![604scatter/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/604scatter/image/003.png)
+![604scatter/003](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/604scatter/image/003.png)
 
 ### 4
 
@@ -82,7 +82,7 @@ Numo.gnuplot do
   splot "\"hemisphr.dat\""
 end
 ```
-![604scatter/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/604scatter/image/004.png)
+![604scatter/004](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/604scatter/image/004.png)
 
 ### 5
 
@@ -97,7 +97,7 @@ Numo.gnuplot do
   splot "\"hemisphr.dat\""
 end
 ```
-![604scatter/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/604scatter/image/005.png)
+![604scatter/005](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/604scatter/image/005.png)
 
 ### 6
 
@@ -114,7 +114,7 @@ Numo.gnuplot do
   splot "\"scatter2.dat\""
 end
 ```
-![604scatter/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/604scatter/image/006.png)
+![604scatter/006](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/604scatter/image/006.png)
 
 ### 7
 
@@ -133,7 +133,7 @@ Numo.gnuplot do
   splot "\"scatter2.dat\""
 end
 ```
-![604scatter/007](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/604scatter/image/007.png)
+![604scatter/007](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/604scatter/image/007.png)
 
 ### 8
 
@@ -150,4 +150,4 @@ Numo.gnuplot do
   splot "\"scatter2.dat\""
 end
 ```
-![604scatter/008](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/604scatter/image/008.png)
+![604scatter/008](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/604scatter/image/008.png)

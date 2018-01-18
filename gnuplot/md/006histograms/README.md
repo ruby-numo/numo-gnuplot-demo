@@ -28,7 +28,7 @@ Numo.gnuplot do
     "for [i=3:22] '' using i title columnheader(i)"
 end
 ```
-![006histograms/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/006histograms/image/001.png)
+![006histograms/001](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/006histograms/image/001.png)
 
 ### 2
 
@@ -41,7 +41,7 @@ end
 # set style fill solid border -1
 # set boxwidth 0.9
 # set xtic rotate by -45 scale 0
-# #set bmargin 10 
+# #set bmargin 10
 # plot 'immigration.dat' using 6:xtic(1) ti col, '' u 12 ti col, '' u 13 ti col, '' u 14 ti col
 
 Numo.gnuplot do
@@ -59,7 +59,7 @@ Numo.gnuplot do
     ["''", u:14, ti_nq:'col']
 end
 ```
-![006histograms/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/006histograms/image/002.png)
+![006histograms/002](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/006histograms/image/002.png)
 
 ### 3
 
@@ -74,7 +74,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![006histograms/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/006histograms/image/003.png)
+![006histograms/003](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/006histograms/image/003.png)
 
 ### 4
 
@@ -111,7 +111,7 @@ Numo.gnuplot do
     "for [i=3:22] '' using i"
 end
 ```
-![006histograms/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/006histograms/image/004.png)
+![006histograms/004](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/006histograms/image/004.png)
 
 ### 5
 
@@ -131,7 +131,7 @@ end
 # set boxwidth 0.75
 # #
 # plot 'immigration.dat' using (100.*$2/$24):xtic(1) t column(2), \
-#      for [i=3:23] '' using (100.*column(i)/column(24)) title column(i) 
+#      for [i=3:23] '' using (100.*column(i)/column(24)) title column(i)
 
 Numo.gnuplot do
   set title:"US immigration from Europe by decade\nFraction of total plotted as stacked histogram"
@@ -149,7 +149,7 @@ Numo.gnuplot do
     "for [i=3:23] '' using (100.*column(i)/column(24)) title column(i)"
 end
 ```
-![006histograms/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/006histograms/image/005.png)
+![006histograms/005](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/006histograms/image/005.png)
 
 ### 6
 
@@ -188,7 +188,7 @@ Numo.gnuplot do
     ["''", using:'14:key(1)', ti_nq:'col']
 end
 ```
-![006histograms/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/006histograms/image/006.png)
+![006histograms/006](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/006histograms/image/006.png)
 
 ### 7
 
@@ -239,7 +239,7 @@ Numo.gnuplot do
     ["''", u:21, t_nq:'col']
 end
 ```
-![006histograms/007](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/006histograms/image/007.png)
+![006histograms/007](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/006histograms/image/007.png)
 
 ### 8
 
@@ -258,4 +258,4 @@ Numo.gnuplot do
   replot
 end
 ```
-![006histograms/008](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/006histograms/image/008.png)
+![006histograms/008](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/006histograms/image/008.png)

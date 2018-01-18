@@ -53,8 +53,8 @@ end
 
 ## PNGCairo
 
-![lorenz.png](https://raw.github.com/ruby-numo/gnuplot-demo/master/misc/lorenz/lorenz.png)
+![lorenz.png](https://raw.github.com/ruby-numo/numo-gnuplot-demo/master/misc/lorenz/lorenz.png)
 
 ## GIF animation
 
-![lorenz.gif](https://raw.github.com/ruby-numo/gnuplot-demo/master/misc/lorenz/lorenz.gif)
+![lorenz.gif](https://raw.github.com/ruby-numo/numo-gnuplot-demo/master/misc/lorenz/lorenz.gif)

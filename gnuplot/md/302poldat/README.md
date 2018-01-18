@@ -84,7 +84,7 @@ Numo.gnuplot do
     "tv(t,0)"
 end
 ```
-![302poldat/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/302poldat/image/001.png)
+![302poldat/001](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/302poldat/image/001.png)
 
 ### 2
 
@@ -109,7 +109,7 @@ end
 # # x,y,z of center point B in coord 3
 # #     -5.12	0	-1.5
 # # euler matrix
-# #      0	-1	0  
+# #      0	-1	0
 # #      0.7071	0	0.7071
 # #     -0.7071	0	0.7071
 # #  theta(deg)    phi(deg)  E-theta(dB)  phase     E-phi(dB)    phase
@@ -567,7 +567,7 @@ end
 # 	358	8.1667	0.13355	-32.735	8.9007
 # 	360	9.0007	-35.926	-71.297	9.0783
 # e
-# 
+#
 # reset
 
 Numo.gnuplot do
@@ -1045,7 +1045,7 @@ EOL
   reset
 end
 ```
-![302poldat/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/302poldat/image/002.png)
+![302poldat/002](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/302poldat/image/002.png)
 
 ### 3
 
@@ -1062,7 +1062,7 @@ end
 # set rtics axis scale 0.5,0 nomirror rotate by -270  offset 0, 0.7
 # set rtics (2,5,10,15)
 # set key opaque box samplen 0.75
-# set title "log scale polar axis" 
+# set title "log scale polar axis"
 # #
 # set style data impulse
 # plot 'silver.dat' using ($1/100.):3:0 lc var lw 2 title 'silver.dat'
@@ -1085,4 +1085,4 @@ Numo.gnuplot do
   plot "'silver.dat'", using:'($1/100.):3:0', lc:"var", lw:2, title:'silver.dat'
 end
 ```
-![302poldat/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/302poldat/image/003.png)
+![302poldat/003](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/302poldat/image/003.png)

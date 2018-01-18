@@ -11,12 +11,12 @@
 # # is not very good.
 # #
 # # Copyright (c) 1991, Jos van der Woude, jvdwoude@hut.nl
-# 
+#
 # # History:
 # #	-  6. 6. 2006 ds: added univariate and multivariate normal example
 # #	- 10. 5. 2006 ds: added univariate and multivariate normal example
 # #	-  ?. ?  1991 jvdw: 1st version
-# 
+#
 # unset key
 # set xrange [0: 1]
 # set yrange [0: 1]
@@ -54,7 +54,7 @@ Numo.gnuplot do
     "rand(0)"
 end
 ```
-![107random/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/107random/image/001.png)
+![107random/001](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/107random/image/001.png)
 
 ### 2
 
@@ -70,7 +70,7 @@ Numo.gnuplot do
     "rand(0)"
 end
 ```
-![107random/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/107random/image/002.png)
+![107random/002](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/107random/image/002.png)
 
 ### 3
 
@@ -150,16 +150,16 @@ EOL
     ["\"random.tmp\"", using:'1:2:(-0.2)', with:"points", pointtype:7, lc_rgb:"black"]
 end
 ```
-![107random/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/107random/image/003.png)
+![107random/003](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/107random/image/003.png)
 
 ### 4
 
 ```ruby
 # unset contour
 # unset parametric
-# 
+#
 # load "stat.inc"
-# 
+#
 # print ""
 # print "Simple Monte Carlo simulation"
 # print ""
@@ -222,7 +222,7 @@ EOL
     ["normal(x,0,1)", with:"lines", title:"Gaussian p.d.f."]
 end
 ```
-![107random/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/107random/image/004.png)
+![107random/004](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/107random/image/004.png)
 
 ### 5
 
@@ -292,13 +292,13 @@ EOL
   splot "\"random.tmp\"", every:":::::0", with:"dots"
 end
 ```
-![107random/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/107random/image/005.png)
+![107random/005](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/107random/image/005.png)
 
 ### 6
 
 ```ruby
 # if (!oneplot) pause -1 "Hit return to continue"
-# 
+#
 # unset parametric
 # unset xzeroaxis; unset yzeroaxis;
 # set border
@@ -342,4 +342,4 @@ Numo.gnuplot do
     ["maxwell(x, 1/sqrt(2))", with:"lines", title:"Maxwell p.d.f."]
 end
 ```
-![107random/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/107random/image/006.png)
+![107random/006](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/107random/image/006.png)

@@ -1,4 +1,5 @@
 require "numo/gnuplot"
+require "~/numo/gnuplot/lib/numo/gnuplot"
 
 data= <<EOL
 2016-07-19T23:47:53.432Z 33.2
@@ -31,7 +32,7 @@ Numo.gnuplot do
   set ylabel: 'Temperature degree'
   set xlabel: "Time (starting at #{x[0]})"
   set xdata: "time"
-  set timefmt_x: "'\"%Y-%m-%dT%H:%M:%SZ\"'"
+  set timefmt_x: "%Y-%m-%dT%H:%M:%SZ"
   set format_x: '%H:%M'
   set :style, :data, "lines"
   #set 'terminal postscript color eps enhanced font "Helvetica,13" size 16cm,8cm'

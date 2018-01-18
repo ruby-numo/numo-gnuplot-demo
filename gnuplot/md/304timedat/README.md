@@ -18,7 +18,7 @@
 # plot 'timedat.dat' using 1:3 t '', \
 #      'timedat.dat' using 1:3 t 'Total P' with points, \
 #      'timedat.dat' using 1:4 t '', \
-#      'timedat.dat' using 1:4 t 'PO4' with points 
+#      'timedat.dat' using 1:4 t 'PO4' with points
 
 Numo.gnuplot do
   set title:"Fsteps plot\nwith date and time as x-values"
@@ -38,22 +38,22 @@ Numo.gnuplot do
     ["'timedat.dat'", using:[1,4], t:'PO4', with:"points"]
 end
 ```
-![304timedat/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/304timedat/image/001.png)
+![304timedat/001](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/304timedat/image/001.png)
 
 ### 2
 
 ```ruby
 # reset
-# 
+#
 # set title "Time data on Y, millisecond precision" font ",14"
 # set ydata time
 # set timefmt "%s"
 # set offset 0.5,1.5,.2,.2
 # unset key
-# 
+#
 # fulltime(col) = strftime("%d %b %Y\n%H:%M:%.3S",column(col))
 # parttime(col) = strftime("%H:%M:%.3S",column(col))
-# 
+#
 # plot '-' using 0:1:(fulltime(1)):xticlabels(2):yticlabels(parttime(1)) \
 #          with labels point pt 7 left offset 1,1 font ",7"
 # 1390852607.1	A
@@ -63,7 +63,7 @@ end
 # 1390852608.4	E
 # 1390852610.001	F
 # e
-# 
+#
 # reset
 
 Numo.gnuplot do
@@ -88,4 +88,4 @@ EOL
   reset
 end
 ```
-![304timedat/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/304timedat/image/002.png)
+![304timedat/002](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/304timedat/image/002.png)

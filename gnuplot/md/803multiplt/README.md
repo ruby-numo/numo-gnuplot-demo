@@ -15,7 +15,7 @@
 # #   w           frequency ratio (w/wn)
 # #   wn          natural frequency
 # #   wd          damped natural frequency
-# #   zeta        damping ratio 
+# #   zeta        damping ratio
 # #   mag(w)      amplitude response
 # #   phi(w)      phase response
 # #   wdwn        damped natural frequency ratio
@@ -28,7 +28,7 @@
 # #   Time domain         unit step response
 # #                       unit impulse response
 # #
-# # Created by: W. D. Kirby email: wdkirby@ix.netcom.com 
+# # Created by: W. D. Kirby email: wdkirby@ix.netcom.com
 # # Date: 1/18/96
 # # Released to the public domain with no warranty of any kind
 # #
@@ -68,7 +68,7 @@
 # set title "Second Order System Transfer Function - Phase"
 # set label 1 ""
 # set ylabel "Phase (deg)" offset 1,0
-# set ytics -180, 30, 0 
+# set ytics -180, 30, 0
 # set yrange [-180:0]
 # tmp(w) = (-180/pi)*atan( 2*zeta*w/(1-w**2) )
 # # Fix for atan function wrap problem
@@ -90,7 +90,7 @@
 # set dummy wnt
 # unset logscale x
 # set title "Second Order System - Unit Step Response"
-# set ylabel "Amplitude y(wnt)" offset 1,0 
+# set ylabel "Amplitude y(wnt)" offset 1,0
 # set xlabel "Normalized Time (wnt)"
 # set xrange [0:20]
 # set xtics 0,5,20
@@ -263,4 +263,4 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![803multiplt/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/803multiplt/image/001.png)
+![803multiplt/001](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/803multiplt/image/001.png)

@@ -94,7 +94,7 @@ Numo.gnuplot do
     ["cos(x-1.2)", ls:7, title:'violet']
 end
 ```
-![501rainbow/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/501rainbow/image/001.png)
+![501rainbow/001](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/501rainbow/image/001.png)
 
 ### 2
 
@@ -104,7 +104,7 @@ end
 #     print ">>> Skipping demo <<<\n" ; \
 #     print "This copy of gnuplot was built without support for macro substitution\n" ; \
 #     exit ;
-# 
+#
 # set title "Terminal-independent palette colors in 2D\nImplemented using command line macros referring to a fixed HSV palette"
 # set colorbox horizontal user origin .1,.08 size .8,.05
 # set xlabel 'HSV color wheel'
@@ -130,7 +130,7 @@ end
 # set style line 5 @cyan lw 3
 # set style line 6 @blue lw 2
 # set style line 7 @violet lw 3
-# 
+#
 # replot
 
 Numo.gnuplot do
@@ -155,4 +155,4 @@ Numo.gnuplot do
   replot
 end
 ```
-![501rainbow/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/501rainbow/image/002.png)
+![501rainbow/002](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/501rainbow/image/002.png)

@@ -55,4 +55,4 @@ Numo.gnuplot do
   plot "0"
 end
 ```
-![701textrotate/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/701textrotate/image/001.png)
+![701textrotate/001](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/701textrotate/image/001.png)

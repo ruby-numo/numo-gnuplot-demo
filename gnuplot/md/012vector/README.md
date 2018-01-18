@@ -10,7 +10,7 @@
 # # -3- manipulating columns using the '$1,$2' syntax.
 # # the example is taken here from Physics is the display of equipotential
 # # lines and electrostatic field for a dipole (+q,-q)
-# 
+#
 # print "\n This file demonstrates"
 # print " -1- saving contour lines as a gnuplottable file"
 # print " -2- plotting a vector field on the same graph"
@@ -56,7 +56,7 @@
 # set contour base
 # set cntrparam order 4
 # set cntrparam linear
-# set cntrparam levels discrete -3,-2 ,-1 ,-0.5 ,-0.2 ,-0.1 ,-0.05 ,-0.02 ,0 ,0.02 ,0.05 ,0.1 ,0.2 ,0.5 ,1 ,2 ,3 
+# set cntrparam levels discrete -3,-2 ,-1 ,-0.5 ,-0.2 ,-0.1 ,-0.05 ,-0.02 ,0 ,0.02 ,0.05 ,0.1 ,0.2 ,0.5 ,1 ,2 ,3
 # set cntrparam points 5
 # #
 # set label "-q" at -1,0 center
@@ -104,18 +104,18 @@ Numo.gnuplot do
   splot "vtot(x,y)", w:"l"
 end
 ```
-![012vector/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/012vector/image/001.png)
+![012vector/001](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/012vector/image/001.png)
 
 ### 2
 
 ```ruby
 # print "Now create a file with equipotential lines"
-# 
+#
 # set table "equipo2.tmp"
 # replot
 # unset table
 # reset
-# 
+#
 # plot "equipo2.tmp" w l
 
 Numo.gnuplot do
@@ -126,7 +126,7 @@ Numo.gnuplot do
   plot "\"equipo2.tmp\"", w:"l"
 end
 ```
-![012vector/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/012vector/image/002.png)
+![012vector/002](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/012vector/image/002.png)
 
 ### 3
 
@@ -134,11 +134,11 @@ end
 # print "Now create a x/y datafile for plotting with vectors "
 # print "and display vectors parallel to the electrostatic field"
 # set isosam 31,31
-# 
+#
 # set table "field2xy.tmp"
 # splot vtot(x,y) w l
 # unset table
-# 
+#
 # unset autoscale
 # set xr [xmin:xmax]
 # set yr [ymin:ymax]
@@ -161,4 +161,4 @@ Numo.gnuplot do
     ["\"equipo2.tmp\"", w:"l"]
 end
 ```
-![012vector/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/012vector/image/003.png)
+![012vector/003](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/012vector/image/003.png)

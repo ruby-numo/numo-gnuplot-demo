@@ -7,11 +7,11 @@
 # # Demo Statistical Approximations version 1.1
 # #
 # # Copyright (c) 1991, Jos van der Woude, jvdwoude@hut.nl
-# 
+#
 # # History:
 # #    -- --- 1991 Jos van der Woude:  1st version
 # #    06 Jun 2006 Dan Sebald:  Added plot methods for better visual effect.
-# 
+#
 # print ""
 # print "                        Statistical Approximations, version 1.1"
 # print ""
@@ -20,12 +20,12 @@
 # print "     NOTE: contains 10 plots and consequently takes some time to run"
 # print "                      Press Ctrl-C to exit right now"
 # print ""
-# 
+#
 # load "stat.inc"
 # rnd(x) = floor(x+0.5)
 # r_xmin = -1
 # r_sigma = 4.0
-# 
+#
 # # Binomial PDF using normal approximation
 # n = 25; p = 0.15
 # mu = n * p
@@ -83,14 +83,14 @@ Numo.gnuplot do
     "normal(x, mu, sigma)"
 end
 ```
-![105prob2/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/105prob2/image/001.png)
+![105prob2/001](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/105prob2/image/001.png)
 
 ### 2
 
 ```ruby
 # unset arrow
 # unset label
-# 
+#
 # # Binomial PDF using poisson approximation
 # n = 50; p = 0.1
 # mu = n * p
@@ -146,14 +146,14 @@ Numo.gnuplot do
     ["poisson(x, mu)", with:"histeps"]
 end
 ```
-![105prob2/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/105prob2/image/002.png)
+![105prob2/002](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/105prob2/image/002.png)
 
 ### 3
 
 ```ruby
 # unset arrow
 # unset label
-# 
+#
 # # Geometric PDF using gamma approximation
 # p = 0.3
 # mu = (1.0 - p) / p
@@ -213,14 +213,14 @@ Numo.gnuplot do
     "gmm(x, rho, lambda)"
 end
 ```
-![105prob2/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/105prob2/image/003.png)
+![105prob2/003](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/105prob2/image/003.png)
 
 ### 4
 
 ```ruby
 # unset arrow
 # unset label
-# 
+#
 # # Geometric PDF using normal approximation
 # p = 0.3
 # mu = (1.0 - p) / p
@@ -276,14 +276,14 @@ Numo.gnuplot do
     "normal(x, mu, sigma)"
 end
 ```
-![105prob2/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/105prob2/image/004.png)
+![105prob2/004](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/105prob2/image/004.png)
 
 ### 5
 
 ```ruby
 # unset arrow
 # unset label
-# 
+#
 # # Hypergeometric PDF using binomial approximation
 # nn = 75; mm = 25; n = 10
 # p = real(mm) / nn
@@ -341,14 +341,14 @@ Numo.gnuplot do
     ["binom(x, n, p)", with:"histeps"]
 end
 ```
-![105prob2/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/105prob2/image/005.png)
+![105prob2/005](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/105prob2/image/005.png)
 
 ### 6
 
 ```ruby
 # unset arrow
 # unset label
-# 
+#
 # # Hypergeometric PDF using normal approximation
 # nn = 75; mm = 25; n = 10
 # p = real(mm) / nn
@@ -406,14 +406,14 @@ Numo.gnuplot do
     "normal(x, mu, sigma)"
 end
 ```
-![105prob2/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/105prob2/image/006.png)
+![105prob2/006](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/105prob2/image/006.png)
 
 ### 7
 
 ```ruby
 # unset arrow
 # unset label
-# 
+#
 # # Negative binomial PDF using gamma approximation
 # r = 8; p = 0.6
 # mu = r * (1.0 - p) / p
@@ -473,14 +473,14 @@ Numo.gnuplot do
     "gmm(x, rho, lambda)"
 end
 ```
-![105prob2/007](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/105prob2/image/007.png)
+![105prob2/007](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/105prob2/image/007.png)
 
 ### 8
 
 ```ruby
 # unset arrow
 # unset label
-# 
+#
 # # Negative binomial PDF using normal approximation
 # r = 8; p = 0.4
 # mu = r * (1.0 - p) / p
@@ -536,14 +536,14 @@ Numo.gnuplot do
     "normal(x, mu, sigma)"
 end
 ```
-![105prob2/008](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/105prob2/image/008.png)
+![105prob2/008](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/105prob2/image/008.png)
 
 ### 9
 
 ```ruby
 # unset arrow
 # unset label
-# 
+#
 # # Normal PDF using logistic approximation
 # mu = 1.0; sigma = 1.5
 # a = mu
@@ -597,14 +597,14 @@ Numo.gnuplot do
     "normal(x, mu, sigma)"
 end
 ```
-![105prob2/009](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/105prob2/image/009.png)
+![105prob2/009](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/105prob2/image/009.png)
 
 ### 10
 
 ```ruby
 # unset arrow
 # unset label
-# 
+#
 # # Poisson PDF using normal approximation
 # mu = 5.0
 # sigma = sqrt(mu)
@@ -658,4 +658,4 @@ Numo.gnuplot do
     "normal(x, mu, sigma)"
 end
 ```
-![105prob2/010](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/105prob2/image/010.png)
+![105prob2/010](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/105prob2/image/010.png)

@@ -7,7 +7,7 @@
 # # Requires data file "using.dat" from this directory,
 # # so change current working directory to this directory before running.
 # #
-# 
+#
 # set title "Convex     November 1-7 1989    Circadian"
 # set key left box
 # set xrange[-1:24]
@@ -22,7 +22,7 @@ Numo.gnuplot do
     ["'using.dat'", using:[2,4], title:"Logged in", with:"points"]
 end
 ```
-![009using/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/009using/image/001.png)
+![009using/001](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/009using/image/001.png)
 
 ### 2
 
@@ -46,4 +46,4 @@ Numo.gnuplot do
     ["'using.dat'", using:[3,6], t:"%CPU used", with:"lines"]
 end
 ```
-![009using/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/009using/image/002.png)
+![009using/002](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/009using/image/002.png)

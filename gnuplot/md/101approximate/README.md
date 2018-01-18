@@ -4,21 +4,21 @@
 ### 1
 
 ```ruby
-# # Show use of pseudodata mechanism '+' to use plot styles with more than 
+# # Show use of pseudodata mechanism '+' to use plot styles with more than
 # # one relevant value per x coordinate. In this example we use the style
 # # "filledcurves" to show the difference between two analytic functions.
-# # This corresponds to the specification of multiple columns in the 
+# # This corresponds to the specification of multiple columns in the
 # # 'using' option for input from data files.
-# # 
+# #
 # #
 # approx_1(x) = x - x**3/6
-# approx_2(x) = x - x**3/6 + x**5/120 
+# approx_2(x) = x - x**3/6 + x**5/120
 # approx_3(x) = x - x**3/6 + x**5/120 - x**7/5040
-# 
+#
 # label1 = "x - {x^3}/3!"
 # label2 = "x - {x^3}/3! + {x^5}/5!"
 # label3 = "x - {x^3}/3! + {x^5}/5! - {x^7}/7!"
-# 
+#
 # #
 # set termoption enhanced
 # set encoding utf8
@@ -30,7 +30,7 @@
 # set format y "%.1f"
 # set samples 500
 # set style fill solid 0.4 noborder
-# 
+#
 # plot '+' using 1:(sin($1)):(approx_1($1)) with filledcurve title label1 lt 3, \
 #      '+' using 1:(sin($1)):(approx_2($1)) with filledcurve title label2 lt 2, \
 #      '+' using 1:(sin($1)):(approx_3($1)) with filledcurve title label3 lt 1, \
@@ -58,4 +58,4 @@ Numo.gnuplot do
     ["sin(x)", with:"lines", lw:1, lc_rgb:"black"]
 end
 ```
-![101approximate/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/101approximate/image/001.png)
+![101approximate/001](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/101approximate/image/001.png)

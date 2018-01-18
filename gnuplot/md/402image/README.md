@@ -9,19 +9,19 @@
 # # This demo can be used for terminals supporting image display.
 # # Currently supported are:  X11, Aqua, postscript, png, pdf, svg,
 # # (e)pslatex, pstex, emf, wxt.
-# 
+#
 # # Prepared by Dan Sebald
 # # History:
 # #	- Nov   2006 EAM: split into two files
 # #	- 9.23. 2003 ds: redone in response to discussion list feedback
 # #	- 5. 3. 2003 ds: 1st version
-# 
+#
 # if ((GPVAL_VERSION == 4.3 || GPVAL_VERSION == 4.2) \
 # &&  (!strstrt(GPVAL_COMPILE_OPTIONS,"+IMAGE"))) \
 #     print ">>> Skipping demo <<<\n" ; \
 #     print "This copy of gnuplot was built without support for plotting images" ; \
 #     exit ;
-# 
+#
 # print ""
 # print "The plotting styles \`image\` and \`rgbimage\` are intended for plotting"
 # print "images described in a data file either in the convential ASCII format or"
@@ -50,13 +50,13 @@ Numo.gnuplot do
   plot "'blutux.rgb'", binary:'array=(128,128) flipy format="%uchar"', with:"rgbimage"
 end
 ```
-![402image/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/402image/image/001.png)
+![402image/001](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/402image/image/001.png)
 
 ### 2
 
 ```ruby
 # reset
-# 
+#
 # print ""
 # print "Images are typically stored in a file with the first datum being the"
 # print "top, left pixel.  Without the ability to translate coordinates, the"
@@ -97,13 +97,13 @@ Numo.gnuplot do
     ["'blutux.rgb'", binary:'array=(128,128) flip=y rot=0.5pi center=(64,64) format="%uchar"', using:[1,2,3], with:"rgbimage"]
 end
 ```
-![402image/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/402image/image/002.png)
+![402image/002](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/402image/image/002.png)
 
 ### 3
 
 ```ruby
 # reset
-# 
+#
 # print ""
 # print "There is the ability to plot both color images and palette based"
 # print "images.  This is controlled by the styles \`image\`, which derives"
@@ -134,13 +134,13 @@ Numo.gnuplot do
   plot "'blutux.rgb'", binary:'array=(128,128) flipy format="%uchar%uchar%uchar"', using:'($1+$2+$3)', with:"image"
 end
 ```
-![402image/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/402image/image/003.png)
+![402image/003](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/402image/image/003.png)
 
 ### 4
 
 ```ruby
 # reset
-# 
+#
 # print ""
 # print "Naturally, as with 3d color surfaces, the palette may be changed."
 # print "This is an example of gray scale."
@@ -176,13 +176,13 @@ Numo.gnuplot do
   plot "'blutux.rgb'", binary:'array=(128,128) flipy format="%uchar%uchar%uchar"', using:'($1+$2+$3)/3', with:"image"
 end
 ```
-![402image/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/402image/image/004.png)
+![402image/004](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/402image/image/004.png)
 
 ### 5
 
 ```ruby
 # unset label 1
-# 
+#
 # print ""
 # print "Also, similar to 3d color surface plots, a color box showing the"
 # print "palette mapping scheme can be added to the plot.  The default"
@@ -221,7 +221,7 @@ Numo.gnuplot do
   splot "'blutux.rgb'", binary:'array=(128,128) flipy format="%uchar%uchar%uchar"', using:'($1+$2+$3)/3', with:"image"
 end
 ```
-![402image/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/402image/image/005.png)
+![402image/005](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/402image/image/005.png)
 
 ### 6
 
@@ -264,13 +264,13 @@ Numo.gnuplot do
   plot "'blutux.rgb'", binary:'array=(128,128) dx=0.70711 dy=0.70711 flipy rotation=45d center=(63.5,63.5) format="%uchar"', using:'($1+$2+$3)/3', with:"image"
 end
 ```
-![402image/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/402image/image/006.png)
+![402image/006](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/402image/image/006.png)
 
 ### 7
 
 ```ruby
 # reset
-# 
+#
 # print ""
 # print "The image of this plot is rotated 90 degrees and can utilize the"
 # print "efficient image functions of terminal drivers.  The plot refresh"
@@ -300,13 +300,13 @@ Numo.gnuplot do
   plot "'blutux.rgb'", binary:'array=(128,128) dx=1 flip=y rotation=0.5pi origin=(0,0) format="%uchar"', using:'($1+$2+$3)/3', with:"image"
 end
 ```
-![402image/007](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/402image/image/007.png)
+![402image/007](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/402image/image/007.png)
 
 ### 8
 
 ```ruby
 # reset
-# 
+#
 # print ""
 # print "Algebraic manipulation of the input variables can select various"
 # print "components of the image.  Here are three examples where two"
@@ -372,13 +372,13 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![402image/008](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/402image/image/008.png)
+![402image/008](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/402image/image/008.png)
 
 ### 9
 
 ```ruby
 # reset
-# 
+#
 # print ""
 # print "The range of valid pixel values can be set via \`cbrange\`.  If the"
 # print "\`cbrange\` is in autoscale mode, gnuplot will set the color scale"
@@ -474,4 +474,4 @@ EOL
   unset :multiplot
 end
 ```
-![402image/009](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/402image/image/009.png)
+![402image/009](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/402image/image/009.png)

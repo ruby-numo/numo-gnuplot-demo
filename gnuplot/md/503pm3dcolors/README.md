@@ -5,7 +5,7 @@
 
 ```ruby
 # # Test of color modes for pm3d palettes.
-# 
+#
 # #
 # # Multiplot with some of the recommended rgbformulae palettes
 # #
@@ -47,19 +47,19 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![503pm3dcolors/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/001.png)
+![503pm3dcolors/001](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/001.png)
 
 ### 2
 
 ```ruby
 # reset
-# 
+#
 # #
 # #   Gradient Palettes
 # #
 # set pm3d map
 # set palette color
-# 
+#
 # f(x)=(x+10)/20
 # set cbrange [f(-10):f(10)] # [0:1]
 # set xrange [-10:10]
@@ -72,10 +72,10 @@ end
 # set samples 101
 # set isosamples 2
 # unset key
-# 
+#
 # set palette model RGB
-# 
-# set palette defined 
+#
+# set palette defined
 # set title "set palette defined"
 # splot f(x)
 
@@ -101,7 +101,7 @@ Numo.gnuplot do
   splot "f(x)"
 end
 ```
-![503pm3dcolors/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/002.png)
+![503pm3dcolors/002](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/002.png)
 
 ### 3
 
@@ -116,12 +116,12 @@ Numo.gnuplot do
   splot "f(x)"
 end
 ```
-![503pm3dcolors/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/003.png)
+![503pm3dcolors/003](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/003.png)
 
 ### 4
 
 ```ruby
-# set palette defined ( 0 "green", 1 "blue", 2 "red", 3 "orange" ) 
+# set palette defined ( 0 "green", 1 "blue", 2 "red", 3 "orange" )
 # set title 'set palette defined ( 0 "green", 1 "blue", 2 "red", 3 "orange" )'
 # splot f(x)
 
@@ -131,12 +131,12 @@ Numo.gnuplot do
   splot "f(x)"
 end
 ```
-![503pm3dcolors/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/004.png)
+![503pm3dcolors/004](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/004.png)
 
 ### 5
 
 ```ruby
-# set palette defined ( 20 "#101010", 30 "#ff0000", 40 "#00ff00", 50 "#e0e0e0" ) 
+# set palette defined ( 20 "#101010", 30 "#ff0000", 40 "#00ff00", 50 "#e0e0e0" )
 # set title 'set palette defined ( 20 "#101010", 30 "#ff0000", 40 "#00ff00", 50 "#e0e0e0" )'
 # splot f(x)
 
@@ -146,7 +146,7 @@ Numo.gnuplot do
   splot "f(x)"
 end
 ```
-![503pm3dcolors/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/005.png)
+![503pm3dcolors/005](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/005.png)
 
 ### 6
 
@@ -161,7 +161,7 @@ Numo.gnuplot do
   splot "f(x)"
 end
 ```
-![503pm3dcolors/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/006.png)
+![503pm3dcolors/006](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/006.png)
 
 ### 7
 
@@ -176,7 +176,7 @@ Numo.gnuplot do
   splot "f(x)"
 end
 ```
-![503pm3dcolors/007](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/007.png)
+![503pm3dcolors/007](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/007.png)
 
 ### 8
 
@@ -193,13 +193,13 @@ Numo.gnuplot do
   splot "f(x)"
 end
 ```
-![503pm3dcolors/008](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/008.png)
+![503pm3dcolors/008](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/008.png)
 
 ### 9
 
 ```ruby
 # set palette model RGB
-# 
+#
 # set title 'set palette file "-" (file with 3 columns)'
 # set palette file "-"
 # 0 0 0
@@ -225,7 +225,7 @@ EOL
   splot "f(x)"
 end
 ```
-![503pm3dcolors/009](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/009.png)
+![503pm3dcolors/009](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/009.png)
 
 ### 10
 
@@ -254,7 +254,7 @@ EOL
   splot "f(x)"
 end
 ```
-![503pm3dcolors/010](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/010.png)
+![503pm3dcolors/010](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/010.png)
 
 ### 11
 
@@ -281,7 +281,7 @@ EOL
   splot "f(x)"
 end
 ```
-![503pm3dcolors/011](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/011.png)
+![503pm3dcolors/011](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/011.png)
 
 ### 12
 
@@ -296,9 +296,9 @@ end
 # set samples 101
 # set isosamples 2
 # set xtics 2
-# 
+#
 # set palette rgbformulae 7,5,15
-# 
+#
 # set palette model RGB rgbformulae 7,5,15
 # set title "set palette model RGB rgbformulae 7,5,15"
 # splot f(x)
@@ -318,7 +318,7 @@ Numo.gnuplot do
   splot "f(x)"
 end
 ```
-![503pm3dcolors/012](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/012.png)
+![503pm3dcolors/012](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/012.png)
 
 ### 13
 
@@ -333,7 +333,7 @@ Numo.gnuplot do
   splot "f(x)"
 end
 ```
-![503pm3dcolors/013](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/013.png)
+![503pm3dcolors/013](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/013.png)
 
 ### 14
 
@@ -348,7 +348,7 @@ Numo.gnuplot do
   splot "f(x)"
 end
 ```
-![503pm3dcolors/014](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/014.png)
+![503pm3dcolors/014](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/014.png)
 
 ### 15
 
@@ -363,7 +363,7 @@ Numo.gnuplot do
   splot "f(x)"
 end
 ```
-![503pm3dcolors/015](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/015.png)
+![503pm3dcolors/015](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/015.png)
 
 ### 16
 
@@ -378,7 +378,7 @@ Numo.gnuplot do
   splot "f(x)"
 end
 ```
-![503pm3dcolors/016](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/016.png)
+![503pm3dcolors/016](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/016.png)
 
 ### 17
 
@@ -393,7 +393,7 @@ Numo.gnuplot do
   splot "f(x)"
 end
 ```
-![503pm3dcolors/017](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/017.png)
+![503pm3dcolors/017](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/017.png)
 
 ### 18
 
@@ -410,9 +410,9 @@ end
 # set samples 101
 # set isosamples 2
 # set xtics 2
-# 
+#
 # set palette model RGB
-# 
+#
 # set palette functions gray, gray, gray
 # set title "set palette functions gray, gray, gray"
 # splot f(x)
@@ -434,12 +434,12 @@ Numo.gnuplot do
   splot "f(x)"
 end
 ```
-![503pm3dcolors/018](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/018.png)
+![503pm3dcolors/018](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/018.png)
 
 ### 19
 
 ```ruby
-# set palette functions sqrt(gray), gray**3, sin(gray*2*pi) 
+# set palette functions sqrt(gray), gray**3, sin(gray*2*pi)
 # set title 'set palette functions sqrt(gray), gray**3, sin(gray*2*pi)  <--> 7,5,15'
 # splot f(x)
 
@@ -449,7 +449,7 @@ Numo.gnuplot do
   splot "f(x)"
 end
 ```
-![503pm3dcolors/019](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/019.png)
+![503pm3dcolors/019](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/019.png)
 
 ### 20
 
@@ -464,7 +464,7 @@ Numo.gnuplot do
   splot "f(x)"
 end
 ```
-![503pm3dcolors/020](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/020.png)
+![503pm3dcolors/020](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/020.png)
 
 ### 21
 
@@ -479,7 +479,7 @@ Numo.gnuplot do
   splot "f(x)"
 end
 ```
-![503pm3dcolors/021](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/021.png)
+![503pm3dcolors/021](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/021.png)
 
 ### 22
 
@@ -502,4 +502,4 @@ Numo.gnuplot do
   splot "f(x)"
 end
 ```
-![503pm3dcolors/022](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/022.png)
+![503pm3dcolors/022](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/503pm3dcolors/image/022.png)

@@ -7,7 +7,7 @@
 # print "Some examples how data fitting using nonlinear least squares fit"
 # print "can be done."
 # print ""
-# 
+#
 # reset
 # set title 'data for first fit demo'
 # set xlabel "Temperature T  [deg Cels.]"
@@ -24,7 +24,7 @@ Numo.gnuplot do
   plot "'lcdemo.dat'"
 end
 ```
-![104fit/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/001.png)
+![104fit/001](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/104fit/image/001.png)
 
 ### 2
 
@@ -54,7 +54,7 @@ Numo.gnuplot do
     "l(x)"
 end
 ```
-![104fit/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/002.png)
+![104fit/002](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/104fit/image/002.png)
 
 ### 3
 
@@ -71,7 +71,7 @@ Numo.gnuplot do
     "l(x)"
 end
 ```
-![104fit/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/003.png)
+![104fit/003](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/104fit/image/003.png)
 
 ### 4
 
@@ -90,7 +90,7 @@ Numo.gnuplot do
     "l(x)"
 end
 ```
-![104fit/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/004.png)
+![104fit/004](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/104fit/image/004.png)
 
 ### 5
 
@@ -109,7 +109,7 @@ Numo.gnuplot do
     "l(x)"
 end
 ```
-![104fit/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/005.png)
+![104fit/005](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/104fit/image/005.png)
 
 ### 6
 
@@ -122,7 +122,7 @@ Numo.gnuplot do
   plot "'lcdemo.dat'", using:[1,2,5], with:"errorbars"
 end
 ```
-![104fit/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/006.png)
+![104fit/006](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/104fit/image/006.png)
 
 ### 7
 
@@ -143,7 +143,7 @@ Numo.gnuplot do
     "l(x)"
 end
 ```
-![104fit/007](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/007.png)
+![104fit/007](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/104fit/image/007.png)
 
 ### 8
 
@@ -159,7 +159,7 @@ Numo.gnuplot do
     "density(x)"
 end
 ```
-![104fit/008](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/008.png)
+![104fit/008](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/104fit/image/008.png)
 
 ### 9
 
@@ -189,7 +189,7 @@ Numo.gnuplot do
     "density(x)"
 end
 ```
-![104fit/009](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/009.png)
+![104fit/009](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/104fit/image/009.png)
 
 ### 10
 
@@ -218,7 +218,7 @@ Numo.gnuplot do
     "density(x)"
 end
 ```
-![104fit/010](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/010.png)
+![104fit/010](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/104fit/image/010.png)
 
 ### 11
 
@@ -253,7 +253,7 @@ Numo.gnuplot do
     "h(x,y)"
 end
 ```
-![104fit/011](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/011.png)
+![104fit/011](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/104fit/image/011.png)
 
 ### 12
 
@@ -261,7 +261,7 @@ end
 # print "fit function will be: " . GPFUN_h
 # print "we *must* provide 4 columns for a 3d fit. We fake errors=1"
 # print "command will be: fit h(x,y) 'hemisphr.dat' using 1:2:3:(1) via r, x0,y0,z0"
-# 
+#
 # # we *must* provide 4 columns for a 3d fit. We fake errors=1
 # fit h(x,y) 'hemisphr.dat' using 1:2:3:(1) via r, x0, y0, z0
 # set title 'the scattered points, fitted curve'
@@ -274,7 +274,7 @@ Numo.gnuplot do
     "h(x,y)"
 end
 ```
-![104fit/012](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/012.png)
+![104fit/012](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/104fit/image/012.png)
 
 ### 13
 
@@ -285,7 +285,7 @@ end
 # print "where we are fitting f(x)=r to the radii calculated as the data"
 # print "is read from the file. No x value is required in this case."
 # FIT_MAXITER=0   # no limit : we cannot delete the variable once set
-# 
+#
 # print "\n\nNow an example how to fit multi-branch functions\n"
 # print  "The model consists of two branches, the first describing longitudinal"
 # print  "sound velocity as function of propagation direction (upper data, from "
@@ -308,7 +308,7 @@ Numo.gnuplot do
     "vtrans(x)"
 end
 ```
-![104fit/013](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/013.png)
+![104fit/013](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/104fit/image/013.png)
 
 ### 14
 
@@ -336,7 +336,7 @@ Numo.gnuplot do
     "vtrans(x)"
 end
 ```
-![104fit/014](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/014.png)
+![104fit/014](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/104fit/image/014.png)
 
 ### 15
 
@@ -362,7 +362,7 @@ Numo.gnuplot do
     "vtrans(x)"
 end
 ```
-![104fit/015](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/015.png)
+![104fit/015](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/104fit/image/015.png)
 
 ### 16
 
@@ -386,7 +386,7 @@ Numo.gnuplot do
     "vtrans(x)"
 end
 ```
-![104fit/016](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/016.png)
+![104fit/016](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/104fit/image/016.png)
 
 ### 17
 
@@ -403,7 +403,7 @@ Numo.gnuplot do
     "vtrans(x)"
 end
 ```
-![104fit/017](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/017.png)
+![104fit/017](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/104fit/image/017.png)
 
 ### 18
 
@@ -425,7 +425,7 @@ Numo.gnuplot do
     "vtrans(x)"
 end
 ```
-![104fit/018](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/018.png)
+![104fit/018](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/104fit/image/018.png)
 
 ### 19
 
@@ -442,14 +442,14 @@ Numo.gnuplot do
     "vtrans(x)"
 end
 ```
-![104fit/019](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/019.png)
+![104fit/019](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/104fit/image/019.png)
 
 ### 20
 
 ```ruby
 # print  "Here comes an example of a very complex function..."
 # print  ""
-# 
+#
 # set xlabel "Delta [degrees]"
 # set ylabel "Reflectivity"
 # set title 'raw data'
@@ -463,21 +463,21 @@ Numo.gnuplot do
   plot "'moli3.dat'", w:"e"
 end
 ```
-![104fit/020](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/020.png)
+![104fit/020](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/104fit/image/020.png)
 
 ### 21
 
 ```ruby
 # print "now fitting the model function to the data"
 # load 'reflect.fnc'
-# 
-# #HBB 970522: Changed initial values to something sensible, i.e. 
+#
+# #HBB 970522: Changed initial values to something sensible, i.e.
 # #  something an experienced user of fit would actually use.
 # #  FIT_LIMIT is also raised, to ensure a better fit.
 # eta = 1.2e-4
 # tc = 1.8e-3
 # FIT_LIMIT=1e-10
-# 
+#
 # #show variables
 # #show functions
 # set title 'initial parameters'
@@ -493,7 +493,7 @@ Numo.gnuplot do
     "R(x)"
 end
 ```
-![104fit/021](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/021.png)
+![104fit/021](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/104fit/image/021.png)
 
 ### 22
 
@@ -512,7 +512,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![104fit/022](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/022.png)
+![104fit/022](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/104fit/image/022.png)
 
 ### 23
 
@@ -524,7 +524,7 @@ end
 # print "not yet accounted for, and maybe even re-think the theoretic"
 # print "prediction in use."
 # print ""
-# 
+#
 # reset
 # set xlabel 'x'
 # set ylabel 'y'
@@ -543,7 +543,7 @@ Numo.gnuplot do
   splot "'fit3.dat'", index:0, using:[1,2,4]
 end
 ```
-![104fit/023](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/023.png)
+![104fit/023](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/104fit/image/023.png)
 
 ### 24
 
@@ -561,7 +561,7 @@ end
 # print 'data. Since at this point we have two independent variables,'
 # print 'our "using" spec has four entries, representing x:y:z:s (where'
 # print 's is the estimated error in the z value).'
-# 
+#
 # print "Command will be: "
 # print "  fit a0/(1+a1*x**2+a2*y**2) 'fit3.dat' index 0 using 1:2:4:(1) via a0,a1,a2"
 # a0=1; a1=.1; a2=.1
@@ -575,7 +575,7 @@ Numo.gnuplot do
     ["'fit3.dat'", in:0, u:[1,2,4]]
 end
 ```
-![104fit/024](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/024.png)
+![104fit/024](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/104fit/image/024.png)
 
 ### 25
 
@@ -587,7 +587,7 @@ Numo.gnuplot do
     ["'fit3.dat'", in:3, u:[1,2,4]]
 end
 ```
-![104fit/025](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/025.png)
+![104fit/025](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/104fit/image/025.png)
 
 ### 26
 
@@ -606,7 +606,7 @@ Numo.gnuplot do
     ["'fit3.dat'", in:3, u:[1,2,4]]
 end
 ```
-![104fit/026](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/026.png)
+![104fit/026](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/104fit/image/026.png)
 
 ### 27
 
@@ -618,7 +618,7 @@ Numo.gnuplot do
     ["'fit3.dat'", u:[1,2,4]]
 end
 ```
-![104fit/027](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/027.png)
+![104fit/027](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/104fit/image/027.png)
 
 ### 28
 
@@ -632,10 +632,10 @@ end
 # print "  fit f(x,y,t) 'fit3.dat' u 1:2:3:4:(1) via a0,a1,a2"
 # f(x,y,t)=a0*t/(1+a1*x**2+a2*y**2)
 # fit f(x,y,t) 'fit3.dat' u 1:2:3:4:(1) via a0,a1,a2
-# 
+#
 # print "We plot the data in each section with the corresponding"
 # print "function values."
-# 
+#
 # splot f(x,y,-3), 'fit3.dat' in 0 u 1:2:4
 
 Numo.gnuplot do
@@ -645,7 +645,7 @@ Numo.gnuplot do
     ["'fit3.dat'", in:0, u:[1,2,4]]
 end
 ```
-![104fit/028](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/028.png)
+![104fit/028](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/104fit/image/028.png)
 
 ### 29
 
@@ -657,7 +657,7 @@ Numo.gnuplot do
     ["'fit3.dat'", in:1, u:[1,2,4]]
 end
 ```
-![104fit/029](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/029.png)
+![104fit/029](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/104fit/image/029.png)
 
 ### 30
 
@@ -669,7 +669,7 @@ Numo.gnuplot do
     ["'fit3.dat'", in:2, u:[1,2,4]]
 end
 ```
-![104fit/030](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/030.png)
+![104fit/030](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/104fit/image/030.png)
 
 ### 31
 
@@ -681,7 +681,7 @@ Numo.gnuplot do
     ["'fit3.dat'", in:3, u:[1,2,4]]
 end
 ```
-![104fit/031](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/031.png)
+![104fit/031](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/104fit/image/031.png)
 
 ### 32
 
@@ -702,4 +702,4 @@ Numo.gnuplot do
     ["'fit3.dat'", in:0, u:[1,2,4]]
 end
 ```
-![104fit/032](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/104fit/image/032.png)
+![104fit/032](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/104fit/image/032.png)

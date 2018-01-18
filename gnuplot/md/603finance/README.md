@@ -5,7 +5,7 @@
 
 ```ruby
 # # 10 May 2005
-# # 
+# #
 # # Though gnuplot is primarily a scientific plotting program, it can do a great
 # # job of plotting finance charts as well. The primary challenge is the irregular
 # # nature of financial time series. Stocks don't trade every day, so when you set
@@ -13,38 +13,38 @@
 # # generally prefer that these gaps be omitted. Another challenge is that finance
 # # charts are best presented in semi-log form (log y-axis, linear x-axis),
 # # but gnuplot wants to span decades in its log scaling, something that stocks
-# # rarely do. These and other challenges are met in finance.dem, a short 
+# # rarely do. These and other challenges are met in finance.dem, a short
 # # demonstration script that proves that gnuplot can really shine in this area.
-# # 
+# #
 # # gnuplot plays a central role in our work. Almost all the graphs in "Bollinger
 # # on Bollinger Bands" were plotted by gnuplot, many gnuplot visuals have
 # # appeared on CNBC, our in-house analytics use gnuplot for visual display and
-# # The Capital Growth Letter relies heavily on gnuplot for its charts.  
-# # 
+# # The Capital Growth Letter relies heavily on gnuplot for its charts.
+# #
 # # Finally, gnuplot is yet another successful demonstration of a powerful idea,
 # # open source programming. Thanks to all who made gnuplot possible from the
 # # earliest days to the present and to all those who will contribute in the
 # # future. (Special thanks to Hans-Bernhard Broeker whose patience helped me to
 # # climb the grade and to Ethan Merritt whose recent contributions have been
 # # invaluable to our work.)
-# # 
+# #
 # # John Bollinger
-# # www.BollingerBands.com 
-# 
+# # www.BollingerBands.com
+#
 # # a demonstration of gnuplot finance plot styles
 # # by John Bollinger, CFA, CMT
 # # www.BollingerBands.com
 # # BBands@BollingerBands.com
-# 
+#
 # # data and indicators in finance.dat
-# # data file layout: 
+# # data file layout:
 # # date, open, high, low, close, volume,
-# # 50-day moving average volume, Intraday Intensity, 
-# # 20-day moving average close, 
-# # upper Bollinger Band, lower Bollinger Band 
-# 
+# # 50-day moving average volume, Intraday Intensity,
+# # 20-day moving average close,
+# # upper Bollinger Band, lower Bollinger Band
+#
 # # last update: 8 May 2005
-# 
+#
 # reset
 # # set label 1 "Demo of plotting financial data" at screen 0.5, screen 0.95 center
 # set title "Demo of plotting financial data"
@@ -66,7 +66,7 @@ Numo.gnuplot do
   plot "'finance.dat'", using:[0,5], notitle:true, with:"lines"
 end
 ```
-![603finance/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/001.png)
+![603finance/001](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/603finance/image/001.png)
 
 ### 2
 
@@ -93,7 +93,7 @@ Numo.gnuplot do
   plot "'finance.dat'", using:[0,5], notitle:true, with:"lines"
 end
 ```
-![603finance/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/002.png)
+![603finance/002](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/603finance/image/002.png)
 
 ### 3
 
@@ -122,7 +122,7 @@ Numo.gnuplot do
   plot "'finance.dat'", using:[0,5], notitle:true, with:"lines"
 end
 ```
-![603finance/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/003.png)
+![603finance/003](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/603finance/image/003.png)
 
 ### 4
 
@@ -151,7 +151,7 @@ Numo.gnuplot do
   plot "'finance.dat'", using:[0,2,3,4,5], notitle:true, with:"financebars", lt:8
 end
 ```
-![603finance/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/004.png)
+![603finance/004](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/603finance/image/004.png)
 
 ### 5
 
@@ -186,7 +186,7 @@ Numo.gnuplot do
     ["'finance.dat'", using:[0,11], notitle:true, with:"lines", lt:2]
 end
 ```
-![603finance/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/005.png)
+![603finance/005](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/603finance/image/005.png)
 
 ### 6
 
@@ -223,7 +223,7 @@ Numo.gnuplot do
     ["'finance.dat'", using:[0,8], axes:"x1y2", notitle:true, with:"lines", lt:4]
 end
 ```
-![603finance/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/006.png)
+![603finance/006](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/603finance/image/006.png)
 
 ### 7
 
@@ -264,7 +264,7 @@ Numo.gnuplot do
     ["'finance.dat'", using:[0,8], axes:"x1y2", notitle:true, with:"lines", lt:4]
 end
 ```
-![603finance/007](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/007.png)
+![603finance/007](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/603finance/image/007.png)
 
 ### 8
 
@@ -345,7 +345,7 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![603finance/008](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/008.png)
+![603finance/008](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/603finance/image/008.png)
 
 ### 9
 
@@ -428,7 +428,7 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![603finance/009](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/009.png)
+![603finance/009](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/603finance/image/009.png)
 
 ### 10
 
@@ -513,7 +513,7 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![603finance/010](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/010.png)
+![603finance/010](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/603finance/image/010.png)
 
 ### 11
 
@@ -602,7 +602,7 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![603finance/011](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/011.png)
+![603finance/011](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/603finance/image/011.png)
 
 ### 12
 
@@ -695,7 +695,7 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![603finance/012](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/012.png)
+![603finance/012](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/603finance/image/012.png)
 
 ### 13
 
@@ -788,7 +788,7 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![603finance/013](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/013.png)
+![603finance/013](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/603finance/image/013.png)
 
 ### 14
 
@@ -887,4 +887,4 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![603finance/014](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/603finance/image/014.png)
+![603finance/014](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/603finance/image/014.png)

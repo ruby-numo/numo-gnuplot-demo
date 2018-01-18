@@ -24,7 +24,7 @@ Numo.gnuplot do
   plot blutux, with:"rgbimage"
 end
 ```
-![image/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/misc/image/image/001.png)
+![image/001](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/misc/image/image/001.png)
 
 ### 2
 
@@ -53,7 +53,7 @@ Numo.gnuplot do
     [blutux, 'rot=0.5pi center=(64,64)', with:"rgbimage"]
 end
 ```
-![image/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/misc/image/image/002.png)
+![image/002](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/misc/image/image/002.png)
 
 ### 3
 
@@ -78,7 +78,7 @@ Numo.gnuplot do
   plot Numo::Int16.cast(blutux).sum(2), with:"image"
 end
 ```
-![image/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/misc/image/image/003.png)
+![image/003](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/misc/image/image/003.png)
 
 ### 4
 
@@ -107,7 +107,7 @@ Numo.gnuplot do
   plot blutux_ave, with:"image"
 end
 ```
-![image/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/misc/image/image/004.png)
+![image/004](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/misc/image/image/004.png)
 
 ### 5
 
@@ -136,7 +136,7 @@ Numo.gnuplot do
   splot blutux_ave, with:"image"
 end
 ```
-![image/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/misc/image/image/005.png)
+![image/005](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/misc/image/image/005.png)
 
 ### 6
 
@@ -159,7 +159,7 @@ Numo.gnuplot do
   plot [blutux_ave, 'dx=0.70711 dy=0.70711 rotation=45d center=(63.5,63.5)', with:"image"]
 end
 ```
-![image/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/misc/image/image/006.png)
+![image/006](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/misc/image/image/006.png)
 
 ### 7
 
@@ -184,7 +184,7 @@ Numo.gnuplot do
   plot [blutux_ave, 'dx=1 rotation=0.5pi origin=(0,0)', with:"image"]
 end
 ```
-![image/007](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/misc/image/image/007.png)
+![image/007](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/misc/image/image/007.png)
 
 ### 8
 
@@ -256,7 +256,7 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![image/008](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/misc/image/image/008.png)
+![image/008](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/misc/image/image/008.png)
 
 ### 9
 
@@ -346,4 +346,4 @@ Numo.gnuplot do
   unset :multiplot
 end
 ```
-![image/009](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/misc/image/image/009.png)
+![image/009](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/misc/image/image/009.png)

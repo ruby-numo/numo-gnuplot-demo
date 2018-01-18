@@ -6,22 +6,22 @@
 ```ruby
 # # Demo of reading color information from the data file itself
 # #
-# 
+#
 # #
 # rgb(r,g,b) = int(r)*65536 + int(g)*256 + int(b)
-# 
+#
 # #
 # set border 0
 # unset xtics; unset ytics; unset ztics
 # set rmargin 5; set lmargin 5; set bmargin 2
-# 
+#
 # set angle degrees
-# xrgb(r,g,b) = (g-b)/255. * cos(30.)  
+# xrgb(r,g,b) = (g-b)/255. * cos(30.)
 # yrgb(r,g,b) = r/255. - (g+b)/255. * sin(30.)
 # set arrow 1 from 0,0 to 0,1 nohead lw 3 lc rgb "red" back
 # set arrow 2 from 0,0 to cos(-30), sin(-30) nohead lw 3 lc rgb "green" back
 # set arrow 3 from 0,0 to cos(210), sin(210) nohead lw 3 lc rgb "blue" back
-# 
+#
 # set title "RGB color information read from data file"
 # plot 'rgb_variable.dat' using (xrgb($1,$2,$3)):(yrgb($1,$2,$3)):(rgb($1,$2,$3)) \
 #      with points pt 7 ps 4 lc rgb variable notitle
@@ -41,7 +41,7 @@ Numo.gnuplot do
   plot "'rgb_variable.dat'", using:'(xrgb($1,$2,$3)):(yrgb($1,$2,$3)):(rgb($1,$2,$3))', with:"points", pt:7, ps:4, lc_rgb:"variable", notitle:true
 end
 ```
-![502rgb_variable/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/502rgb_variable/image/001.png)
+![502rgb_variable/001](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/502rgb_variable/image/001.png)
 
 ### 2
 
@@ -55,7 +55,7 @@ Numo.gnuplot do
   plot "'rgb_variable.dat'", using:'(xrgb($1,$2,$3)):(yrgb($1,$2,$3)):(1.+2.*rand(0)):(rgb($1,$2,$3))', with:"points", pt:7, ps:"var", lc_rgb:"variable", notitle:true
 end
 ```
-![502rgb_variable/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/502rgb_variable/image/002.png)
+![502rgb_variable/002](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/502rgb_variable/image/002.png)
 
 ### 3
 
@@ -76,7 +76,7 @@ end
 # set yrange [0:255]
 # set zlabel "Blue" tc rgb "blue"
 # set zrange [0:255]
-# 
+#
 # #
 # splot 'rgb_variable.dat' using 1:2:3:(rgb($1,$2,$3)) with points pt 7 ps 4 lc rgb variable, \
 #       '' using 1:2:3:(sprintf("0x%x",rgb($1,$2,$3))) with labels left offset 1 notitle
@@ -100,7 +100,7 @@ Numo.gnuplot do
     ["''", using:'1:2:3:(sprintf("0x%x",rgb($1,$2,$3)))', with:"labels", left:true, offset:1, notitle:true]
 end
 ```
-![502rgb_variable/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/502rgb_variable/image/003.png)
+![502rgb_variable/003](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/502rgb_variable/image/003.png)
 
 ### 4
 
@@ -110,7 +110,7 @@ end
 # #
 # if (0 == int('0x01')) \
 #    set label 99 at screen .05, screen .15 "If you see only black dots,\nthis means your platform does not \nsupport reading hexadecimal constants\nfrom a data file. Get a newer libc."
-# 
+#
 # splot 'rgb_variable.dat' using 1:2:3:(5*rand(0)):4 with points pt 7 ps variable lc rgb variable \
 #       title "variable pointsize and rgb color read as hexidecimal"
 
@@ -118,7 +118,7 @@ Numo.gnuplot do
   splot "'rgb_variable.dat'", using:'1:2:3:(5*rand(0)):4', with:"points", pt:7, ps:"variable", lc_rgb:"variable", title:"variable pointsize and rgb color read as hexidecimal"
 end
 ```
-![502rgb_variable/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/502rgb_variable/image/004.png)
+![502rgb_variable/004](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/502rgb_variable/image/004.png)
 
 ### 5
 
@@ -133,7 +133,7 @@ end
 # set yzeroaxis lt -1 lc rgb "green" lw 2
 # set zzeroaxis lt -1 lc rgb "blue" lw 2
 # set xyplane at 0.0
-# 
+#
 # splot 'rgb_variable.dat' using 1:2:3:(5*rand(0)):(rgb($1,$2,$3)) with points pt 7 ps variable lc rgb variable \
 #       title "variable pointsize and rgb color computed from coords"
 
@@ -150,7 +150,7 @@ Numo.gnuplot do
   splot "'rgb_variable.dat'", using:'1:2:3:(5*rand(0)):(rgb($1,$2,$3))', with:"points", pt:7, ps:"variable", lc_rgb:"variable", title:"variable pointsize and rgb color computed from coords"
 end
 ```
-![502rgb_variable/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/502rgb_variable/image/005.png)
+![502rgb_variable/005](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/502rgb_variable/image/005.png)
 
 ### 6
 
@@ -165,4 +165,4 @@ Numo.gnuplot do
   replot
 end
 ```
-![502rgb_variable/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/502rgb_variable/image/006.png)
+![502rgb_variable/006](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/502rgb_variable/image/006.png)

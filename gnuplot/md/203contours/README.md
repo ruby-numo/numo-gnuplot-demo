@@ -26,7 +26,7 @@ Numo.gnuplot do
   splot "x*y"
 end
 ```
-![203contours/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/001.png)
+![203contours/001](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/203contours/image/001.png)
 
 ### 2
 
@@ -41,7 +41,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![203contours/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/002.png)
+![203contours/002](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/203contours/image/002.png)
 
 ### 3
 
@@ -56,7 +56,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![203contours/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/003.png)
+![203contours/003](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/203contours/image/003.png)
 
 ### 4
 
@@ -71,7 +71,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![203contours/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/004.png)
+![203contours/004](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/203contours/image/004.png)
 
 ### 5
 
@@ -88,7 +88,7 @@ Numo.gnuplot do
   splot "x**2-y**2"
 end
 ```
-![203contours/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/005.png)
+![203contours/005](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/203contours/image/005.png)
 
 ### 6
 
@@ -103,7 +103,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![203contours/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/006.png)
+![203contours/006](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/203contours/image/006.png)
 
 ### 7
 
@@ -118,7 +118,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![203contours/007](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/007.png)
+![203contours/007](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/203contours/image/007.png)
 
 ### 8
 
@@ -134,7 +134,7 @@ Numo.gnuplot do
     "x**3*y**2"
 end
 ```
-![203contours/008](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/008.png)
+![203contours/008](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/203contours/image/008.png)
 
 ### 9
 
@@ -147,7 +147,7 @@ Numo.gnuplot do
   splot "x*y / (x**2 + y**2 + 0.1)"
 end
 ```
-![203contours/009](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/009.png)
+![203contours/009](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/203contours/image/009.png)
 
 ### 10
 
@@ -159,7 +159,7 @@ Numo.gnuplot do
     "sin(x) * cos(y)"
 end
 ```
-![203contours/010](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/010.png)
+![203contours/010](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/203contours/image/010.png)
 
 ### 11
 
@@ -172,7 +172,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![203contours/011](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/011.png)
+![203contours/011](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/203contours/image/011.png)
 
 ### 12
 
@@ -191,7 +191,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![203contours/012](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/012.png)
+![203contours/012](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/203contours/image/012.png)
 
 ### 13
 
@@ -206,7 +206,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![203contours/013](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/013.png)
+![203contours/013](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/203contours/image/013.png)
 
 ### 14
 
@@ -221,7 +221,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![203contours/014](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/014.png)
+![203contours/014](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/203contours/image/014.png)
 
 ### 15
 
@@ -238,7 +238,7 @@ Numo.gnuplot do
   splot "x*y"
 end
 ```
-![203contours/015](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/015.png)
+![203contours/015](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/203contours/image/015.png)
 
 ### 16
 
@@ -255,7 +255,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![203contours/016](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/016.png)
+![203contours/016](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/203contours/image/016.png)
 
 ### 17
 
@@ -273,7 +273,7 @@ Numo.gnuplot do
     "sin(sqrt(x**2+y**2)) / sqrt(x**2+y**2)"
 end
 ```
-![203contours/017](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/017.png)
+![203contours/017](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/203contours/image/017.png)
 
 ### 18
 
@@ -285,7 +285,7 @@ Numo.gnuplot do
     "sin(sqrt(x**2+y**2)) / sqrt(x**2+y**2)"
 end
 ```
-![203contours/018](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/018.png)
+![203contours/018](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/203contours/image/018.png)
 
 ### 19
 
@@ -308,7 +308,7 @@ Numo.gnuplot do
   splot "\"glass.dat\""
 end
 ```
-![203contours/019](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/019.png)
+![203contours/019](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/203contours/image/019.png)
 
 ### 20
 
@@ -327,7 +327,7 @@ Numo.gnuplot do
   splot "\"glass.dat\"", using:1
 end
 ```
-![203contours/020](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/020.png)
+![203contours/020](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/203contours/image/020.png)
 
 ### 21
 
@@ -344,7 +344,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![203contours/021](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/021.png)
+![203contours/021](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/203contours/image/021.png)
 
 ### 22
 
@@ -402,7 +402,7 @@ Numo.gnuplot do
     "(1-x)**2 + 100*(y - x**2)**2"
 end
 ```
-![203contours/022](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/022.png)
+![203contours/022](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/203contours/image/022.png)
 
 ### 23
 
@@ -428,7 +428,7 @@ Numo.gnuplot do
     "(1-x)**2 + 100*(y - x**2)**2"
 end
 ```
-![203contours/023](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/023.png)
+![203contours/023](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/203contours/image/023.png)
 
 ### 24
 
@@ -449,7 +449,7 @@ Numo.gnuplot do
   replot
 end
 ```
-![203contours/024](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/024.png)
+![203contours/024](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/203contours/image/024.png)
 
 ### 25
 
@@ -465,4 +465,4 @@ Numo.gnuplot do
     "(1-x)**2 + 100*(y - x**2)**2", with:"lines", lc_rgb:"#007700"
 end
 ```
-![203contours/025](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/203contours/image/025.png)
+![203contours/025](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/203contours/image/025.png)

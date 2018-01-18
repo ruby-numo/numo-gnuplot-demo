@@ -6,7 +6,7 @@
 ```ruby
 # # Use the 3rd plot of the electronics demo to show off
 # # the use of multiple x and y axes in the same plot.
-# # 
+# #
 # A(jw) = ({0,1}*jw/({0,1}*jw+p1)) * (1/(1+{0,1}*jw/p2))
 # p1 = 10
 # p2 = 10000
@@ -54,4 +54,4 @@ Numo.gnuplot do
     ["180./pi*arg(A(jw))", axes:"x2y2"]
 end
 ```
-![008multiaxis/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/008multiaxis/image/001.png)
+![008multiaxis/001](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/008multiaxis/image/001.png)

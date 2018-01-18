@@ -27,7 +27,7 @@ Numo.gnuplot do
     ["sin(t)/t", title:"t,sin(t)/t or sin(x)/x"]
 end
 ```
-![011param/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/011param/image/001.png)
+![011param/001](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/011param/image/001.png)
 
 ### 2
 
@@ -39,7 +39,7 @@ Numo.gnuplot do
     "t"
 end
 ```
-![011param/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/011param/image/002.png)
+![011param/002](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/011param/image/002.png)
 
 ### 3
 
@@ -51,7 +51,7 @@ Numo.gnuplot do
     "cos(t)"
 end
 ```
-![011param/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/011param/image/003.png)
+![011param/003](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/011param/image/003.png)
 
 ### 4
 
@@ -75,13 +75,13 @@ Numo.gnuplot do
     "sinh(t)"
 end
 ```
-![011param/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/011param/image/004.png)
+![011param/004](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/011param/image/004.png)
 
 ### 5
 
 ```ruby
 # set title ""
-# 
+#
 # set xrange [-5:5]
 # set yrange [-5:5]
 # plot tan(t),t,t,tan(t)
@@ -96,7 +96,7 @@ Numo.gnuplot do
     "tan(t)"
 end
 ```
-![011param/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/011param/image/005.png)
+![011param/005](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/011param/image/005.png)
 
 ### 6
 
@@ -116,7 +116,7 @@ Numo.gnuplot do
     "t**2"
 end
 ```
-![011param/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/011param/image/006.png)
+![011param/006](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/011param/image/006.png)
 
 ### 7
 
@@ -134,4 +134,4 @@ Numo.gnuplot do
     "cos(t)/t"
 end
 ```
-![011param/007](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/011param/image/007.png)
+![011param/007](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/011param/image/007.png)

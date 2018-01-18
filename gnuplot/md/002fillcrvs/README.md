@@ -5,9 +5,9 @@
 
 ```ruby
 # ### Demo for 'with filledcurves'
-# 
+#
 # reset
-# 
+#
 # set title
 # set key outside
 # set title "plot with filledcurve [options]"
@@ -35,7 +35,7 @@ Numo.gnuplot do
     ["(x>3.5 ? x/3-3 : 1/0)", with:'filledcurve y2']
 end
 ```
-![002fillcrvs/001](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/002fillcrvs/image/001.png)
+![002fillcrvs/001](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/002fillcrvs/image/001.png)
 
 ### 2
 
@@ -52,7 +52,7 @@ Numo.gnuplot do
     ["x*x", with:"line", lt:1]
 end
 ```
-![002fillcrvs/002](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/002fillcrvs/image/002.png)
+![002fillcrvs/002](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/002fillcrvs/image/002.png)
 
 ### 3
 
@@ -68,7 +68,7 @@ Numo.gnuplot do
     ["cos(x)**2", with:'filledcurve x1']
 end
 ```
-![002fillcrvs/003](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/002fillcrvs/image/003.png)
+![002fillcrvs/003](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/002fillcrvs/image/003.png)
 
 ### 4
 
@@ -81,7 +81,7 @@ Numo.gnuplot do
   plot "abs(x)", with:'filledcurve xy=2,5'
 end
 ```
-![002fillcrvs/004](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/002fillcrvs/image/004.png)
+![002fillcrvs/004](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/002fillcrvs/image/004.png)
 
 ### 5
 
@@ -100,7 +100,7 @@ Numo.gnuplot do
     ["sqrt(10-x)-4.5", with:'filledcurves y1=-5.5']
 end
 ```
-![002fillcrvs/005](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/002fillcrvs/image/005.png)
+![002fillcrvs/005](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/002fillcrvs/image/005.png)
 
 ### 6
 
@@ -154,17 +154,17 @@ Numo.gnuplot do
     ["1.52-abs(t/pi)", with:'filledcurve xy=0,1.8', lt:-1]
 end
 ```
-![002fillcrvs/006](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/002fillcrvs/image/006.png)
+![002fillcrvs/006](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/002fillcrvs/image/006.png)
 
 ### 7
 
 ```ruby
 # reset
-# 
+#
 # set title "world.dat plotted with filledcurves"
 # set format x ""
 # set format y ""
-# set grid layerdefault linewidth 0.5 
+# set grid layerdefault linewidth 0.5
 # set object  1 rect from graph 0, 0 to graph 1, 1 behind fc  rgb "#afffff" fillstyle solid 1.00 border -1
 # set xrange [ -180.000 : 180.000 ]
 # set yrange [ -70.0000 : 80.0000 ]
@@ -184,4 +184,4 @@ Numo.gnuplot do
   plot "'world.dat'", with:"filledcurve", notitle:true, fs_solid:1.0, lc_rgb:'dark-goldenrod'
 end
 ```
-![002fillcrvs/007](https://raw.githubusercontent.com/ruby-numo/gnuplot-demo/master/gnuplot/md/002fillcrvs/image/007.png)
+![002fillcrvs/007](https://raw.githubusercontent.com/ruby-numo/numo-gnuplot-demo/master/gnuplot/md/002fillcrvs/image/007.png)
