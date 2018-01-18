@@ -1,14 +1,14 @@
 # Ruby/Numo::Gnuplot Demo
 
 This repository contains demo script of
-[Ruby/Numo::Gnuplot](https://github.com/ruby-numo/numo-numo-gnuplot)
+[Ruby/Numo::Gnuplot](https://github.com/ruby-numo/numo-gnuplot)
 
 ## Contents
 
 * [Demo translated from Gnuplot demo](gnuplot)
    * [Show images using Numo::NArray](misc/image)
 
-* [Numo::GSL](https://github.com/ruby-numo/numo-numo-gsl) demo
+* [Numo::GSL](https://github.com/ruby-numo/numo-gsl) demo
    * [Bessel functions](gsl/bessel)
    * [Random Number Generation](gsl/rng)
 
